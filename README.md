@@ -14,8 +14,10 @@ Repositório de busca de erros no corpus [UD_Portuguese-GSD](https://github.com/
  - geração dos arquivos ```.txt``` com as sentenças (em python):
     ```python
     import pyconll
+    import sys
 
-    conllu = pyconll.load_from_file('pt_gsd-ud-dev.conllu') # input file (dev, test e train)
+    filearg = sys.argv[1]
+    conllu = pyconll.load_from_file(filearg) # input file
 
     sentences = []
 
