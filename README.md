@@ -16,14 +16,16 @@ Repositório de busca de erros no corpus [UD_Portuguese-GSD](https://github.com/
     import pyconll
     import sys
 
-    filearg = sys.argv[1]
-    conllu = pyconll.load_from_file(filearg) # input file
+    filearg = sys.argv[1]    # input file
+    conllu = pyconll.load_from_file(filearg)    # parser
 
     sentences = []
-
+ 
+    # captura das sentenças
     for sentence in conllu:
         sentences.append(sentence.text)
-
+    
+    # output
     for sent in sentences:
         print(sent)
     ```
