@@ -28,5 +28,4 @@ Repositório de busca de erros no corpus [UD_Portuguese-GSD](https://github.com/
  - retraino dos arquivos conllu do GSD:
     ```
     % for f in ../../Personal_UD_GSD/*.txt ; do ./udpipe --outfile=../../Personal_UD_GSD/$(basename $f .txt).conllu --tokenizer="normalized_spaces" --tag --parse ../../Personal_UD_GSD/bosque-udpipe-last-commit.udpipe $f; done
-    
     ```
