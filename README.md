@@ -7,7 +7,7 @@ Repositório de busca de erros no corpus [UD_Portuguese-GSD](https://github.com/
  
 ## Criação dos arquivos (Lembrete: caso queira rodar ajuste a posição dos arquivos para a sua maquina)
  - treinamento do modelo no Bosque:
-    ```shell
+    ```
     % ./udpipe --train bosque-udpipe-last-commit.udpipe ../../universal_dependencies/UD_Portuguese-Bosque/pt_bosque-ud-train.conllu
     ```
  
