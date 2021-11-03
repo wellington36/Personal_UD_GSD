@@ -1,0 +1,44 @@
+Meu nome é Wellington, sou um dos autores do trabalho: Explorando a revisão de corpora por meio da comparação de regras gramaticais em padrões sintáticos, farei a apresentação deste trabalho.
+
+---------------------------
+
+O Machine Learn evoluiu do estudo de reconhecimento de padrões e da teoria do aprendizado computacional em inteligência artificial, e hoje tem papel fundamental no processamento de linguagem natural (NLP), com isso temos a demanda por dados manualmente anotados ou não, para treinamento de sistemas na realização de tarefas especificas. Nesse sentido temos o Universal Dependencies
+
+---------------------------
+
+Que um projeto para o desenvolvimento de um esquema de anotações de varias linguas, com o objetivo de facilitar o desenvolvimento de analisadores de multi linguagem, aprendizagem multi linguagem e pesquisa na área de analise sintatica com uma perspectiva da tipologia linguistica
+
+---------------------------
+
+O UD possui um conjunto de etiquetas e diretrizes de uso destas etiquetas para codificação de analises sintaticas de sentenças, possuindo quase 200 corpus para mais de 100 idiomas, dentre eles temos 3 corpus para o portugues: GSD, PUD e Bosque, este ultimo o alvo deste trabalho. Os dados são guardados em arquivos conllu com 10 colunas onde cada coluna guarda informações sobre cada token da sentença. Quanto ao Bosque
+
+---------------------------
+
+Ele é um dos principais corpus para treinamento de analisadores sintaticos, possuindo cerca de 210 mil tokens e 9,3 mil sentenças, baseado na versão convertida da gramatica de retrições do Bosque, que faz parte do banco de arvores floresta sintatica, e teve sua versão inicial no UD em 2015
+
+---------------------------
+
+Comparando o dicionario de formas plenas MorphoBr com o corpus Bosque, foram identificadas inconsistencias no Bosque. Dentre elas nos focamos nos desvios de concordancia entre adjetivo e substantivo e nos desvios de concordancia entre determinante e substantivo
+
+---------------------------
+
+Aqui temos um exemplo ilustrativo de concordancia entre adjetivo e substantivo seguido pelas respectivas entradas no MorphoBr, note que no Bosque temos as marcações de genero e numero que batem com as mascações M de masculino e SG de singular do Morpho
+
+---------------------------
+
+É assim que queremos encontrar no Bosque, o adjetivo não está concordando com o seu substantivo
+
+---------------------------
+
+Como um caminho a ser seguido para este trabalho propomos, Primeiramente buscar uma forma de Indentificar os casos,
+
+---------------------------
+
+Em seguida analisar e corrigir os casos encontrados
+
+---------------------------
+
+E por ultimo verificar em analisadores sintaticos se houve de fato melhora
+
+---------------------------
+
