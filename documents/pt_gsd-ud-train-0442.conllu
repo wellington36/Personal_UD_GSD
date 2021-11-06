@@ -71,7 +71,7 @@
 4	vale	_	VERB	VERB	_	0	root	_	_
 5	apenas	apenas	ADV	ADV	_	8	advmod	_	_
 6	para	para	ADP	ADP	_	8	case	_	_
-7	as	o	DET	DET	_	8	det	_	_
+7	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
 8	chamadas	_	NOUN	NOUN	_	4	nmod	_	SpaceAfter=No
 9	,	,	PUNCT	.	_	13	punct	_	_
 10	e	e	CCONJ	CONJ	_	13	cc	_	_
@@ -122,7 +122,7 @@
 7	e	e	CCONJ	CONJ	_	8	cc	_	_
 8	foi	_	VERB	VERB	_	4	conj	_	_
 9	para	para	ADP	ADP	_	11	case	_	_
-10	as	o	DET	DET	_	11	det	_	_
+10	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
 11	ruas	rua	NOUN	NOUN	_	8	nmod	_	_
 12	festejar	festejar	VERB	VERB	_	8	xcomp	_	SpaceAfter=No
 13	,	,	PUNCT	.	_	14	punct	_	_
@@ -133,7 +133,7 @@
 18	samba	samba	NOUN	NOUN	_	16	obj	_	_
 19	que	_	PRON	PRON	_	20	nsubj	_	_
 20	iniciou	iniciar	VERB	VERB	_	18	acl:relcl	_	_
-21	a	o	DET	DET	_	22	det	_	_
+21	a	o	DET	DET	PronType=Art	22	det	_	_
 22	tradição	tradição	NOUN	NOUN	_	20	obj	_	_
 23-24	dos	_	_	_	_	_	_	_	_
 23	de	de	ADP	ADP	_	25	case	_	_
@@ -231,7 +231,7 @@
 12	,	,	PUNCT	.	_	8	punct	_	_
 13	mostram	mostrar	VERB	VERB	_	0	root	_	_
 14	que	que	CCONJ	CONJ	_	18	mark	_	_
-15	a	o	DET	DET	_	16	det	_	_
+15	a	o	DET	DET	PronType=Art	16	det	_	_
 16	desigualdade	desigualdade	NOUN	NOUN	_	18	nsubj	_	_
 17	racial	racial	ADJ	ADJ	_	16	amod	_	_
 18	continua	continuar	VERB	VERB	_	13	ccomp	_	_
@@ -274,7 +274,7 @@
 10	área	área	NOUN	NOUN	_	7	nmod	_	SpaceAfter=No
 11	,	,	PUNCT	.	_	15	punct	_	_
 12	mas	mas	CCONJ	CONJ	_	15	cc	_	_
-13	a	o	DET	DET	_	14	det	_	_
+13	a	o	DET	DET	PronType=Art	14	det	_	_
 14	zaga	zaga	NOUN	NOUN	_	15	nsubj	_	_
 15	tirou	tirar	VERB	VERB	_	4	conj	_	SpaceAfter=No
 16	.	.	PUNCT	.	_	4	punct	_	_
@@ -295,7 +295,7 @@
 11	PR	_	NOUN	NOUN	_	9	flat	_	SpaceAfter=No
 12	)	)	PUNCT	.	_	9	punct	_	_
 13	trancou	trancar	VERB	VERB	_	0	root	_	_
-14	a	o	DET	DET	_	15	det	_	_
+14	a	o	DET	DET	PronType=Art	15	det	_	_
 15	investigação	investigação	NOUN	NOUN	_	13	obj	_	_
 16	proposta	propor	VERB	VERB	_	15	acl	_	_
 17-18	pelo	_	_	_	_	_	_	_	_

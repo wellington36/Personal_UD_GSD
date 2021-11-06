@@ -43,7 +43,7 @@
 
 # sent_id = train-s1062
 # text = A DRS destaca que o controle dos pedidos de consultas é feito pelos municípios e o AME de Bauru dá apoio ao atendimento na área de nefrologia.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	DRS	_	PROPN	PNOUN	_	3	nsubj	_	_
 3	destaca	destacar	VERB	VERB	_	0	root	_	_
 4	que	que	CCONJ	CONJ	_	13	mark	_	_
@@ -83,7 +83,7 @@
 # sent_id = train-s1063
 # text = Dentre as ações destacadas, ele lembrou que recebeu da gestão anterior 232 maquinas do DER e durante sua gestão já comprou e pagou mais de 200 novos equipamentos que contribuirão com o desenvolvimento do estado.
 1	Dentre	_	ADP	ADP	_	3	case	_	_
-2	as	o	DET	DET	_	3	det	_	_
+2	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
 3	ações	ação	NOUN	NOUN	_	7	nmod	_	_
 4	destacadas	destacar	VERB	VERB	_	3	acl	_	SpaceAfter=No
 5	,	,	PUNCT	.	_	3	punct	_	_
@@ -183,12 +183,12 @@
 36	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
 37	grupo	grupo	NOUN	NOUN	_	34	nmod	_	SpaceAfter=No
 38	,	,	PUNCT	.	_	41	punct	_	_
-39	a	o	DET	DET	_	41	det	_	_
+39	a	o	DET	DET	PronType=Art	41	det	_	_
 40	extinta	extinto	ADJ	ADJ	_	41	amod	_	_
 41	TV	_	PROPN	PNOUN	_	34	conj	_	_
 42	Guaíba	_	PROPN	PNOUN	_	41	flat	_	_
 43	e	e	CCONJ	CONJ	_	45	cc	_	_
-44	as	o	DET	DET	_	45	det	_	_
+44	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	45	det	_	_
 45	rádios	rádio	NOUN	NOUN	_	34	conj	_	_
 46	Guaíba	_	PROPN	PNOUN	_	45	appos	_	_
 47	AM	_	PROPN	PNOUN	_	46	flat	_	_
@@ -211,7 +211,7 @@
 63	,	,	PUNCT	.	_	65	punct	_	_
 64	onde	onde	ADV	ADV	_	65	advmod	_	_
 65	funciona	funcionar	VERB	VERB	_	54	acl:relcl	_	_
-66	a	o	DET	DET	_	67	det	_	_
+66	a	o	DET	DET	PronType=Art	67	det	_	_
 67	redação	redação	NOUN	NOUN	_	65	nsubj	_	_
 68-69	do	_	_	_	_	_	_	_	_
 68	de	de	ADP	ADP	_	70	case	_	_
@@ -265,7 +265,7 @@
 1	Este	_	DET	DET	_	2	det	_	_
 2	ano	ano	NOUN	NOUN	_	10	nmod	_	SpaceAfter=No
 3	,	,	PUNCT	.	_	2	punct	_	_
-4	a	o	DET	DET	_	5	det	_	_
+4	a	o	DET	DET	PronType=Art	5	det	_	_
 5	cheia	_	NOUN	NOUN	_	10	nsubj	_	_
 6-7	do	_	_	_	_	_	_	_	_
 6	de	de	ADP	ADP	_	8	case	_	_

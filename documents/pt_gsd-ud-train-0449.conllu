@@ -8,7 +8,7 @@
 6	usados	usar	VERB	VERB	_	2	acl:relcl	_	_
 7	para	_	ADP	ADP	_	8	mark	_	_
 8	aumentar	aumentar	VERB	VERB	_	6	advcl	_	_
-9	a	o	DET	DET	_	10	det	_	_
+9	a	o	DET	DET	PronType=Art	10	det	_	_
 10	segurança	segurança	NOUN	NOUN	_	8	obj	_	_
 11-12	na	_	_	_	_	_	_	_	_
 11	em	em	ADP	ADP	_	13	case	_	_
@@ -73,7 +73,7 @@
 2	não	não	ADV	ADV	Polarity=Neg	3	advmod	_	_
 3	conseguiu	conseguir	VERB	VERB	_	0	root	_	_
 4	equalizar	_	VERB	VERB	_	3	xcomp	_	_
-5	as	o	DET	DET	_	6	det	_	_
+5	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
 6	desigualdades	desigualdade	NOUN	NOUN	_	4	obj	_	_
 7	socioeconômicas	socioeconômico	ADJ	ADJ	_	6	amod	_	SpaceAfter=No
 8	,	,	PUNCT	.	_	10	punct	_	_
@@ -92,7 +92,7 @@
 
 # sent_id = train-s4458
 # text = A semana será uma oportunidade para realização de formações, trocas de experiências entre os participantes e articulação entre os movimentos juvenis da região.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	semana	semana	NOUN	NOUN	_	5	nsubj	_	_
 3	será	ser	AUX	AUX	_	5	cop	_	_
 4	uma	um	DET	DET	_	5	det	_	_
@@ -174,7 +174,7 @@
 
 # sent_id = train-s4461
 # text = A voz que pôde ser ouvida das urnas nestas eleições é o grito dum povo que clama por mudanças, por uma São Luís melhor ", externou o comunista.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	voz	voz	NOUN	NOUN	_	14	nsubj	_	_
 3	que	_	PRON	PRON	_	6	nsubj:pass	_	_
 4	pôde	poder	AUX	AUX	_	6	aux	_	_

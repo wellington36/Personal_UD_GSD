@@ -39,7 +39,7 @@
 22	(	(	PUNCT	.	_	23	punct	_	SpaceAfter=No
 23	26	_	NUM	NUM	NumType=Card	21	nmod	_	SpaceAfter=No
 24	)	)	PUNCT	.	_	23	punct	_	_
-25	a	o	DET	DET	_	26	det	_	_
+25	a	o	DET	DET	PronType=Art	26	det	_	_
 26	região	região	NOUN	NOUN	_	4	obj	_	_
 27	Nordeste	_	PROPN	PNOUN	_	26	appos	_	_
 28	e	e	CCONJ	CONJ	_	29	cc	_	_
@@ -185,13 +185,13 @@
 # sent_id = train-s7668
 # text = Caso a equipe carioca vença, assumirá a ponta isolada do Brasileirão.
 1	Caso	_	CCONJ	CONJ	_	5	mark	_	_
-2	a	o	DET	DET	_	3	det	_	_
+2	a	o	DET	DET	PronType=Art	3	det	_	_
 3	equipe	equipe	NOUN	NOUN	_	5	nsubj	_	_
 4	carioca	carioca	ADJ	ADJ	_	3	amod	_	_
 5	vença	vencer	VERB	VERB	_	7	advcl	_	SpaceAfter=No
 6	,	,	PUNCT	.	_	5	punct	_	_
 7	assumirá	assumir	VERB	VERB	_	0	root	_	_
-8	a	o	DET	DET	_	9	det	_	_
+8	a	o	DET	DET	PronType=Art	9	det	_	_
 9	ponta	ponta	NOUN	NOUN	_	7	obj	_	_
 10	isolada	isolado	ADJ	ADJ	_	9	amod	_	_
 11-12	do	_	_	_	_	_	_	_	_
@@ -215,7 +215,7 @@
 
 # sent_id = train-s7671
 # text = As questões de exatas foram bastante cansativas ", afirmou Matheus Rodrigues Carvalho, 21.
-1	As	o	DET	DET	_	2	det	_	_
+1	As	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	questões	questão	NOUN	NOUN	_	5	nsubj	_	_
 3	de	de	ADP	ADP	_	4	case	_	_
 4	exatas	_	NOUN	NOUN	_	2	nmod	_	_

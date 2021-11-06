@@ -7,7 +7,7 @@
 5	,	,	PUNCT	.	_	7	punct	_	_
 6	que	_	PRON	PRON	_	7	nsubj	_	_
 7	resume	resumir	VERB	VERB	_	2	acl:relcl	_	_
-8	as	o	DET	DET	_	10	det	_	_
+8	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
 9	principais	principal	ADJ	ADJ	_	10	amod	_	_
 10	conclusões	conclusão	NOUN	NOUN	_	7	obj	_	_
 11-12	dos	_	_	_	_	_	_	_	_
@@ -81,7 +81,7 @@
 3	geografia	geografia	NOUN	NOUN	_	10	nmod	_	_
 4	tradicional	tradicional	ADJ	ADJ	_	3	amod	_	SpaceAfter=No
 5	,	,	PUNCT	.	_	3	punct	_	_
-6	a	o	DET	DET	_	7	det	_	_
+6	a	o	DET	DET	PronType=Art	7	det	_	_
 7	palavra	palavra	NOUN	NOUN	_	10	nsubj	_	_
 8	lugar	lugar	NOUN	NOUN	_	7	appos	_	_
 9	não	não	ADV	ADV	Polarity=Neg	10	advmod	_	_
@@ -247,7 +247,7 @@
 # text = Familiares aguardaram a liberação do corpo no Instituto Médico Legal de Aracaju, para realização do velório do Teatro Atheneu, na capital sergipana.
 1	Familiares	familiar	NOUN	NOUN	_	2	nsubj	_	_
 2	aguardaram	aguardar	VERB	VERB	_	0	root	_	_
-3	a	o	DET	DET	_	4	det	_	_
+3	a	o	DET	DET	PronType=Art	4	det	_	_
 4	liberação	liberação	NOUN	NOUN	_	2	obj	_	_
 5-6	do	_	_	_	_	_	_	_	_
 5	de	de	ADP	ADP	_	7	case	_	_
@@ -283,7 +283,7 @@
 
 # sent_id = train-s3656
 # text = A existência duma construção religiosa nesta freguesia é muito antiga visto que o primeiro edifício religioso aqui construído, uma pequena ermida data de 1690.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	existência	existência	NOUN	NOUN	_	11	nsubj	_	_
 3-4	duma	_	_	_	_	_	_	_	_
 3	de	de	ADP	ADP	_	5	case	_	_
@@ -322,7 +322,7 @@
 6	,	,	PUNCT	.	_	8	punct	_	_
 7	que	_	PRON	PRON	_	8	nsubj	_	_
 8	abandonou	abandonar	VERB	VERB	_	4	acl:relcl	_	_
-9	as	o	DET	DET	_	10	det	_	_
+9	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
 10	categorias	categoria	NOUN	NOUN	_	8	obj	_	_
 11	de	de	ADP	ADP	_	12	case	_	_
 12	base	base	NOUN	NOUN	_	10	nmod	_	_

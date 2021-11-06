@@ -122,7 +122,7 @@
 12	,	,	PUNCT	.	_	18	punct	_	_
 13	você	_	PRON	PRON	_	18	nsubj	_	_
 14	e	e	CCONJ	CONJ	_	16	cc	_	_
-15	a	o	DET	DET	_	16	det	_	_
+15	a	o	DET	DET	PronType=Art	16	det	_	_
 16	Isabel	_	PROPN	PNOUN	_	13	conj	_	_
 17	se	_	PRON	PRON	_	18	obj	_	_
 18	escondendo	esconder	VERB	VERB	_	7	csubj	_	_
@@ -135,16 +135,16 @@
 
 # sent_id = train-s5782
 # text = A garota era a única.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	garota	garoto	NOUN	NOUN	_	5	nsubj	_	_
 3	era	_	AUX	AUX	_	5	cop	_	_
-4	a	o	DET	DET	_	5	det	_	_
+4	a	o	DET	DET	PronType=Art	5	det	_	_
 5	única	único	NOUN	NOUN	_	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	.	_	5	punct	_	_
 
 # sent_id = train-s5783
 # text = A Olimpíada de Atenas ficou no passado.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	Olimpíada	_	PROPN	PNOUN	_	5	nsubj	_	_
 3	de	de	ADP	ADP	_	4	case	_	_
 4	Atenas	_	PROPN	PNOUN	_	2	nmod	_	_
@@ -157,7 +157,7 @@
 
 # sent_id = train-s5784
 # text = A falha foi detectada por um blogger residente no Reino Unido identificado como Jack Jenkins.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	falha	_	NOUN	NOUN	_	4	nsubj:pass	_	_
 3	foi	_	AUX	AUX	_	4	aux:pass	_	_
 4	detectada	detectar	VERB	VERB	_	0	root	_	_
@@ -226,7 +226,7 @@
 3	ela	_	PRON	PRON	_	4	nsubj	_	_
 4	mandará	mandar	VERB	VERB	_	0	root	_	_
 5	devolver	devolver	VERB	VERB	_	4	xcomp	_	_
-6	a	o	DET	DET	_	7	det	_	_
+6	a	o	DET	DET	PronType=Art	7	det	_	_
 7	aliança	aliança	NOUN	NOUN	_	5	obj	_	_
 8	e	e	CCONJ	CONJ	_	9	cc	_	_
 9	rasga	rasgar	VERB	VERB	_	4	conj	_	_

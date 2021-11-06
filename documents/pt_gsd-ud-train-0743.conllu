@@ -117,7 +117,7 @@
 42	,	,	PUNCT	.	_	44	punct	_	_
 43	para	_	ADP	ADP	_	44	mark	_	_
 44	apoiar	apoiar	VERB	VERB	_	26	advcl	_	_
-45	a	o	DET	DET	_	46	det	_	_
+45	a	o	DET	DET	PronType=Art	46	det	_	_
 46	votação	votação	NOUN	NOUN	_	44	obj	_	_
 47	de	de	ADP	ADP	_	48	case	_	_
 48	matérias	matéria	NOUN	NOUN	_	46	nmod	_	_
@@ -203,7 +203,7 @@
 
 # sent_id = train-s7381
 # text = A expectativa é receber 250 pessoas no evento que iniciou às 8h30 com seminários de capacitação dos destinos.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	expectativa	expectativa	NOUN	NOUN	_	0	root	_	_
 3	é	ser	AUX	AUX	_	2	cop	_	_
 4	receber	receber	VERB	VERB	_	2	csubj	_	_
@@ -270,7 +270,7 @@
 
 # sent_id = train-s7384
 # text = A medalha de bronze foi conquistada pelo australiano Andrew Pasterfield, que ficou 10 segundo à frente do brasileiro Phelipe Andrews Melo Rodrigues, quarto colocado na prova.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	medalha	medalha	NOUN	NOUN	_	6	nsubj:pass	_	_
 3	de	de	ADP	ADP	_	4	case	_	_
 4	bronze	bronze	NOUN	NOUN	_	2	nmod	_	_

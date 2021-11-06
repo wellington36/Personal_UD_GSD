@@ -4,7 +4,7 @@
 2	o	o	DET	DET	_	3	det	_	_
 3	relator	relator	NOUN	NOUN	_	11	nmod	_	SpaceAfter=No
 4	,	,	PUNCT	.	_	3	punct	_	_
-5	a	o	DET	DET	_	6	det	_	_
+5	a	o	DET	DET	PronType=Art	6	det	_	_
 6	obra	obra	NOUN	NOUN	_	11	nsubj	_	_
 7-8	na	_	_	_	_	_	_	_	_
 7	em	em	ADP	ADP	_	9	case	_	_
@@ -31,7 +31,7 @@
 
 # sent_id = train-s6186
 # text = A irregularidade foi constatada hoje pelos promotores de Justiça que atuam na Defesa do Consumidor e da Cidadania, Ezequiel Borges de Campos e Miguel Slhessarenko Júnior.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	irregularidade	irregularidade	NOUN	NOUN	_	4	nsubj:pass	_	_
 3	foi	_	AUX	AUX	_	4	aux:pass	_	_
 4	constatada	constatar	VERB	VERB	_	0	root	_	_
@@ -149,7 +149,7 @@
 21	de	de	ADP	ADP	_	22	case	_	_
 22	Segurança	_	PROPN	PNOUN	_	20	nmod	_	_
 23	sobre	_	ADP	ADP	_	25	case	_	_
-24	a	o	DET	DET	_	25	det	_	_
+24	a	o	DET	DET	PronType=Art	25	det	_	_
 25	Síria	_	PROPN	PNOUN	_	17	nmod	_	SpaceAfter=No
 26	.	.	PUNCT	.	_	3	punct	_	_
 
@@ -191,7 +191,7 @@
 1	Nil	_	PROPN	PNOUN	_	2	nsubj	_	_
 2	destacou	destacar	VERB	VERB	_	0	root	_	_
 3	que	que	CCONJ	CONJ	_	9	mark	_	_
-4	a	o	DET	DET	_	5	det	_	_
+4	a	o	DET	DET	PronType=Art	5	det	_	_
 5	Afsu	_	PROPN	PNOUN	_	9	nsubj	_	_
 6	"	"	PUNCT	.	_	9	punct	_	SpaceAfter=No
 7	é	ser	AUX	AUX	_	9	cop	_	_
@@ -210,10 +210,10 @@
 19	que	_	PRON	PRON	_	20	nsubj	_	_
 20	conta	contar	VERB	VERB	_	9	conj	_	_
 21	com	com	ADP	ADP	_	23	case	_	_
-22	a	o	DET	DET	_	23	det	_	_
+22	a	o	DET	DET	PronType=Art	23	det	_	_
 23	participação	participação	NOUN	NOUN	_	20	nmod	_	_
 24	e	e	CCONJ	CONJ	_	26	cc	_	_
-25	a	o	DET	DET	_	26	det	_	_
+25	a	o	DET	DET	PronType=Art	26	det	_	_
 26	colaboração	colaboração	NOUN	NOUN	_	23	conj	_	_
 27	de	de	ADP	ADP	_	31	case	_	_
 28	todos	_	DET	DET	_	31	det	_	_
@@ -236,7 +236,7 @@
 # sent_id = train-s6191
 # text = Já a corporação em Mato Grosso do Sul celebra 42 anos no dia 25 de setembro.
 1	Já	já	ADV	ADV	_	10	advmod	_	_
-2	a	o	DET	DET	_	3	det	_	_
+2	a	o	DET	DET	PronType=Art	3	det	_	_
 3	corporação	corporação	NOUN	NOUN	_	10	nsubj	_	_
 4	em	em	ADP	ADP	_	5	case	_	_
 5	Mato	_	PROPN	PNOUN	_	3	nmod	_	_
@@ -263,7 +263,7 @@
 2	disco	disco	NOUN	NOUN	_	3	nsubj	_	_
 3	encerra	encerrar	VERB	VERB	_	0	root	_	_
 4	com	com	ADP	ADP	_	8	case	_	_
-5	a	o	DET	DET	_	8	det	_	_
+5	a	o	DET	DET	PronType=Art	8	det	_	_
 6	celebrativa	_	ADJ	ADJ	_	8	amod	_	_
 7	"	"	PUNCT	.	_	8	punct	_	SpaceAfter=No
 8	Origens	_	PROPN	PNOUN	_	3	nmod	_	SpaceAfter=No
@@ -286,7 +286,7 @@
 24	continuar	continuar	AUX	AUX	_	26	aux	_	_
 25	de	_	ADP	ADP	_	26	nmod	_	_
 26	fazer	fazer	VERB	VERB	_	3	conj	_	_
-27	a	o	DET	DET	_	28	det	_	_
+27	a	o	DET	DET	PronType=Art	28	det	_	_
 28	Paz	_	PROPN	PNOUN	_	26	obj	_	_
 29	a	_	ADP	ADP	_	32	mark	_	_
 30	fim	fim	NOUN	NOUN	_	29	fixed	_	_
@@ -339,7 +339,7 @@
 20	,	,	PUNCT	.	_	27	punct	_	_
 21	nesse	_	ADP	ADP	_	22	case	_	_
 22	ano	ano	NOUN	NOUN	_	27	nmod	_	_
-23	as	o	DET	DET	_	24	det	_	_
+23	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	24	det	_	_
 24	tropas	tropa	NOUN	NOUN	_	27	nsubj:pass	_	_
 25	egípcias	egípcio	ADJ	ADJ	_	24	amod	_	_
 26	foram	_	AUX	AUX	_	27	aux:pass	_	_
@@ -357,7 +357,7 @@
 3	-	-	PUNCT	.	_	4	punct	_	_
 4	feira	_	PROPN	PNOUN	_	11	nmod	_	SpaceAfter=No
 5	,	,	PUNCT	.	_	4	punct	_	_
-6	a	o	DET	DET	_	7	det	_	_
+6	a	o	DET	DET	PronType=Art	7	det	_	_
 7	assessoria	assessoria	NOUN	NOUN	_	11	nsubj:pass	_	_
 8	de	de	ADP	ADP	_	9	case	_	_
 9	Samuquinha	_	PROPN	PNOUN	_	7	nmod	_	_
@@ -372,7 +372,7 @@
 18	mas	mas	CCONJ	CONJ	_	20	cc	_	_
 19	não	não	ADV	ADV	Polarity=Neg	20	advmod	_	_
 20	retornou	retornar	VERB	VERB	_	11	conj	_	_
-21	as	o	DET	DET	_	22	det	_	_
+21	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	22	det	_	_
 22	ligações	_	NOUN	NOUN	_	20	obj	_	SpaceAfter=No
 23	.	.	PUNCT	.	_	11	punct	_	_
 

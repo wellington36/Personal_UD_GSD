@@ -57,7 +57,7 @@
 12	de	de	ADP	ADP	_	13	case	_	_
 13	todos	_	PRON	PRON	_	11	nmod	_	_
 14	é	ser	AUX	AUX	_	11	cop	_	_
-15	a	o	DET	DET	_	16	det	_	_
+15	a	o	DET	DET	PronType=Art	16	det	_	_
 16	governança	governança	NOUN	NOUN	_	11	nsubj	_	SpaceAfter=No
 17	"	"	PUNCT	.	_	5	punct	_	SpaceAfter=No
 18	,	,	PUNCT	.	_	19	punct	_	_
@@ -67,7 +67,7 @@
 
 # sent_id = train-s3050
 # text = A investida minuciosamente planejada foi levada a cabo justamente antes do empossamento de Barack, assim ele pôde dizer que era hora de vislumbrar o futuro, não o passado.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	investida	_	NOUN	NOUN	_	6	nsubj:pass	_	_
 3	minuciosamente	minuciosamente	ADV	ADV	_	4	advmod	_	_
 4	planejada	planejar	VERB	VERB	_	2	acl	_	_
@@ -162,7 +162,7 @@
 
 # sent_id = train-s3053
 # text = A atleta, que está solteira, ressaltou que está em busca dum companheiro: "Então, garotos, vocês podem contatar meu agente e dizer que preciso dum encontro.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	atleta	atleta	NOUN	NOUN	_	8	nsubj	_	SpaceAfter=No
 3	,	,	PUNCT	.	_	5	punct	_	_
 4	que	_	PRON	PRON	_	5	nsubj	_	_
@@ -201,7 +201,7 @@
 
 # sent_id = train-s3054
 # text = A principal recomendação é que os estudantes cheguem cedo aos locais de provas.
-1	A	o	DET	DET	_	3	det	_	_
+1	A	o	DET	DET	PronType=Art	3	det	_	_
 2	principal	principal	ADJ	ADJ	_	3	amod	_	_
 3	recomendação	recomendação	NOUN	NOUN	_	0	root	_	_
 4	é	ser	AUX	AUX	_	3	cop	_	_
@@ -226,7 +226,7 @@
 # sent_id = train-s3056
 # text = enquanto noutras, o sacerdócio é herdado em linhas familiares, como um casta.
 1	enquanto	_	CCONJ	CONJ	_	8	mark	_	_
-2-3	noutras	_	_	_	_	_	_	_	SpaceAfter=No
+2-3	noutras	_	_	_	_	_	_	_	_
 2	em	em	ADP	ADP	_	3	case	_	_
 3	outras	_	PRON	PRON	_	8	nmod	_	_
 4	,	,	PUNCT	.	_	3	punct	_	_

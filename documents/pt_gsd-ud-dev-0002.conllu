@@ -48,7 +48,7 @@
 30	,	,	PUNCT	.	_	31	punct	_	_
 31	esclarecendo	esclarecer	VERB	VERB	_	28	acl	_	_
 32	que	que	CCONJ	CONJ	_	36	mark	_	_
-33	a	o	DET	DET	_	34	det	_	_
+33	a	o	DET	DET	PronType=Art	34	det	_	_
 34	educação	educação	NOUN	NOUN	_	36	nsubj	_	_
 35	é	ser	AUX	AUX	_	36	cop	_	_
 36	uma	_	PRON	PRON	_	31	ccomp	_	_
@@ -87,7 +87,7 @@
 13	enzima	enzima	NOUN	NOUN	_	10	nmod	_	_
 14	que	_	PRON	PRON	_	15	nsubj	_	_
 15	faça	fazer	VERB	VERB	_	13	acl:relcl	_	_
-16	a	o	DET	DET	_	17	det	_	_
+16	a	o	DET	DET	PronType=Art	17	det	_	_
 17	reposição	reposição	NOUN	NOUN	_	15	obj	_	_
 18-19	da	_	_	_	_	_	_	_	_
 18	de	de	ADP	ADP	_	20	case	_	_
@@ -135,7 +135,7 @@
 
 # sent_id = dev-s16
 # text = A polícia ainda não tem pistas de quem poderia ter feito os disparos, mas, no local conseguiram encontrar 8 cápsulas da pistola usada no crime que poderão ajudar na investigação dos assassinatos.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	polícia	polícia	NOUN	NOUN	_	5	nsubj	_	_
 3	ainda	ainda	ADV	ADV	_	5	advmod	_	_
 4	não	não	ADV	ADV	Polarity=Neg	5	advmod	_	_
@@ -198,11 +198,11 @@
 
 # sent_id = dev-s18
 # text = A TV Globo transmite a luta principal, entre Anderson Silva e o americano Stephan Bonnar ao vivo.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	TV	_	PROPN	PNOUN	_	4	nsubj	_	_
 3	Globo	_	PROPN	PNOUN	_	2	flat	_	_
 4	transmite	transmitir	VERB	VERB	_	0	root	_	_
-5	a	o	DET	DET	_	6	det	_	_
+5	a	o	DET	DET	PronType=Art	6	det	_	_
 6	luta	luta	NOUN	NOUN	_	4	obj	_	_
 7	principal	principal	ADJ	ADJ	_	6	amod	_	SpaceAfter=No
 8	,	,	PUNCT	.	_	10	punct	_	_
@@ -262,7 +262,7 @@
 21	a	_	ADP	ADP	_	22	case	_	_
 22	prefeito	prefeito	NOUN	NOUN	_	20	nmod	_	_
 23	e	e	CCONJ	CONJ	_	25	cc	_	_
-24	a	o	DET	DET	_	25	det	_	_
+24	a	o	DET	DET	PronType=Art	25	det	_	_
 25	vereador	vereador	NOUN	NOUN	_	22	conj	_	SpaceAfter=No
 26	.	.	PUNCT	.	_	8	punct	_	_
 

@@ -88,7 +88,7 @@
 1	O	o	DET	DET	_	2	det	_	_
 2	tema	tema	NOUN	NOUN	_	6	nsubj	_	_
 3	será	ser	AUX	AUX	_	6	cop	_	_
-4	a	o	DET	DET	_	6	det	_	_
+4	a	o	DET	DET	PronType=Art	6	det	_	_
 5	possível	possível	ADJ	ADJ	_	6	amod	_	_
 6	retomada	retomada	NOUN	NOUN	_	0	root	_	_
 7-8	do	_	_	_	_	_	_	_	_
@@ -209,7 +209,7 @@
 
 # sent_id = train-s6872
 # text = A empresa, maior operadora de parques eólicos do mundo, deve se focar em futuros investidores nos Estados Unidos e no Brasil, assim como em seu negócio global de energias renováveis, e deve vender ativos de energia regulados ou participações em empresas.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	empresa	empresa	NOUN	NOUN	_	15	nsubj	_	SpaceAfter=No
 3	,	,	PUNCT	.	_	5	punct	_	_
 4	maior	maior	ADJ	ADJ	_	5	amod	_	_
@@ -280,7 +280,7 @@
 
 # sent_id = train-s6875
 # text = A presença dum treinador renomado e com longo currículo olímpico animou os atletas da equipe carioca.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	presença	presença	NOUN	NOUN	_	12	nsubj	_	_
 3-4	dum	_	_	_	_	_	_	_	_
 3	de	de	ADP	ADP	_	5	case	_	_
@@ -304,7 +304,7 @@
 
 # sent_id = train-s6876
 # text = A música da Abertura desse seriado é uma versão em Hip - Hop da música Somente o Necessário cantada pelo urso Baloo no filme The Jungle Book.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	música	_	NOUN	NOUN	_	10	nsubj	_	_
 3-4	da	_	_	_	_	_	_	_	_
 3	de	de	ADP	ADP	_	5	case	_	_

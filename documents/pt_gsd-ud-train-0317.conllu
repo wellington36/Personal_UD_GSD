@@ -64,7 +64,7 @@
 18	alviverde	alviverde	ADJ	ADJ	_	17	amod	_	_
 19	ressaltou	ressaltar	VERB	VERB	_	7	conj	_	_
 20	que	que	CCONJ	CONJ	_	29	mark	_	_
-21	a	o	DET	DET	_	22	det	_	_
+21	a	o	DET	DET	PronType=Art	22	det	_	_
 22	sequência	sequência	NOUN	NOUN	_	29	nsubj	_	_
 23-24	do	_	_	_	_	_	_	_	_
 23	de	de	ADP	ADP	_	25	case	_	_
@@ -101,7 +101,7 @@
 11	muita	_	DET	DET	_	12	det	_	_
 12	gente	gente	NOUN	NOUN	_	10	obj	_	_
 13	fazendo	fazer	VERB	VERB	_	12	acl	_	_
-14	as	o	DET	DET	_	15	det	_	_
+14	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
 15	compras	compra	NOUN	NOUN	_	13	obj	_	_
 16-17	do	_	_	_	_	_	_	_	_
 16	de	de	ADP	ADP	_	18	case	_	_
@@ -145,7 +145,7 @@
 
 # sent_id = train-s3151
 # text = A trilha e os efeitos sonoros ficaram a cargo de Eduardo Souto Neto.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	trilha	trilha	NOUN	NOUN	_	7	nsubj	_	_
 3	e	e	CCONJ	CONJ	_	5	cc	_	_
 4	os	o	DET	DET	_	5	det	_	_
@@ -182,7 +182,7 @@
 9	tiros	tiro	NOUN	NOUN	_	7	nsubj	_	_
 10	que	_	PRON	PRON	_	11	nsubj	_	_
 11	atingiram	atingir	VERB	VERB	_	9	acl:relcl	_	_
-12	a	o	DET	DET	_	13	det	_	_
+12	a	o	DET	DET	PronType=Art	13	det	_	_
 13	moradora	morador	NOUN	NOUN	_	11	obj	_	SpaceAfter=No
 14	,	,	PUNCT	.	_	25	punct	_	_
 15	embora	_	CCONJ	CONJ	_	25	cc	_	_
@@ -243,7 +243,7 @@
 32	o	o	DET	DET	_	33	det	_	_
 33	contraste	contraste	NOUN	NOUN	_	31	obj	_	_
 34	entre	_	ADP	ADP	_	37	case	_	_
-35	as	o	DET	DET	_	37	det	_	_
+35	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	37	det	_	_
 36	novas	novo	ADJ	ADJ	_	37	amod	_	_
 37	casas	casa	NOUN	NOUN	_	33	nmod	_	_
 38	que	_	PRON	PRON	_	40	nsubj	_	_
@@ -254,7 +254,7 @@
 42	um	um	DET	DET	_	43	det	_	_
 43	lado	lado	NOUN	NOUN	_	40	nmod	_	_
 44	e	e	CCONJ	CONJ	_	46	cc	_	_
-45	as	o	DET	DET	_	46	det	_	_
+45	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	46	det	_	_
 46	velhas	velho	NOUN	NOUN	_	37	conj	_	_
 47	de	de	ADP	ADP	_	48	case	_	_
 48	frente	frente	NOUN	NOUN	_	46	nmod	_	_
@@ -287,11 +287,11 @@
 73	custo	custo	NOUN	NOUN	_	70	nmod	_	_
 74	para	_	ADP	ADP	_	75	mark	_	_
 75	lograr	lograr	VERB	VERB	_	67	advcl	_	_
-76	a	o	DET	DET	_	78	det	_	_
+76	a	o	DET	DET	PronType=Art	78	det	_	_
 77	perfeita	perfeito	ADJ	ADJ	_	78	amod	_	_
 78	harmonia	harmonia	NOUN	NOUN	_	75	obj	_	_
 79	entre	_	ADP	ADP	_	82	case	_	_
-80	as	o	DET	DET	_	82	det	_	_
+80	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	82	det	_	_
 81	duas	_	NUM	NUM	NumType=Card	82	nummod	_	_
 82	cruas	_	NOUN	NOUN	_	78	nmod	_	SpaceAfter=No
 83	.	.	PUNCT	.	_	4	punct	_	_
@@ -310,7 +310,7 @@
 10	importância	importância	NOUN	NOUN	_	7	nmod	_	_
 11	analisados	analisar	VERB	VERB	_	7	acl	_	_
 12	para	para	ADP	ADP	_	15	case	_	_
-13	a	o	DET	DET	_	15	det	_	_
+13	a	o	DET	DET	PronType=Art	15	det	_	_
 14	próxima	próximo	ADJ	ADJ	_	15	amod	_	_
 15	safra	safra	NOUN	NOUN	_	11	nmod	_	_
 16	de	de	ADP	ADP	_	17	case	_	_

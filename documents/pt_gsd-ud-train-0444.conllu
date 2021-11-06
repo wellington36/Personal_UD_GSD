@@ -30,7 +30,7 @@
 
 # sent_id = train-s4406
 # text = A reunião acolherá uma centena de representantes estatais e de organizações internacionais, mas não contará com a presença da China nem da Rússia, países que sinalizaram que não queriam participar.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	reunião	reunião	NOUN	NOUN	_	7	nsubj	_	_
 3	acolherá	_	VERB	VERB	_	7	case	_	_
 4	uma	_	NUM	NUM	NumType=Card	5	nummod	_	_
@@ -47,7 +47,7 @@
 15	não	não	ADV	ADV	Polarity=Neg	16	advmod	_	_
 16	contará	contar	VERB	VERB	_	7	conj	_	_
 17	com	com	ADP	ADP	_	19	case	_	_
-18	a	o	DET	DET	_	19	det	_	_
+18	a	o	DET	DET	PronType=Art	19	det	_	_
 19	presença	presença	NOUN	NOUN	_	16	nmod	_	_
 20-21	da	_	_	_	_	_	_	_	_
 20	de	de	ADP	ADP	_	22	case	_	_
@@ -118,7 +118,7 @@
 
 # sent_id = train-s4409
 # text = A polícia acredita que os veículos foram utilizados nos ataques aos caixas eletrônicos.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	polícia	polícia	NOUN	NOUN	_	3	nsubj	_	_
 3	acredita	acreditar	VERB	VERB	_	0	root	_	_
 4	que	que	CCONJ	CONJ	_	8	mark	_	_
@@ -185,7 +185,7 @@
 13	,	,	PUNCT	.	_	9	punct	_	_
 14	não	não	ADV	ADV	Polarity=Neg	15	advmod	_	_
 15	teve	ter	VERB	VERB	_	4	conj	_	_
-16	a	o	DET	DET	_	17	det	_	_
+16	a	o	DET	DET	PronType=Art	17	det	_	_
 17	identidade	identidade	NOUN	NOUN	_	18	nsubj	_	_
 18	revelada	revelado	ADJ	ADJ	_	15	xcomp	_	SpaceAfter=No
 19	.	.	PUNCT	.	_	4	punct	_	_
@@ -202,7 +202,7 @@
 8	dos	_	X	ADPPRON	_	5	det:poss	_	_
 9	que	_	PRON	PRON	_	10	nsubj	_	_
 10	têm	ter	VERB	VERB	_	8	acl:relcl	_	_
-11	a	o	DET	DET	_	12	det	_	_
+11	a	o	DET	DET	PronType=Art	12	det	_	_
 12	doença	doença	NOUN	NOUN	_	10	obj	_	SpaceAfter=No
 13	,	,	PUNCT	.	_	5	punct	_	_
 14	ela	_	PRON	PRON	_	15	nsubj	_	_
@@ -274,7 +274,7 @@
 37	de	de	ADP	ADP	_	38	case	_	_
 38	parto	parto	NOUN	NOUN	_	36	nmod	_	_
 39	que	_	PRON	PRON	_	42	obj	_	_
-40	as	o	DET	DET	_	41	det	_	_
+40	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	41	det	_	_
 41	mulheres	mulher	NOUN	NOUN	_	42	nsubj	_	_
 42	preferem	preferir	VERB	VERB	_	36	acl:relcl	_	SpaceAfter=No
 43	.	.	PUNCT	.	_	13	punct	_	_
@@ -299,7 +299,7 @@
 15	Interlagos	_	PROPN	PNOUN	_	8	nmod	_	_
 16	e	e	CCONJ	CONJ	_	17	cc	_	_
 17	garantiu	garantir	VERB	VERB	_	2	conj	_	_
-18	a	o	DET	DET	_	19	det	_	_
+18	a	o	DET	DET	PronType=Art	19	det	_	_
 19	pole	_	NOUN	NOUN	_	17	obj	_	_
 20	com	com	ADP	ADP	_	21	case	_	_
 21	0s055	_	NUM	NUM	NumType=Card	17	nmod	_	_

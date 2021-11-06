@@ -138,7 +138,7 @@
 5	desceram	descer	VERB	VERB	_	0	root	_	_
 6	e	e	CCONJ	CONJ	_	7	cc	_	_
 7	completaram	completar	VERB	VERB	_	5	conj	_	_
-8	a	o	DET	DET	_	9	det	_	_
+8	a	o	DET	DET	PronType=Art	9	det	_	_
 9	travessia	travessia	NOUN	NOUN	_	7	obj	_	_
 10	a	_	ADP	ADP	_	11	case	_	_
 11	pé	pé	NOUN	NOUN	_	7	nmod	_	_

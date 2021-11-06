@@ -97,7 +97,7 @@
 11	Silvano	_	PROPN	PNOUN	_	3	appos	_	_
 12	Silvério	_	PROPN	PNOUN	_	11	flat	_	SpaceAfter=No
 13	,	,	PUNCT	.	_	11	punct	_	_
-14	a	o	DET	DET	_	15	det	_	_
+14	a	o	DET	DET	PronType=Art	15	det	_	_
 15	expectativa	expectativa	NOUN	NOUN	_	0	root	_	_
 16	é	ser	AUX	AUX	_	15	cop	_	_
 17	que	que	CCONJ	CONJ	_	24	mark	_	_
@@ -133,7 +133,7 @@
 
 # sent_id = train-s6309
 # text = As costas da baía caracterizam - se pelas suas grandes falésias de 60 metros de altura na envolvência das praias, e pelas suas plataformas rochosas.
-1	As	o	DET	DET	_	2	det	_	_
+1	As	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	costas	_	NOUN	NOUN	_	6	nsubj	_	_
 3-4	da	_	_	_	_	_	_	_	_
 3	de	de	ADP	ADP	_	5	case	_	_

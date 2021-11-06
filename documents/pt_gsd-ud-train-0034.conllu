@@ -13,7 +13,7 @@
 
 # sent_id = train-s332
 # text = A região maisafetada pela falta de água é a do bairro Tangarás.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	região	região	NOUN	NOUN	_	10	nsubj	_	_
 3	maisafetada	_	VERB	VERB	_	2	acl	_	_
 4-5	pela	_	_	_	_	_	_	_	_
@@ -104,13 +104,13 @@
 7	indústria	indústria	NOUN	NOUN	_	4	nmod	_	_
 8	que	_	PRON	PRON	_	9	nsubj	_	_
 9	ignora	ignorar	VERB	VERB	_	7	acl:relcl	_	_
-10	a	o	DET	DET	_	11	det	_	_
+10	a	o	DET	DET	PronType=Art	11	det	_	_
 11	vida	vida	NOUN	NOUN	_	9	obj	_	SpaceAfter=No
 12	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = train-s335
 # text = As visitas foram realizadas em junho e julho, em Organizações Governamentais (OGs) e Não Governamentais (ONGs).
-1	As	o	DET	DET	_	2	det	_	_
+1	As	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	visitas	visita	NOUN	NOUN	_	4	nsubj:pass	_	_
 3	foram	_	AUX	AUX	_	4	aux:pass	_	_
 4	realizadas	realizar	VERB	VERB	_	0	root	_	_
@@ -208,7 +208,7 @@
 22	Mogadíscio	_	PROPN	PNOUN	_	20	nmod	_	SpaceAfter=No
 23	,	,	PUNCT	.	_	27	punct	_	_
 24	quando	_	CCONJ	CONJ	_	27	mark	_	_
-25	a	o	DET	DET	_	26	det	_	_
+25	a	o	DET	DET	PronType=Art	26	det	_	_
 26	vítima	vítima	NOUN	NOUN	_	27	nsubj	_	_
 27	voltava	voltar	VERB	VERB	_	3	advcl	_	_
 28	para	para	ADP	ADP	_	29	case	_	_
@@ -232,7 +232,7 @@
 
 # sent_id = train-s338
 # text = A assessoria da Secretaria de Segurança Pública não confirmava a saída de Ferreira Pinto até as 10h30 desta segunda - feira.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	assessoria	assessoria	NOUN	NOUN	_	10	nsubj	_	_
 3-4	da	_	_	_	_	_	_	_	_
 3	de	de	ADP	ADP	_	5	case	_	_
@@ -243,7 +243,7 @@
 8	Pública	_	PROPN	PNOUN	_	7	amod	_	_
 9	não	não	ADV	ADV	Polarity=Neg	10	advmod	_	_
 10	confirmava	confirmar	VERB	VERB	_	0	root	_	_
-11	a	o	DET	DET	_	12	det	_	_
+11	a	o	DET	DET	PronType=Art	12	det	_	_
 12	saída	saída	NOUN	NOUN	_	10	obj	_	_
 13	de	de	ADP	ADP	_	14	case	_	_
 14	Ferreira	_	PROPN	PNOUN	_	12	nmod	_	_
@@ -259,7 +259,7 @@
 
 # sent_id = train-s339
 # text = A revista francesa Closer conseguiu cliques de Kate Middleton fazendo topless em Provença, sul da França.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	revista	revista	NOUN	NOUN	_	5	nsubj	_	_
 3	francesa	francês	ADJ	ADJ	_	2	amod	_	_
 4	Closer	_	PROPN	PNOUN	_	2	appos	_	_

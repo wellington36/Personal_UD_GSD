@@ -2,7 +2,7 @@
 # text = Brandemburgo contestou a herança, citando um tratado feito com Frederick II, Duque de Brieg, mas grande parte da Silésia permaneceu sob o controle Habsburgo até 1742.
 1	Brandemburgo	_	PROPN	PNOUN	_	2	nsubj	_	_
 2	contestou	contestar	VERB	VERB	_	0	root	_	_
-3	a	o	DET	DET	_	4	det	_	_
+3	a	o	DET	DET	PronType=Art	4	det	_	_
 4	herança	herança	NOUN	NOUN	_	2	obj	_	SpaceAfter=No
 5	,	,	PUNCT	.	_	6	punct	_	_
 6	citando	citar	VERB	VERB	_	2	acl	_	_
@@ -53,7 +53,7 @@
 4	e	e	CCONJ	CONJ	_	5	cc	_	_
 5	Coreia	_	PROPN	PNOUN	_	3	conj	_	_
 6	decidem	decidir	VERB	VERB	_	0	root	_	_
-7	a	o	DET	DET	_	8	det	_	_
+7	a	o	DET	DET	PronType=Art	8	det	_	_
 8	medalha	medalha	NOUN	NOUN	_	6	obj	_	_
 9	de	de	ADP	ADP	_	10	case	_	_
 10	bronze	bronze	NOUN	NOUN	_	8	nmod	_	_
@@ -72,7 +72,7 @@
 3	lado	lado	NOUN	NOUN	_	11	nmod	_	_
 4	potiguar	potiguar	ADJ	ADJ	_	3	amod	_	SpaceAfter=No
 5	,	,	PUNCT	.	_	3	punct	_	_
-6	a	o	DET	DET	_	7	det	_	_
+6	a	o	DET	DET	PronType=Art	7	det	_	_
 7	lista	lista	NOUN	NOUN	_	11	nsubj	_	_
 8	de	de	ADP	ADP	_	9	case	_	_
 9	baixas	_	NOUN	NOUN	_	7	nmod	_	_
@@ -126,7 +126,7 @@
 17	opções	opção	NOUN	NOUN	_	15	obj	_	_
 18	de	_	ADP	ADP	_	19	mark	_	_
 19	visitar	visitar	VERB	VERB	_	17	nmod	_	_
-20	a	o	DET	DET	_	21	det	_	_
+20	a	o	DET	DET	PronType=Art	21	det	_	_
 21	ilha	ilha	NOUN	NOUN	_	19	obj	_	SpaceAfter=No
 22	,	,	PUNCT	.	_	26	punct	_	_
 23	assim	assim	ADV	ADV	_	26	mark	_	_
@@ -146,7 +146,7 @@
 37	,	,	PUNCT	.	_	39	punct	_	_
 38	e	e	CCONJ	CONJ	_	39	cc	_	_
 39	experimentar	experimentar	VERB	VERB	_	26	conj	_	_
-40	a	o	DET	DET	_	41	det	_	_
+40	a	o	DET	DET	PronType=Art	41	det	_	_
 41	expansão	expansão	NOUN	NOUN	_	39	obj	_	_
 42-43	da	_	_	_	_	_	_	_	_
 42	de	de	ADP	ADP	_	44	case	_	_
@@ -189,7 +189,7 @@
 3	especialista	especialista	NOUN	NOUN	_	10	nmod	_	SpaceAfter=No
 4	,	,	PUNCT	.	_	3	punct	_	_
 5	''	_	PUNCT	.	_	10	punct	_	_
-6	as	o	DET	DET	_	7	det	_	_
+6	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
 7	espécies	espécie	NOUN	NOUN	_	10	nsubj:pass	_	_
 8	classificadas	classificar	VERB	VERB	_	7	acl	_	_
 9	são	ser	AUX	AUX	_	10	aux:pass	_	_
@@ -222,7 +222,7 @@
 
 # sent_id = dev-s513
 # text = A União das Escolas de Samba de Santo André (UESA), é a associação que administra o carnaval das escolas de samba na cidade de Santo André, estado de São Paulo.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	União	_	PROPN	PNOUN	_	17	nsubj	_	_
 3-4	das	_	_	_	_	_	_	_	_
 3	de	de	ADP	ADP	_	5	case	_	_
@@ -238,7 +238,7 @@
 13	)	)	PUNCT	.	_	12	punct	_	SpaceAfter=No
 14	,	,	PUNCT	.	_	2	punct	_	_
 15	é	ser	AUX	AUX	_	17	cop	_	_
-16	a	o	DET	DET	_	17	det	_	_
+16	a	o	DET	DET	PronType=Art	17	det	_	_
 17	associação	associação	NOUN	NOUN	_	0	root	_	_
 18	que	_	PRON	PRON	_	19	nsubj	_	_
 19	administra	administrar	VERB	VERB	_	17	acl:relcl	_	_

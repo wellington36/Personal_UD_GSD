@@ -51,7 +51,7 @@
 # sent_id = train-s4676
 # text = -- As provas da Copa Norte têm recebido um número muito grande de pilotos.
 1	--	_	PUNCT	.	_	9	punct	_	_
-2	As	o	DET	DET	_	3	det	_	_
+2	As	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
 3	provas	prova	NOUN	NOUN	_	9	nsubj	_	_
 4-5	da	_	_	_	_	_	_	_	_
 4	de	de	ADP	ADP	_	6	case	_	_
@@ -83,7 +83,7 @@
 10	ser	ser	AUX	AUX	_	11	aux:pass	_	_
 11	punidos	punir	VERB	VERB	_	0	root	_	_
 12	com	com	ADP	ADP	_	14	case	_	_
-13	a	o	DET	DET	_	14	det	_	_
+13	a	o	DET	DET	PronType=Art	14	det	_	_
 14	pena	_	NOUN	NOUN	_	11	nmod	_	_
 15	de	de	ADP	ADP	_	16	case	_	_
 16	morte	morte	NOUN	NOUN	_	14	nmod	_	SpaceAfter=No
@@ -102,7 +102,7 @@
 8	liberdade	liberdade	NOUN	NOUN	_	7	obj	_	_
 9	para	_	ADP	ADP	_	10	mark	_	_
 10	admirar	admirar	VERB	VERB	_	8	nmod	_	_
-11	as	o	DET	DET	_	12	det	_	_
+11	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
 12	invenções	invenção	NOUN	NOUN	_	10	obj	_	_
 13	humanas	humano	ADJ	ADJ	_	12	amod	_	_
 14	dessa	_	ADP	ADP	_	15	case	_	_
@@ -166,7 +166,7 @@
 23	São	_	PROPN	PNOUN	_	21	nmod	_	_
 24	Paulo	_	PROPN	PNOUN	_	23	flat	_	_
 25	viveu	viver	VERB	VERB	_	0	root	_	_
-26	a	o	DET	DET	_	28	det	_	_
+26	a	o	DET	DET	PronType=Art	28	det	_	_
 27	primeira	primeiro	ADJ	ADJ	_	28	amod	_	_
 28	metade	metade	NOUN	NOUN	_	25	obj	_	_
 29	de	de	ADP	ADP	_	30	case	_	_

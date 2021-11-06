@@ -41,7 +41,7 @@
 1	Por	_	ADP	ADP	_	2	case	_	_
 2	isso	_	PRON	PRON	_	15	nmod	_	SpaceAfter=No
 3	,	,	PUNCT	.	_	2	punct	_	_
-4	a	o	DET	DET	_	5	det	_	_
+4	a	o	DET	DET	PronType=Art	5	det	_	_
 5	palavra	palavra	NOUN	NOUN	_	15	nsubj	_	_
 6	grega	grego	ADJ	ADJ	_	5	amod	_	_
 7	que	_	PRON	PRON	_	8	nsubj	_	_
@@ -239,7 +239,7 @@
 
 # sent_id = train-s4853
 # text = A apresentação faz parte do projeto "A Hora do Riso", idealizado por Luciano Feitosa, e outros shows já estão previstos.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	apresentação	apresentação	NOUN	NOUN	_	3	nsubj	_	_
 3	faz	fazer	VERB	VERB	_	0	root	_	_
 4	parte	parte	NOUN	NOUN	_	3	obj	_	_
@@ -248,7 +248,7 @@
 6	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	projeto	projeto	NOUN	NOUN	_	4	nmod	_	_
 8	"	"	PUNCT	.	_	10	punct	_	SpaceAfter=No
-9	A	o	DET	DET	_	10	det	_	_
+9	A	o	DET	DET	PronType=Art	10	det	_	_
 10	Hora	_	PROPN	PNOUN	_	7	appos	_	_
 11-12	do	_	_	_	_	_	_	_	_
 11	de	de	ADP	ADP	_	13	case	_	_

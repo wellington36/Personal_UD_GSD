@@ -4,7 +4,7 @@
 2	a	_	ADP	ADP	_	3	mark	_	_
 3	ver	ver	VERB	VERB	_	1	nmod	_	_
 4	com	com	ADP	ADP	_	6	case	_	_
-5	as	o	DET	DET	_	6	det	_	_
+5	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
 6	competências	competência	NOUN	NOUN	_	3	nmod	_	_
 7	que	_	PRON	PRON	_	9	obj	_	_
 8	se	_	PART	PRT	_	9	expl:pv	_	_
@@ -99,10 +99,10 @@
 # text = Eles questionam a negociação entre a Polícia Militar do Rio e a Petrobras para a venda do terreno, no Centro da cidade, hoje ocupado pelo centenário prédio do QG.
 1	Eles	_	PRON	PRON	_	2	nsubj	_	_
 2	questionam	questionar	VERB	VERB	_	0	root	_	_
-3	a	o	DET	DET	_	4	det	_	_
+3	a	o	DET	DET	PronType=Art	4	det	_	_
 4	negociação	negociação	NOUN	NOUN	_	2	obj	_	_
 5	entre	_	ADP	ADP	_	7	case	_	_
-6	a	o	DET	DET	_	7	det	_	_
+6	a	o	DET	DET	PronType=Art	7	det	_	_
 7	Polícia	_	PROPN	PNOUN	_	4	nmod	_	_
 8	Militar	_	PROPN	PNOUN	_	7	amod	_	_
 9-10	do	_	_	_	_	_	_	_	_
@@ -110,10 +110,10 @@
 10	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	Rio	_	PROPN	PNOUN	_	7	nmod	_	_
 12	e	e	CCONJ	CONJ	_	14	cc	_	_
-13	a	o	DET	DET	_	14	det	_	_
+13	a	o	DET	DET	PronType=Art	14	det	_	_
 14	Petrobras	_	PROPN	PNOUN	_	7	conj	_	_
 15	para	para	ADP	ADP	_	17	case	_	_
-16	a	o	DET	DET	_	17	det	_	_
+16	a	o	DET	DET	PronType=Art	17	det	_	_
 17	venda	venda	NOUN	NOUN	_	4	nmod	_	_
 18-19	do	_	_	_	_	_	_	_	_
 18	de	de	ADP	ADP	_	20	case	_	_
@@ -196,7 +196,7 @@
 
 # sent_id = test-s743
 # text = A primeira é que houve aumento da produtividade agroindustrial, medida com base no indicador toneladas de cana colhidas por hectare e pela quantidade de Açúcar Total Recuperável (ATR) por tonelada de cana.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	primeira	primeiro	NOUN	NOUN	_	0	root	_	_
 3	é	ser	AUX	AUX	_	2	cop	_	_
 4	que	que	CCONJ	CONJ	_	5	mark	_	_

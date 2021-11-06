@@ -65,7 +65,7 @@
 
 # sent_id = train-s5840
 # text = A polícia recebeu informações de que eles deverão se apresentar até esta quarta - feira, 22, para prestar esclarecimentos sobre o caso.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	polícia	polícia	NOUN	NOUN	_	3	nsubj	_	_
 3	recebeu	receber	VERB	VERB	_	0	root	_	_
 4	informações	informação	NOUN	NOUN	_	3	obj	_	_
@@ -97,7 +97,7 @@
 2	,	,	PUNCT	.	_	1	punct	_	_
 3	países	país	NOUN	NOUN	_	11	nsubj	_	_
 4	como	como	ADP	ADP	_	6	case	_	_
-5	a	o	DET	DET	_	6	det	_	_
+5	a	o	DET	DET	PronType=Art	6	det	_	_
 6	Espanha	_	PROPN	PNOUN	_	3	nmod	_	_
 7	e	e	CCONJ	CONJ	_	9	cc	_	_
 8	o	o	DET	DET	_	9	det	_	_
@@ -144,7 +144,7 @@
 1	O	o	DET	DET	_	2	det	_	_
 2	Grêmio	_	PROPN	PNOUN	_	3	nsubj	_	_
 3	estreou	estrear	VERB	VERB	_	0	root	_	_
-4	a	o	DET	DET	_	6	det	_	_
+4	a	o	DET	DET	PronType=Art	6	det	_	_
 5	Nova	_	PROPN	PNOUN	_	6	amod	_	_
 6	Arena	_	PROPN	PNOUN	_	3	obj	_	_
 7-8	no	_	_	_	_	_	_	_	_
@@ -221,7 +221,7 @@
 19	sejam	ser	AUX	AUX	_	20	aux:pass	_	_
 20	cumpridos	cumprir	VERB	VERB	_	12	ccomp	_	_
 21	até	_	ADP	ADP	_	23	case	_	_
-22	as	o	DET	DET	_	23	det	_	_
+22	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
 23	23h59	_	NOUN	NOUN	_	20	nmod	_	_
 24-25	do	_	_	_	_	_	_	_	_
 24	de	de	ADP	ADP	_	27	case	_	_
@@ -238,7 +238,7 @@
 1	Mas	_	CCONJ	CONJ	_	3	cc	_	_
 2	não	não	ADV	ADV	Polarity=Neg	3	advmod	_	_
 3	tivemos	ter	VERB	VERB	_	0	root	_	_
-4	a	o	DET	DET	_	5	det	_	_
+4	a	o	DET	DET	PronType=Art	5	det	_	_
 5	competência	competência	NOUN	NOUN	_	3	obj	_	_
 6	de	_	ADP	ADP	_	7	mark	_	_
 7	transformar	transformar	VERB	VERB	_	5	nmod	_	_
@@ -250,7 +250,7 @@
 
 # sent_id = train-s5847
 # text = A primeira foto da Terra, vista do espaço, feita em 1969, tocou o coração da humanidade com a sua beleza e simplicidade, chamando a atenção para o fato de que vivemos num ecossistema único, frágil e interdependente.
-1	A	o	DET	DET	_	3	det	_	_
+1	A	o	DET	DET	PronType=Art	3	det	_	_
 2	primeira	primeiro	ADJ	ADJ	_	3	amod	_	_
 3	foto	foto	NOUN	NOUN	_	17	nsubj	_	_
 4-5	da	_	_	_	_	_	_	_	_
@@ -276,14 +276,14 @@
 21	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
 22	humanidade	humanidade	NOUN	NOUN	_	19	nmod	_	_
 23	com	com	ADP	ADP	_	26	case	_	_
-24	a	o	DET	DET	_	26	det	_	_
+24	a	o	DET	DET	PronType=Art	26	det	_	_
 25	sua	_	DET	DET	_	26	det:poss	_	_
 26	beleza	beleza	NOUN	NOUN	_	17	nmod	_	_
 27	e	e	CCONJ	CONJ	_	28	cc	_	_
 28	simplicidade	simplicidade	NOUN	NOUN	_	26	conj	_	SpaceAfter=No
 29	,	,	PUNCT	.	_	30	punct	_	_
 30	chamando	chamar	VERB	VERB	_	17	conj	_	_
-31	a	o	DET	DET	_	32	det	_	_
+31	a	o	DET	DET	PronType=Art	32	det	_	_
 32	atenção	atenção	NOUN	NOUN	_	30	obj	_	_
 33	para	para	ADP	ADP	_	35	case	_	_
 34	o	o	DET	DET	_	35	det	_	_

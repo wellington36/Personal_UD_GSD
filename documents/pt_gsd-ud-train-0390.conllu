@@ -57,7 +57,7 @@
 2	conclui	concluir	VERB	VERB	_	0	root	_	SpaceAfter=No
 3	:	:	PUNCT	.	_	2	punct	_	_
 4	"	"	PUNCT	.	_	12	punct	_	SpaceAfter=No
-5	A	o	DET	DET	_	6	det	_	_
+5	A	o	DET	DET	PronType=Art	6	det	_	_
 6	expressão	expressão	NOUN	NOUN	_	12	nsubj:pass	_	SpaceAfter=No
 7	"	"	PUNCT	.	_	9	punct	_	_
 8	justa	justo	ADJ	ADJ	_	9	amod	_	_

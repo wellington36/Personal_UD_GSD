@@ -114,7 +114,7 @@
 16	de	de	ADP	ADP	_	17	case	_	_
 17	saúde	saúde	NOUN	NOUN	_	15	nmod	_	_
 18	para	para	ADP	ADP	_	20	case	_	_
-19	a	o	DET	DET	_	20	det	_	_
+19	a	o	DET	DET	PronType=Art	20	det	_	_
 20	saída	saída	NOUN	NOUN	_	15	nmod	_	SpaceAfter=No
 21	.	.	PUNCT	.	_	7	punct	_	_
 
@@ -186,7 +186,7 @@
 # text = Entretanto, as informações levam em conta o conjunto da Região e não os estados de forma específica.
 1	Entretanto	entretanto	ADV	ADV	_	5	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	.	_	1	punct	_	_
-3	as	o	DET	DET	_	4	det	_	_
+3	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
 4	informações	informação	NOUN	NOUN	_	5	nsubj	_	_
 5	levam	levar	VERB	VERB	_	0	root	_	_
 6	em	em	ADP	ADP	_	7	case	_	_

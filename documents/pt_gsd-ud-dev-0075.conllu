@@ -121,7 +121,7 @@
 
 # sent_id = dev-s740
 # text = A cerimônia que oficializa o ingresso da Venezuela não significa que o país será integrado imediatamente ao bloco.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	cerimônia	cerimônia	NOUN	NOUN	_	11	nsubj	_	_
 3	que	_	PRON	PRON	_	4	nsubj	_	_
 4	oficializa	oficializar	VERB	VERB	_	2	acl:relcl	_	_
@@ -167,7 +167,7 @@
 
 # sent_id = dev-s742
 # text = A reunião é comandada pelo presidente peruano, Ollanta Humala.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	reunião	reunião	NOUN	NOUN	_	4	nsubj:pass	_	_
 3	é	ser	AUX	AUX	_	4	aux:pass	_	_
 4	comandada	comandar	VERB	VERB	_	0	root	_	_

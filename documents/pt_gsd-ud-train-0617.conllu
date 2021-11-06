@@ -1,6 +1,6 @@
 # sent_id = train-s6125
 # text = As informações são da Angop.
-1	As	o	DET	DET	_	2	det	_	_
+1	As	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	informações	informação	NOUN	NOUN	_	3	nsubj	_	_
 3	são	ser	VERB	VERB	_	0	root	_	_
 4-5	da	_	_	_	_	_	_	_	_
@@ -63,7 +63,7 @@
 46	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	47	det	_	_
 47	TCU	_	PROPN	PNOUN	_	44	nmod	_	_
 48	contra	_	ADP	ADP	_	50	case	_	_
-49	a	o	DET	DET	_	50	det	_	_
+49	a	o	DET	DET	PronType=Art	50	det	_	_
 50	Tecondi	_	PROPN	PNOUN	_	44	nmod	_	SpaceAfter=No
 51	,	,	PUNCT	.	_	53	punct	_	_
 52	que	_	PRON	PRON	_	53	nsubj	_	_
@@ -86,7 +86,7 @@
 # sent_id = train-s6127
 # text = "A ideia é chegar ao fim do primeiro semestre com essa possibilidade em aberto."
 1	"	"	PUNCT	.	_	3	punct	_	SpaceAfter=No
-2	A	o	DET	DET	_	3	det	_	_
+2	A	o	DET	DET	PronType=Art	3	det	_	_
 3	ideia	ideia	NOUN	NOUN	_	0	root	_	_
 4	é	ser	AUX	AUX	_	3	cop	_	_
 5	chegar	chegar	VERB	VERB	_	3	csubj	_	_
@@ -204,7 +204,7 @@
 25	forma	forma	NOUN	NOUN	_	23	nmod	_	_
 26	tímida	tímido	ADJ	ADJ	_	25	amod	_	_
 27	com	com	ADP	ADP	_	29	case	_	_
-28	a	o	DET	DET	_	29	det	_	_
+28	a	o	DET	DET	PronType=Art	29	det	_	_
 29	demolição	demolição	NOUN	NOUN	_	23	nmod	_	_
 30-31	dos	_	_	_	_	_	_	_	_
 30	de	de	ADP	ADP	_	32	case	_	_
@@ -218,7 +218,7 @@
 
 # sent_id = train-s6130
 # text = A operação envolve cerca de 158 servidores mas exclui os visitantes que possam estar no local.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	operação	operação	NOUN	NOUN	_	3	nsubj	_	_
 3	envolve	envolver	VERB	VERB	_	0	root	_	_
 4	cerca	cerca	ADV	ADV	_	6	advmod	_	_
@@ -265,7 +265,7 @@
 21	Mato	_	PROPN	PNOUN	_	19	nmod	_	_
 22	Grosso	_	PROPN	PNOUN	_	21	amod	_	_
 23	e	e	CCONJ	CONJ	_	26	cc	_	_
-24	as	o	DET	DET	_	25	det	_	_
+24	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	25	det	_	_
 25	provas	prova	NOUN	NOUN	_	26	nsubj	_	_
 26	começam	_	VERB	VERB	_	4	conj	_	_
 27-28	ao	_	_	_	_	_	_	_	_
@@ -425,7 +425,7 @@
 50	e	e	CCONJ	CONJ	_	51	cc	_	_
 51	atesta	atestar	VERB	VERB	_	44	conj	_	_
 52	que	que	CCONJ	CONJ	_	61	mark	_	_
-53	a	o	DET	DET	_	54	det	_	_
+53	a	o	DET	DET	PronType=Art	54	det	_	_
 54	teoria	teoria	NOUN	NOUN	_	61	nsubj	_	_
 55	de	de	ADP	ADP	_	56	case	_	_
 56	arte	arte	NOUN	NOUN	_	54	nmod	_	_

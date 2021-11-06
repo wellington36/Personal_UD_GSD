@@ -1,6 +1,6 @@
 # sent_id = train-s3242
 # text = A diretoria está fazendo uma promoção e tenho certeza que mais uma vez ela vai lotar o estádio.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	diretoria	diretoria	NOUN	NOUN	_	4	nsubj	_	_
 3	está	estar	AUX	AUX	_	4	aux	_	_
 4	fazendo	fazer	VERB	VERB	_	0	root	_	_
@@ -36,7 +36,7 @@
 11	o	o	DET	DET	_	12	det	_	_
 12	quarterback	_	NOUN	NOUN	_	13	nsubj	_	_
 13	comandou	comandar	VERB	VERB	_	0	root	_	_
-14	a	o	DET	DET	_	15	det	_	_
+14	a	o	DET	DET	PronType=Art	15	det	_	_
 15	equipe	equipe	NOUN	NOUN	_	13	obj	_	_
 16-17	à	_	_	_	_	_	_	_	_
 16	a	a	ADP	ADP	_	18	case	_	_
@@ -118,7 +118,7 @@
 2	doutrinas	doutrina	NOUN	NOUN	_	1	obj	_	SpaceAfter=No
 3	,	,	PUNCT	.	_	6	punct	_	_
 4	nomeadamente	nomeadamente	ADV	ADV	_	6	advmod	_	_
-5	as	o	DET	DET	_	6	det	_	_
+5	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
 6	espiritualistas	espiritualista	NOUN	NOUN	_	2	appos	_	SpaceAfter=No
 7	,	,	PUNCT	.	_	11	punct	_	_
 8	que	_	PRON	PRON	_	11	nsubj:pass	_	_
@@ -163,7 +163,7 @@
 1	Em	em	ADP	ADP	_	2	case	_	_
 2	2007	_	NUM	NUM	NumType=Card	13	nmod	_	SpaceAfter=No
 3	,	,	PUNCT	.	_	2	punct	_	_
-4	a	o	DET	DET	_	5	det	_	_
+4	a	o	DET	DET	PronType=Art	5	det	_	_
 5	ONU	_	PROPN	PNOUN	_	13	nsubj	_	_
 6	(	(	PUNCT	.	_	7	punct	_	SpaceAfter=No
 7	Organização	_	PROPN	PNOUN	_	5	appos	_	_
@@ -174,7 +174,7 @@
 11	Unidas	_	PROPN	PNOUN	_	10	amod	_	SpaceAfter=No
 12	)	)	PUNCT	.	_	7	punct	_	_
 13	abraçou	abraçar	VERB	VERB	_	0	root	_	_
-14	a	o	DET	DET	_	15	det	_	_
+14	a	o	DET	DET	PronType=Art	15	det	_	_
 15	causa	causa	NOUN	NOUN	_	13	obj	_	_
 16	e	e	CCONJ	CONJ	_	17	cc	_	_
 17	incluiu	incluir	VERB	VERB	_	13	conj	_	_
@@ -190,7 +190,7 @@
 
 # sent_id = train-s3250
 # text = A proteção especial poderá ser feita pela Polícia Judiciária, por órgãos de segurança institucional e agentes policiais.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	proteção	proteção	NOUN	NOUN	_	6	nsubj:pass	_	_
 3	especial	especial	ADJ	ADJ	_	2	amod	_	_
 4	poderá	poder	AUX	AUX	_	6	aux	_	_
@@ -225,7 +225,7 @@
 8	CPI	_	PROPN	PNOUN	_	2	nmod	_	_
 9	pode	_	AUX	AUX	_	10	aux	_	_
 10	complicar	complicar	VERB	VERB	_	0	root	_	_
-11	a	o	DET	DET	_	12	det	_	_
+11	a	o	DET	DET	PronType=Art	12	det	_	_
 12	campanha	campanha	NOUN	NOUN	_	10	obj	_	_
 13	de	de	ADP	ADP	_	14	case	_	_
 14	Serra	_	PROPN	PNOUN	_	12	nmod	_	SpaceAfter=No
@@ -243,7 +243,7 @@
 26	passou	passar	AUX	AUX	_	28	aux	_	_
 27	a	_	ADP	ADP	_	28	mark	_	_
 28	dividir	dividir	VERB	VERB	_	19	advcl	_	_
-29	as	o	DET	DET	_	30	det	_	_
+29	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	30	det	_	_
 30	atenções	atenção	NOUN	NOUN	_	28	obj	_	_
 31	com	com	ADP	ADP	_	32	case	_	_
 32	Celso	_	PROPN	PNOUN	_	28	nmod	_	_

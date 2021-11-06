@@ -32,7 +32,7 @@
 16	"	"	PUNCT	.	_	15	punct	_	_
 17	para	_	ADP	ADP	_	23	mark	_	_
 18	que	_	CCONJ	CONJ	_	17	fixed	_	_
-19	as	o	DET	DET	_	21	det	_	_
+19	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	21	det	_	_
 20	suas	_	DET	DET	_	21	det:poss	_	_
 21	alterações	alteração	NOUN	NOUN	_	23	nsubj:pass	_	_
 22	sejam	ser	AUX	AUX	_	23	aux:pass	_	_
@@ -95,7 +95,7 @@
 7	e	e	CCONJ	CONJ	_	8	cc	_	_
 8	estreitos	estreito	ADJ	ADJ	_	6	conj	_	_
 9	produzem	produzir	VERB	VERB	_	0	root	_	_
-10	a	o	DET	DET	_	11	det	_	_
+10	a	o	DET	DET	PronType=Art	11	det	_	_
 11	maioria	maioria	NOUN	NOUN	_	9	obj	_	_
 12-13	dos	_	_	_	_	_	_	_	_
 12	de	de	ADP	ADP	_	14	case	_	_
@@ -125,7 +125,7 @@
 1	Hoje	hoje	ADV	ADV	_	3	advmod	_	_
 2	também	também	ADV	ADV	_	3	advmod	_	_
 3	acontece	acontecer	VERB	VERB	_	25	ccomp	_	_
-4	a	o	DET	DET	_	5	det	_	_
+4	a	o	DET	DET	PronType=Art	5	det	_	_
 5	final	final	NOUN	NOUN	_	3	nsubj	_	_
 6-7	do	_	_	_	_	_	_	_	_
 6	de	de	ADP	ADP	_	8	case	_	_
@@ -211,7 +211,7 @@
 41	Olhar	_	PROPN	PNOUN	_	34	conj	_	_
 42	43	_	NUM	NUM	NumType=Card	41	appos	_	_
 43	e	e	CCONJ	CONJ	_	47	cc	_	_
-44	as	o	DET	DET	_	47	det	_	_
+44	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	47	det	_	_
 45	então	então	ADV	ADV	_	46	advmod	_	_
 46	inéditas	inédito	ADJ	ADJ	_	47	amod	_	_
 47	Naja	_	PROPN	PNOUN	_	34	conj	_	_
@@ -317,7 +317,7 @@
 4	saber	saber	VERB	VERB	_	1	advcl	_	_
 5	mais	mais	ADV	ADV	_	4	advmod	_	_
 6	sobre	_	ADP	ADP	_	8	case	_	_
-7	a	o	DET	DET	_	8	det	_	_
+7	a	o	DET	DET	PronType=Art	8	det	_	_
 8	beleza	beleza	NOUN	NOUN	_	4	nmod	_	_
 9	de	de	ADP	ADP	_	10	case	_	_
 10	verão	_	PROPN	PNOUN	_	8	nmod	_	SpaceAfter=No
@@ -342,7 +342,7 @@
 
 # sent_id = test-s506
 # text = A desembargadora Maria Erotides Kneip Baranjak observou que as exigências objetivas de convocação extinguem a possibilidade de escolha por simpatia ou favoritismo.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	desembargadora	desembargador	NOUN	NOUN	_	7	nsubj	_	_
 3	Maria	_	PROPN	PNOUN	_	2	appos	_	_
 4	Erotides	_	PROPN	PNOUN	_	3	flat	_	_
@@ -350,13 +350,13 @@
 6	Baranjak	_	PROPN	PNOUN	_	3	flat	_	_
 7	observou	observar	VERB	VERB	_	0	root	_	_
 8	que	que	CCONJ	CONJ	_	14	mark	_	_
-9	as	o	DET	DET	_	10	det	_	_
+9	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
 10	exigências	exigência	NOUN	NOUN	_	14	nsubj	_	_
 11	objetivas	objetivo	ADJ	ADJ	_	10	amod	_	_
 12	de	de	ADP	ADP	_	13	case	_	_
 13	convocação	convocação	NOUN	NOUN	_	10	nmod	_	_
 14	extinguem	extinguir	VERB	VERB	_	7	ccomp	_	_
-15	a	o	DET	DET	_	16	det	_	_
+15	a	o	DET	DET	PronType=Art	16	det	_	_
 16	possibilidade	possibilidade	NOUN	NOUN	_	14	obj	_	_
 17	de	de	ADP	ADP	_	18	case	_	_
 18	escolha	escolha	NOUN	NOUN	_	16	nmod	_	_

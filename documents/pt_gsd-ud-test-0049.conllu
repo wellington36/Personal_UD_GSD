@@ -44,10 +44,10 @@
 4	transtorno	transtorno	NOUN	NOUN	_	2	nmod	_	SpaceAfter=No
 5	,	,	PUNCT	.	_	6	punct	_	_
 6	diz	dizer	VERB	VERB	_	13	parataxis	_	_
-7	a	o	DET	DET	_	8	det	_	_
+7	a	o	DET	DET	PronType=Art	8	det	_	_
 8	nota	nota	NOUN	NOUN	_	6	nsubj	_	SpaceAfter=No
 9	,	,	PUNCT	.	_	6	punct	_	_
-10	a	o	DET	DET	_	11	det	_	_
+10	a	o	DET	DET	PronType=Art	11	det	_	_
 11	prefeitura	prefeitura	NOUN	NOUN	_	13	nsubj	_	_
 12	não	não	ADV	ADV	Polarity=Neg	13	advmod	_	_
 13	teria	ter	VERB	VERB	_	0	root	_	_
@@ -75,7 +75,7 @@
 7	deixou	deixar	VERB	VERB	_	0	root	_	_
 8	claro	claro	ADJ	ADJ	_	7	xcomp	_	_
 9	que	que	CCONJ	CONJ	_	11	mark	_	_
-10	a	o	DET	DET	_	11	det	_	_
+10	a	o	DET	DET	PronType=Art	11	det	_	_
 11	intenção	intenção	NOUN	NOUN	_	7	ccomp	_	_
 12-13	da	_	_	_	_	_	_	_	_
 12	de	de	ADP	ADP	_	14	case	_	_
@@ -98,7 +98,7 @@
 
 # sent_id = test-s481
 # text = A ministra Ideli Salvatti (Relações Institucionais) despachou da liderança do governo na Câmara para tentar vencer as resistências.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	ministra	_	NOUN	NOUN	_	9	nsubj	_	_
 3	Ideli	_	PROPN	PNOUN	_	2	appos	_	_
 4	Salvatti	_	PROPN	PNOUN	_	3	flat	_	_
@@ -122,7 +122,7 @@
 19	para	_	ADP	ADP	_	20	mark	_	_
 20	tentar	tentar	VERB	VERB	_	9	advcl	_	_
 21	vencer	vencer	VERB	VERB	_	20	xcomp	_	_
-22	as	o	DET	DET	_	23	det	_	_
+22	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
 23	resistências	resistência	NOUN	NOUN	_	21	obj	_	SpaceAfter=No
 24	.	.	PUNCT	.	_	9	punct	_	_
 
@@ -149,7 +149,7 @@
 4	gol	gol	NOUN	NOUN	_	3	obj	_	_
 5	em	em	ADP	ADP	_	8	case	_	_
 6	todas	_	DET	DET	_	8	det	_	_
-7	as	o	DET	DET	_	8	det	_	_
+7	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
 8	partidas	partida	NOUN	NOUN	_	3	nmod	_	SpaceAfter=No
 9	.	.	PUNCT	.	_	2	punct	_	_
 
@@ -173,7 +173,7 @@
 1	Desde	_	ADP	ADP	_	2	case	_	_
 2	2010	_	NUM	NUM	NumType=Card	9	nmod	_	SpaceAfter=No
 3	,	,	PUNCT	.	_	2	punct	_	_
-4	a	o	DET	DET	_	5	det	_	_
+4	a	o	DET	DET	PronType=Art	5	det	_	_
 5	equipe	equipe	NOUN	NOUN	_	9	nsubj	_	_
 6-7	da	_	_	_	_	_	_	_	_
 6	de	de	ADP	ADP	_	8	case	_	_

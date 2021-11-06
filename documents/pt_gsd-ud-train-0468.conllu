@@ -1,6 +1,6 @@
 # sent_id = train-s4645
 # text = As ações que serão realizadas em cada estado devem ser definidas a partir da próxima semana.
-1	As	o	DET	DET	_	2	det	_	_
+1	As	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	ações	ação	NOUN	NOUN	_	11	nsubj:pass	_	_
 3	que	_	PRON	PRON	_	5	nsubj:pass	_	_
 4	serão	ser	AUX	AUX	_	5	aux:pass	_	_
@@ -54,7 +54,7 @@
 1	Em	em	ADP	ADP	_	2	case	_	_
 2	1963	_	NUM	NUM	NumType=Card	7	nmod	_	SpaceAfter=No
 3	,	,	PUNCT	.	_	2	punct	_	_
-4	a	o	DET	DET	_	5	det	_	_
+4	a	o	DET	DET	PronType=Art	5	det	_	_
 5	Costa	_	PROPN	PNOUN	_	7	nsubj	_	_
 6	Rica	_	PROPN	PNOUN	_	5	amod	_	_
 7	ingressou	ingressar	VERB	VERB	_	0	root	_	_
@@ -73,7 +73,7 @@
 
 # sent_id = train-s4648
 # text = A organização do maior e mais prestigiado festival mundial de reconhecimento da excelência criativa em comunicação de marcas definiu que a Coca - Cola receberá o troféu Creative Marketer of the Year em 2013.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	organização	organização	NOUN	NOUN	_	21	nsubj	_	_
 3-4	do	_	_	_	_	_	_	_	_
 3	de	de	ADP	ADP	_	9	case	_	_
@@ -97,7 +97,7 @@
 20	marcas	marca	NOUN	NOUN	_	18	nmod	_	_
 21	definiu	definir	VERB	VERB	_	0	root	_	_
 22	que	que	CCONJ	CONJ	_	27	mark	_	_
-23	a	o	DET	DET	_	24	det	_	_
+23	a	o	DET	DET	PronType=Art	24	det	_	_
 24	Coca	_	PROPN	PNOUN	_	27	nsubj	_	_
 25	-	-	PUNCT	.	_	24	punct	_	_
 26	Cola	_	PROPN	PNOUN	_	24	flat	_	_
@@ -128,17 +128,17 @@
 11	,	,	PUNCT	.	_	7	punct	_	_
 12	que	_	PRON	PRON	_	15	nsubj	_	_
 13	são	ser	AUX	AUX	_	15	cop	_	_
-14	as	o	DET	DET	_	15	det	_	_
+14	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
 15	drogas	droga	NOUN	NOUN	_	7	acl:relcl	_	_
 16	legais	legal	ADJ	ADJ	_	15	amod	_	SpaceAfter=No
 17	,	,	PUNCT	.	_	15	punct	_	_
 18	são	ser	AUX	AUX	_	20	cop	_	_
-19	a	o	DET	DET	_	20	det	_	_
+19	a	o	DET	DET	PronType=Art	20	det	_	_
 20	porta	porta	NOUN	NOUN	_	4	ccomp	_	_
 21	de	de	ADP	ADP	_	22	case	_	_
 22	entrada	entrada	NOUN	NOUN	_	20	nmod	_	_
 23	para	para	ADP	ADP	_	25	case	_	_
-24	as	o	DET	DET	_	25	det	_	_
+24	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	25	det	_	_
 25	drogas	droga	NOUN	NOUN	_	20	nmod	_	_
 26	ilegais	ilegal	ADJ	ADJ	_	25	amod	_	SpaceAfter=No
 27	"	"	PUNCT	.	_	4	punct	_	SpaceAfter=No
@@ -221,7 +221,7 @@
 1	De	_	ADP	ADP	_	2	case	_	_
 2	acordo	acordo	NOUN	NOUN	_	13	nmod	_	_
 3	com	com	ADP	ADP	_	5	case	_	_
-4	a	o	DET	DET	_	5	det	_	_
+4	a	o	DET	DET	PronType=Art	5	det	_	_
 5	Prefeitura	_	PROPN	PNOUN	_	2	nmod	_	_
 6	de	de	ADP	ADP	_	7	case	_	_
 7	Duque	_	PROPN	PNOUN	_	5	nmod	_	_
@@ -267,7 +267,7 @@
 12	mandantes	mandante	ADJ	ADJ	_	11	amod	_	_
 13	"	"	PUNCT	.	_	14	punct	_	SpaceAfter=No
 14	deram	dar	VERB	VERB	_	0	root	_	_
-15	as	o	DET	DET	_	16	det	_	_
+15	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
 16	cartas	carta	NOUN	NOUN	_	14	obj	_	SpaceAfter=No
 17	"	"	PUNCT	.	_	14	punct	_	_
 18-19	na	_	_	_	_	_	_	_	_

@@ -31,7 +31,7 @@
 8	alguns	_	DET	DET	_	9	det	_	_
 9	álbuns	álbum	NOUN	NOUN	_	7	obj	_	_
 10	para	para	ADP	ADP	_	12	case	_	_
-11	a	o	DET	DET	_	12	det	_	_
+11	a	o	DET	DET	PronType=Art	12	det	_	_
 12	rainha	_	NOUN	NOUN	_	7	nmod	_	_
 13-14	da	_	_	_	_	_	_	_	_
 13	de	de	ADP	ADP	_	15	case	_	_
@@ -86,7 +86,7 @@
 
 # sent_id = train-s8004
 # text = As observações foram feitas por Brigitte Bailleul -- vencedora do concurso Tuíte até ao VLT!
-1	As	o	DET	DET	_	2	det	_	_
+1	As	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	observações	observação	NOUN	NOUN	_	4	nsubj:pass	_	_
 3	foram	_	AUX	AUX	_	4	aux:pass	_	_
 4	feitas	_	VERB	VERB	_	0	root	_	_
@@ -149,7 +149,7 @@
 35	estado	estado	NOUN	NOUN	_	31	nmod	_	SpaceAfter=No
 36	,	,	PUNCT	.	_	39	punct	_	_
 37	sobre	_	ADP	ADP	_	39	case	_	_
-38	a	o	DET	DET	_	39	det	_	_
+38	a	o	DET	DET	PronType=Art	39	det	_	_
 39	origem	origem	NOUN	NOUN	_	28	nmod	_	_
 40-41	da	_	_	_	_	_	_	_	_
 40	de	de	ADP	ADP	_	42	case	_	_
@@ -169,7 +169,7 @@
 8	seria	_	VERB	VERB	_	0	root	_	_
 9	possível	possível	ADJ	ADJ	_	8	xcomp	_	_
 10	abater	abater	VERB	VERB	_	8	csubj	_	_
-11	a	o	DET	DET	_	12	det	_	_
+11	a	o	DET	DET	PronType=Art	12	det	_	_
 12	pena	_	NOUN	NOUN	_	10	obj	_	_
 13	e	e	CCONJ	CONJ	_	17	cc	_	SpaceAfter=No
 14	,	,	PUNCT	.	_	15	punct	_	_

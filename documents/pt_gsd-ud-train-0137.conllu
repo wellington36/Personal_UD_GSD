@@ -93,7 +93,7 @@
 # sent_id = train-s1361
 # text = "A ré Geiza Dias exercia mera função burocrática e subalterna na empresa, e não de caráter de direção.
 1	"	"	PUNCT	.	_	6	punct	_	SpaceAfter=No
-2	A	o	DET	DET	_	3	det	_	_
+2	A	o	DET	DET	PronType=Art	3	det	_	_
 3	ré	_	NOUN	NOUN	_	6	nsubj	_	_
 4	Geiza	_	PROPN	PNOUN	_	3	appos	_	_
 5	Dias	_	PROPN	PNOUN	_	4	flat	_	_
@@ -127,10 +127,10 @@
 7	grandes	grande	ADJ	ADJ	_	8	amod	_	_
 8	eventos	evento	NOUN	NOUN	_	6	obj	_	_
 9	como	como	ADP	ADP	_	11	case	_	_
-10	as	o	DET	DET	_	11	det	_	_
+10	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
 11	Olimpíadas	_	PROPN	PNOUN	_	8	nmod	_	_
 12	e	e	CCONJ	CONJ	_	14	cc	_	_
-13	a	o	DET	DET	_	14	det	_	_
+13	a	o	DET	DET	PronType=Art	14	det	_	_
 14	Copa	_	PROPN	PNOUN	_	11	conj	_	_
 15-16	do	_	_	_	_	_	_	_	_
 15	de	de	ADP	ADP	_	17	case	_	_
@@ -244,7 +244,7 @@
 52	,	,	PUNCT	.	_	45	punct	_	_
 53	que	_	PRON	PRON	_	54	nsubj	_	_
 54	impede	impedir	VERB	VERB	_	41	acl:relcl	_	_
-55	a	o	DET	DET	_	56	det	_	_
+55	a	o	DET	DET	PronType=Art	56	det	_	_
 56	candidatura	candidatura	NOUN	NOUN	_	54	obj	_	_
 57	de	de	ADP	ADP	_	58	case	_	_
 58	políticos	político	NOUN	NOUN	_	56	nmod	_	_
@@ -256,12 +256,12 @@
 
 # sent_id = train-s1365
 # text = A Continental se fundiu com a United em 2010.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	Continental	_	PROPN	PNOUN	_	4	nsubj	_	_
 3	se	_	PRON	PRON	_	4	expl:pv	_	_
 4	fundiu	fundir	VERB	VERB	_	0	root	_	_
 5	com	com	ADP	ADP	_	7	case	_	_
-6	a	o	DET	DET	_	7	det	_	_
+6	a	o	DET	DET	PronType=Art	7	det	_	_
 7	United	_	PROPN	PNOUN	_	4	nmod	_	_
 8	em	em	ADP	ADP	_	9	case	_	_
 9	2010	_	NUM	NUM	NumType=Card	4	nmod	_	SpaceAfter=No
@@ -326,7 +326,7 @@
 18	de	de	ADP	ADP	_	20	case	_	_
 19	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
 20	americanos	americano	NOUN	NOUN	_	17	nmod	_	_
-21	a	o	DET	DET	_	22	det	_	_
+21	a	o	DET	DET	PronType=Art	22	det	_	_
 22	medalha	medalha	NOUN	NOUN	_	17	obj	_	_
 23	de	de	ADP	ADP	_	24	case	_	_
 24	ouro	ouro	NOUN	NOUN	_	22	nmod	_	SpaceAfter=No

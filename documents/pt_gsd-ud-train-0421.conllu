@@ -1,7 +1,7 @@
 # sent_id = train-s4177
 # text = Segundo a Eurostat, 20 nações da UE registraram aumento recorde na dívida durante o segundo trimestre.
 1	Segundo	_	ADP	ADP	_	3	case	_	_
-2	a	o	DET	DET	_	3	det	_	_
+2	a	o	DET	DET	PronType=Art	3	det	_	_
 3	Eurostat	_	PROPN	PNOUN	_	10	nmod	_	SpaceAfter=No
 4	,	,	PUNCT	.	_	3	punct	_	_
 5	20	_	NUM	NUM	NumType=Card	6	nummod	_	_
@@ -80,7 +80,7 @@
 12	"	"	PUNCT	.	_	2	punct	_	SpaceAfter=No
 13	,	,	PUNCT	.	_	14	punct	_	_
 14	declara	declarar	VERB	VERB	_	0	root	_	_
-15	a	o	DET	DET	_	16	det	_	_
+15	a	o	DET	DET	PronType=Art	16	det	_	_
 16	SMDU	_	PROPN	PNOUN	_	14	nsubj	_	SpaceAfter=No
 17	.	.	PUNCT	.	_	14	punct	_	_
 
@@ -109,7 +109,7 @@
 18	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
 19	provas	prova	NOUN	NOUN	_	16	nmod	_	_
 20	e	e	CCONJ	CONJ	_	22	cc	_	_
-21	a	o	DET	DET	_	22	det	_	_
+21	a	o	DET	DET	PronType=Art	22	det	_	_
 22	decisão	decisão	NOUN	NOUN	_	19	conj	_	_
 23	quanto	quanto	ADV	ADV	_	22	advmod	_	_
 24-25	aos	_	_	_	_	_	_	_	_
@@ -196,7 +196,7 @@
 
 # sent_id = train-s4184
 # text = As commodities agropecuárias (carne de boi e de porco, algodão, óleo de soja, trigo, açúcar, milho, café e arroz) tiveram aumento de 0,73 %.
-1	As	o	DET	DET	_	2	det	_	_
+1	As	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	commodities	commodities	NOUN	NOUN	_	28	nsubj	_	_
 3	agropecuárias	agropecuário	ADJ	ADJ	_	2	amod	_	_
 4	(	(	PUNCT	.	_	5	punct	_	SpaceAfter=No

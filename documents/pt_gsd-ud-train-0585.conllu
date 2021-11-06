@@ -16,7 +16,7 @@
 5	também	também	ADV	ADV	_	6	advmod	_	_
 6	está	estar	VERB	VERB	_	0	root	_	_
 7	prevista	previsto	ADJ	ADJ	_	6	xcomp	_	_
-8	a	o	DET	DET	_	9	det	_	_
+8	a	o	DET	DET	PronType=Art	9	det	_	_
 9	informatização	informatização	NOUN	NOUN	_	6	nsubj	_	_
 10-11	do	_	_	_	_	_	_	_	_
 10	de	de	ADP	ADP	_	12	case	_	_
@@ -107,7 +107,7 @@
 8	e	e	CCONJ	CONJ	_	9	cc	_	_
 9	incluem	incluir	VERB	VERB	_	4	conj	_	_
 10	todas	_	DET	DET	_	12	det	_	_
-11	as	o	DET	DET	_	12	det	_	_
+11	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
 12	soluções	solução	NOUN	NOUN	_	9	obj	_	_
 13	necessárias	necessário	ADJ	ADJ	_	12	amod	_	_
 14	de	de	ADP	ADP	_	15	case	_	_

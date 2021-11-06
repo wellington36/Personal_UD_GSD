@@ -59,7 +59,7 @@
 # sent_id = train-s1111
 # text = "A área recuperada hoje está na média dum pra um, ou seja, já foi recuperada uma área do mesmo tamanho da que foi suprimida", explica Sandra Moreira.
 1	"	"	PUNCT	.	_	6	punct	_	SpaceAfter=No
-2	A	o	DET	DET	_	3	det	_	_
+2	A	o	DET	DET	PronType=Art	3	det	_	_
 3	área	área	NOUN	NOUN	_	6	nsubj	_	_
 4	recuperada	recuperar	VERB	VERB	_	3	acl	_	_
 5	hoje	hoje	ADV	ADV	_	4	advmod	_	_
@@ -154,7 +154,7 @@
 9	"	"	PUNCT	.	_	2	punct	_	SpaceAfter=No
 10	,	,	PUNCT	.	_	11	punct	_	_
 11	diz	dizer	VERB	VERB	_	0	root	_	_
-12	a	o	DET	DET	_	13	det	_	_
+12	a	o	DET	DET	PronType=Art	13	det	_	_
 13	moradora	morador	NOUN	NOUN	_	11	nsubj	_	SpaceAfter=No
 14	.	.	PUNCT	.	_	11	punct	_	_
 
@@ -217,7 +217,7 @@
 38	que	que	CCONJ	CONJ	_	39	mark	_	_
 39	é	ser	VERB	VERB	_	37	ccomp	_	_
 40	crescente	crescente	ADJ	ADJ	_	39	xcomp	_	_
-41	a	o	DET	DET	_	42	det	_	_
+41	a	o	DET	DET	PronType=Art	42	det	_	_
 42	participação	participação	NOUN	NOUN	_	39	nsubj	_	_
 43	de	de	ADP	ADP	_	44	case	_	_
 44	pecuaristas	pecuarista	NOUN	NOUN	_	42	nmod	_	_
@@ -232,7 +232,7 @@
 
 # sent_id = train-s1117
 # text = A perspectiva foi publicada no relatório trimestral de inflação, o último do ano.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	perspectiva	perspectiva	NOUN	NOUN	_	4	nsubj:pass	_	_
 3	foi	_	AUX	AUX	_	4	aux:pass	_	_
 4	publicada	publicar	VERB	VERB	_	0	root	_	_

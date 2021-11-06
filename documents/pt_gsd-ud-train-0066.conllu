@@ -12,7 +12,7 @@
 9	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 10	violência	violência	NOUN	NOUN	_	7	nmod	_	_
 11	contra	_	ADP	ADP	_	13	case	_	_
-12	as	o	DET	DET	_	13	det	_	_
+12	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
 13	agências	agência	NOUN	NOUN	_	10	nmod	_	_
 14	bancárias	bancário	ADJ	ADJ	_	13	amod	_	_
 15-16	na	_	_	_	_	_	_	_	_
@@ -28,7 +28,7 @@
 3	o	o	DET	DET	_	4	det	_	_
 4	treinador	treinador	NOUN	NOUN	_	5	nsubj	_	_
 5	comandará	comandar	VERB	VERB	_	0	root	_	_
-6	a	o	DET	DET	_	7	det	_	_
+6	a	o	DET	DET	PronType=Art	7	det	_	_
 7	equipe	equipe	NOUN	NOUN	_	5	obj	_	_
 8	nacional	nacional	ADJ	ADJ	_	7	amod	_	_
 9	em	em	ADP	ADP	_	10	case	_	_
@@ -236,7 +236,7 @@
 5	literatura	literatura	NOUN	NOUN	_	3	conj	_	SpaceAfter=No
 6	,	,	PUNCT	.	_	9	punct	_	_
 7	tanto	tanto	ADV	ADV	_	9	cc	_	_
-8	a	o	DET	DET	_	9	det	_	_
+8	a	o	DET	DET	PronType=Art	9	det	_	_
 9	faculdade	faculdade	NOUN	NOUN	_	3	appos	_	_
 10	quanto	_	CCONJ	CONJ	_	12	cc	_	_
 11	a	o	DET	DET	_	12	det	_	_

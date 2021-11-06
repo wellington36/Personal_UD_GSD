@@ -55,7 +55,7 @@
 
 # sent_id = train-s5710
 # text = A negociação previa que os compradores arcariam com os custos e responsabilidade da regularização de 100 % da área junto aos órgãos públicos.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	negociação	negociação	NOUN	NOUN	_	3	nsubj	_	_
 3	previa	prever	VERB	VERB	_	0	root	_	_
 4	que	que	CCONJ	CONJ	_	7	mark	_	_
@@ -150,7 +150,7 @@
 52	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	53	det	_	_
 53	Cras	_	PROPN	PNOUN	_	47	nmod	_	SpaceAfter=No
 54	,	,	PUNCT	.	_	56	punct	_	_
-55	a	o	DET	DET	_	56	det	_	_
+55	a	o	DET	DET	PronType=Art	56	det	_	_
 56	avaliação	avaliação	NOUN	NOUN	_	47	conj	_	_
 57	qualitativa	qualitativo	ADJ	ADJ	_	56	amod	_	_
 58	e	e	CCONJ	CONJ	_	59	cc	_	_
@@ -228,7 +228,7 @@
 12	de	de	ADP	ADP	_	13	case	_	_
 13	suprimentos	suprimento	NOUN	NOUN	_	11	nmod	_	_
 14	para	para	ADP	ADP	_	16	case	_	_
-15	a	o	DET	DET	_	16	det	_	_
+15	a	o	DET	DET	PronType=Art	16	det	_	_
 16	fronteira	_	NOUN	NOUN	_	10	nmod	_	_
 17	entre	_	ADP	ADP	_	20	case	_	_
 18	os	o	DET	DET	_	20	det	_	_
@@ -242,7 +242,7 @@
 2	Temos	ter	AUX	AUX	_	4	aux	_	_
 3	que	que	CCONJ	CONJ	_	4	mark	_	_
 4	enfrentar	enfrentar	VERB	VERB	_	0	root	_	_
-5	a	o	DET	DET	_	6	det	_	_
+5	a	o	DET	DET	PronType=Art	6	det	_	_
 6	Ponte	_	PROPN	PNOUN	_	4	obj	_	_
 7	Preta	_	PROPN	PNOUN	_	6	amod	_	_
 8	como	como	ADP	ADP	_	10	case	_	_
@@ -270,7 +270,7 @@
 4	antigos	antigo	ADJ	ADJ	_	3	amod	_	_
 5	casamento	casamento	NOUN	NOUN	_	6	nsubj	_	_
 6	significa	significar	VERB	VERB	_	0	root	_	_
-7	a	o	DET	DET	_	8	det	_	_
+7	a	o	DET	DET	PronType=Art	8	det	_	_
 8	união	união	NOUN	NOUN	_	6	obj	_	_
 9-10	dum	_	_	_	_	_	_	_	_
 9	de	de	ADP	ADP	_	11	case	_	_
@@ -311,7 +311,7 @@
 43	escrito	escrito	ADJ	ADJ	_	42	xcomp	_	SpaceAfter=No
 44	:	:	PUNCT	.	_	39	punct	_	_
 45	"	"	PUNCT	.	_	59	punct	_	SpaceAfter=No
-46	A	o	DET	DET	_	47	det	_	_
+46	A	o	DET	DET	PronType=Art	47	det	_	_
 47	palavra	palavra	NOUN	NOUN	_	59	nsubj	_	_
 48	matrimônio	matrimônio	NOUN	NOUN	_	47	appos	_	SpaceAfter=No
 49	,	,	PUNCT	.	_	53	punct	_	_
@@ -373,7 +373,7 @@
 10	cabos	cabo	NOUN	NOUN	_	12	nsubj	_	_
 11	sempre	sempre	ADV	ADV	_	12	advmod	_	_
 12	pediam	pedir	VERB	VERB	_	19	ccomp	_	_
-13	a	o	DET	DET	_	14	det	_	_
+13	a	o	DET	DET	PronType=Art	14	det	_	_
 14	permissão	permissão	NOUN	NOUN	_	12	obj	_	_
 15-16	dos	_	_	_	_	_	_	_	_
 15	de	de	ADP	ADP	_	17	case	_	_
@@ -399,12 +399,12 @@
 1	Àquela	_	ADP	ADP	_	2	case	_	_
 2	época	época	NOUN	NOUN	_	7	nmod	_	SpaceAfter=No
 3	,	,	PUNCT	.	_	2	punct	_	_
-4	as	o	DET	DET	_	5	det	_	_
+4	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
 5	dificuldades	dificuldade	NOUN	NOUN	_	7	nsubj	_	_
 6	técnicas	técnico	ADJ	ADJ	_	5	amod	_	_
 7	imperavam	imperar	VERB	VERB	_	0	root	_	_
 8	sobre	_	ADP	ADP	_	10	case	_	_
-9	as	o	DET	DET	_	10	det	_	_
+9	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
 10	telecomunicações	telecomunicação	NOUN	NOUN	_	7	nmod	_	SpaceAfter=No
 11	,	,	PUNCT	.	_	15	punct	_	_
 12	complicando	complicar	VERB	VERB	_	15	case	_	_

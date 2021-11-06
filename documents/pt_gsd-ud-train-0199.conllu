@@ -1,6 +1,6 @@
 # sent_id = train-s1975
 # text = A determinação da Justiça Federal é que as cerca de sete mil famílias deixem o local até o dia 1 º de outubro deste ano.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	determinação	determinação	NOUN	NOUN	_	0	root	_	_
 3-4	da	_	_	_	_	_	_	_	_
 3	de	de	ADP	ADP	_	5	case	_	_
@@ -9,7 +9,7 @@
 6	Federal	_	PROPN	PNOUN	_	5	amod	_	_
 7	é	ser	AUX	AUX	_	2	cop	_	_
 8	que	que	CCONJ	CONJ	_	15	mark	_	_
-9	as	o	DET	DET	_	14	det	_	_
+9	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
 10	cerca	cerca	ADV	ADV	_	13	advmod	_	_
 11	de	de	ADP	ADP	_	10	case	_	_
 12	sete	_	NUM	NUM	NumType=Card	13	nummod	_	_
@@ -75,7 +75,7 @@
 5	tornou	tornar	AUX	AUX	_	6	cop	_	_
 6	realidade	realidade	NOUN	NOUN	_	20	ccomp	_	SpaceAfter=No
 7	:	:	PUNCT	.	_	6	punct	_	_
-8	a	o	DET	DET	_	9	det	_	_
+8	a	o	DET	DET	PronType=Art	9	det	_	_
 9	Irmandade	_	PROPN	PNOUN	_	11	nsubj	_	_
 10	Muçulmana	_	PROPN	PNOUN	_	9	amod	_	_
 11	está	estar	VERB	VERB	_	6	parataxis	_	_
@@ -173,7 +173,7 @@
 16	Zara	_	PROPN	PNOUN	_	13	nmod	_	SpaceAfter=No
 17	,	,	PUNCT	.	_	20	punct	_	_
 18	inclusive	inclusive	ADV	ADV	_	20	advmod	_	_
-19	a	o	DET	DET	_	20	det	_	_
+19	a	o	DET	DET	PronType=Art	20	det	_	_
 20	situada	_	NOUN	NOUN	_	13	appos	_	_
 21-22	na	_	_	_	_	_	_	_	_
 21	em	em	ADP	ADP	_	23	case	_	_
@@ -187,7 +187,7 @@
 # text = Vamos aumentar as proibições ", avisou.
 1	Vamos	ir	AUX	AUX	_	2	aux	_	_
 2	aumentar	aumentar	VERB	VERB	_	7	ccomp	_	_
-3	as	o	DET	DET	_	4	det	_	_
+3	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
 4	proibições	proibição	NOUN	NOUN	_	2	obj	_	_
 5	"	"	PUNCT	.	_	2	punct	_	SpaceAfter=No
 6	,	,	PUNCT	.	_	7	punct	_	_

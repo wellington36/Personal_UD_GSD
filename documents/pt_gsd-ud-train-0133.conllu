@@ -40,7 +40,7 @@
 6	Assembleia	_	PROPN	PNOUN	_	1	nmod	_	_
 7	Legislativa	_	PROPN	PNOUN	_	6	amod	_	SpaceAfter=No
 8	,	,	PUNCT	.	_	1	punct	_	_
-9	a	o	DET	DET	_	10	det	_	_
+9	a	o	DET	DET	PronType=Art	10	det	_	_
 10	lei	lei	NOUN	NOUN	_	11	nsubj	_	_
 11	beneficiará	beneficiar	VERB	VERB	_	0	root	_	_
 12	famílias	família	NOUN	NOUN	_	11	obj	_	_
@@ -190,7 +190,7 @@
 
 # sent_id = train-s1324
 # text = A maioria dos acordos foi na área trabalhista.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	maioria	maioria	NOUN	NOUN	_	6	nsubj	_	_
 3-4	dos	_	_	_	_	_	_	_	_
 3	de	de	ADP	ADP	_	5	case	_	_

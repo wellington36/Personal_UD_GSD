@@ -7,7 +7,7 @@
 5	5,6,7,8	_	PROPN	PNOUN	_	3	appos	_	SpaceAfter=No
 6	"	"	PUNCT	.	_	5	punct	_	_
 7	seguiu	seguir	VERB	VERB	_	0	root	_	_
-8	a	o	DET	DET	_	9	det	_	_
+8	a	o	DET	DET	PronType=Art	9	det	_	_
 9	linha	_	NOUN	NOUN	_	7	obj	_	_
 10	de	de	ADP	ADP	_	11	case	_	_
 11	dança	dança	NOUN	NOUN	_	9	nmod	_	_
@@ -98,7 +98,7 @@
 20	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	21	det	_	_
 21	pesquisas	pesquisa	NOUN	NOUN	_	18	nmod	_	_
 22	e	e	CCONJ	CONJ	_	24	cc	_	_
-23	as	o	DET	DET	_	24	det	_	_
+23	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	24	det	_	_
 24	agências	agência	NOUN	NOUN	_	13	conj	_	_
 25	de	de	ADP	ADP	_	26	case	_	_
 26	fomento	fomento	NOUN	NOUN	_	24	nmod	_	SpaceAfter=No
@@ -143,10 +143,10 @@
 21	brasileiro	brasileiro	ADJ	ADJ	_	20	amod	_	_
 22	a	_	ADP	ADP	_	23	mark	_	_
 23	retomar	retomar	VERB	VERB	_	18	nmod	_	_
-24	as	o	DET	DET	_	25	det	_	_
+24	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	25	det	_	_
 25	conversas	_	NOUN	NOUN	_	23	obj	_	_
 26	sobre	_	ADP	ADP	_	28	case	_	_
-27	a	o	DET	DET	_	28	det	_	_
+27	a	o	DET	DET	PronType=Art	28	det	_	_
 28	compra	compra	NOUN	NOUN	_	25	nmod	_	_
 29-30	dos	_	_	_	_	_	_	_	_
 29	de	de	ADP	ADP	_	31	case	_	_

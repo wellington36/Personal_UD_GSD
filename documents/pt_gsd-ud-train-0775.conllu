@@ -8,7 +8,7 @@
 5	por	por	ADP	ADP	_	7	case	_	_
 6	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	qual	_	PRON	PRON	_	15	nmod	_	_
-8	a	o	DET	DET	_	9	det	_	_
+8	a	o	DET	DET	PronType=Art	9	det	_	_
 9	palavra	palavra	NOUN	NOUN	_	15	nsubj	_	_
 10	Kurmanji	_	PROPN	PNOUN	_	9	appos	_	SpaceAfter=No
 11	,	,	PUNCT	.	_	13	punct	_	_
@@ -111,7 +111,7 @@
 12	Administração	_	PROPN	PNOUN	_	9	nmod	_	_
 13	Pública	_	PROPN	PNOUN	_	12	amod	_	_
 14	há	haver	VERB	VERB	_	1	ccomp	_	_
-15	a	o	DET	DET	_	16	det	_	_
+15	a	o	DET	DET	PronType=Art	16	det	_	_
 16	possibilidade	possibilidade	NOUN	NOUN	_	14	obj	_	_
 17	de	de	ADP	ADP	_	18	case	_	_
 18	negociação	negociação	NOUN	NOUN	_	16	nmod	_	_
@@ -198,7 +198,7 @@
 13	ficaram	ficar	VERB	VERB	_	0	root	_	_
 14	impressionados	impressionado	ADJ	ADJ	_	13	xcomp	_	_
 15	com	com	ADP	ADP	_	17	case	_	_
-16	a	o	DET	DET	_	17	det	_	_
+16	a	o	DET	DET	PronType=Art	17	det	_	_
 17	diversidade	diversidade	NOUN	NOUN	_	14	nmod	_	_
 18	e	e	CCONJ	CONJ	_	19	cc	_	_
 19	riqueza	riqueza	NOUN	NOUN	_	17	conj	_	_
@@ -210,11 +210,11 @@
 24	,	,	PUNCT	.	_	26	punct	_	_
 25	pois	_	CCONJ	CONJ	_	26	mark	_	_
 26	leram	ler	VERB	VERB	_	13	advcl	_	_
-27	as	o	DET	DET	_	28	det	_	_
+27	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	28	det	_	_
 28	produções	produção	NOUN	NOUN	_	26	obj	_	_
 29	e	e	CCONJ	CONJ	_	30	cc	_	_
 30	apreciaram	apreciar	VERB	VERB	_	26	conj	_	_
-31	as	o	DET	DET	_	32	det	_	_
+31	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	32	det	_	_
 32	atividades	atividade	NOUN	NOUN	_	30	obj	_	_
 33	plásticas	plástico	ADJ	ADJ	_	32	amod	_	SpaceAfter=No
 34	,	,	PUNCT	.	_	35	punct	_	_
@@ -247,7 +247,7 @@
 9	país	país	NOUN	NOUN	_	4	nmod	_	SpaceAfter=No
 10	,	,	PUNCT	.	_	13	punct	_	_
 11	segundo	_	ADP	ADP	_	13	case	_	_
-12	a	o	DET	DET	_	13	det	_	_
+12	a	o	DET	DET	PronType=Art	13	det	_	_
 13	revista	revista	NOUN	NOUN	_	4	nmod	_	_
 14	Forbes	_	PROPN	PNOUN	_	13	appos	_	SpaceAfter=No
 15	,	,	PUNCT	.	_	19	punct	_	_
@@ -255,7 +255,7 @@
 17	em	em	ADP	ADP	_	18	case	_	_
 18	março	_	PROPN	PNOUN	_	19	nmod	_	_
 19	avaliou	avaliar	VERB	VERB	_	13	acl:relcl	_	_
-20	a	o	DET	DET	_	22	det	_	_
+20	a	o	DET	DET	PronType=Art	22	det	_	_
 21	sua	_	DET	DET	_	22	det:poss	_	_
 22	fortuna	fortuna	NOUN	NOUN	_	19	obj	_	_
 23	em	em	ADP	ADP	_	29	case	_	_
@@ -326,7 +326,7 @@
 11	-	-	PUNCT	.	_	10	punct	_	_
 12	adjunto	adjunto	ADJ	ADJ	_	10	amod	_	SpaceAfter=No
 13	,	,	PUNCT	.	_	15	punct	_	_
-14-15	doutra	_	_	_	_	_	_	_	SpaceAfter=No
+14-15	doutra	_	_	_	_	_	_	_	_
 14	de	de	ADP	ADP	_	15	case	_	_
 15	outra	_	PRON	PRON	_	10	nmod	_	_
 16	.	.	PUNCT	.	_	4	punct	_	_

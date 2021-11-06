@@ -46,7 +46,7 @@
 13	por	_	ADP	ADP	_	15	mark	_	_
 14	ter	ter	AUX	AUX	_	15	aux	_	_
 15	acionado	acionar	VERB	VERB	_	8	advcl	_	_
-16	a	o	DET	DET	_	17	det	_	_
+16	a	o	DET	DET	PronType=Art	17	det	_	_
 17	Justiça	_	PROPN	PNOUN	_	15	obj	_	_
 18	para	_	ADP	ADP	_	19	mark	_	_
 19	jogar	jogar	VERB	VERB	_	15	advcl	_	_
@@ -59,7 +59,7 @@
 
 # sent_id = train-s3353
 # text = A principal derrotada pela proposta apresentada pelo país, a União Europeia, elogiou a atuação do país na negociação do "acordo possível".
-1	A	o	DET	DET	_	3	det	_	_
+1	A	o	DET	DET	PronType=Art	3	det	_	_
 2	principal	principal	ADJ	ADJ	_	3	amod	_	_
 3	derrotada	_	NOUN	NOUN	_	16	nsubj	_	_
 4-5	pela	_	_	_	_	_	_	_	_
@@ -72,12 +72,12 @@
 9	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	país	país	NOUN	NOUN	_	7	nmod	_	SpaceAfter=No
 11	,	,	PUNCT	.	_	13	punct	_	_
-12	a	o	DET	DET	_	13	det	_	_
+12	a	o	DET	DET	PronType=Art	13	det	_	_
 13	União	_	PROPN	PNOUN	_	3	appos	_	_
 14	Europeia	_	PROPN	PNOUN	_	13	amod	_	SpaceAfter=No
 15	,	,	PUNCT	.	_	13	punct	_	_
 16	elogiou	elogiar	VERB	VERB	_	0	root	_	_
-17	a	o	DET	DET	_	18	det	_	_
+17	a	o	DET	DET	PronType=Art	18	det	_	_
 18	atuação	atuação	NOUN	NOUN	_	16	obj	_	_
 19-20	do	_	_	_	_	_	_	_	_
 19	de	de	ADP	ADP	_	21	case	_	_
@@ -211,7 +211,7 @@
 
 # sent_id = train-s3357
 # text = As importações também diminuíram (10,0 %), atingindo US $ 1,49 bilhão.
-1	As	o	DET	DET	_	2	det	_	_
+1	As	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	importações	importação	NOUN	NOUN	_	4	nsubj	_	_
 3	também	também	ADV	ADV	_	4	advmod	_	_
 4	diminuíram	diminuir	VERB	VERB	_	0	root	_	_
@@ -259,7 +259,7 @@
 
 # sent_id = train-s3360
 # text = A FIM (Federação Internacional de Motociclismo) anunciou que criará um sistema de punição aos pilotos que se envolverem em problemas disciplinares nas provas da MotoGP, 2 e 3 a partir do próximo ano.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	FIM	fim	NOUN	NOUN	_	9	nsubj	_	_
 3	(	(	PUNCT	.	_	4	punct	_	SpaceAfter=No
 4	Federação	_	PROPN	PNOUN	_	2	appos	_	_

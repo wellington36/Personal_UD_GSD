@@ -1,6 +1,6 @@
 # sent_id = train-s1589
 # text = A proposta prevê aumentos que variam entre 25 % e 40 % sobre os salários de março, já reajustados, a serem pagos em 2013, 2014 e 2015, na proporção de 50 %, 30 % e 20 %.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	proposta	_	NOUN	NOUN	_	3	nsubj	_	_
 3	prevê	prever	VERB	VERB	_	0	root	_	_
 4	aumentos	aumento	NOUN	NOUN	_	3	obj	_	_
@@ -173,7 +173,7 @@
 
 # sent_id = train-s1593
 # text = As cantoras estiveram num estúdio em Fortaleza, para gravação da música que tem arranjos e influências do forró eletrônico.
-1	As	o	DET	DET	_	2	det	_	_
+1	As	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	cantoras	cantor	NOUN	NOUN	_	3	nsubj	_	_
 3	estiveram	estar	VERB	VERB	_	0	root	_	_
 4-5	num	_	_	_	_	_	_	_	_
@@ -276,7 +276,7 @@
 2	Desde	_	ADP	ADP	_	4	mark	_	_
 3	que	_	CCONJ	CONJ	_	2	fixed	_	_
 4	assumi	assumir	VERB	VERB	_	8	advcl	_	_
-5	a	o	DET	DET	_	6	det	_	_
+5	a	o	DET	DET	PronType=Art	6	det	_	_
 6	delegacia	delegacia	NOUN	NOUN	_	4	obj	_	SpaceAfter=No
 7	,	,	PUNCT	.	_	4	punct	_	_
 8	observei	observar	VERB	VERB	_	35	ccomp	_	_
@@ -297,13 +297,13 @@
 21	tipo	tipo	NOUN	NOUN	_	16	nmod	_	SpaceAfter=No
 22	,	,	PUNCT	.	_	23	punct	_	_
 23	tinham	ter	VERB	VERB	_	16	conj	_	_
-24	a	o	DET	DET	_	26	det	_	_
+24	a	o	DET	DET	PronType=Art	26	det	_	_
 25	mesma	mesmo	ADJ	ADJ	_	26	amod	_	_
 26	forma	forma	NOUN	NOUN	_	23	obj	_	_
 27	de	de	ADP	ADP	_	28	case	_	_
 28	embalagem	embalagem	NOUN	NOUN	_	26	nmod	_	_
 29	e	e	CCONJ	CONJ	_	32	cc	_	_
-30	a	o	DET	DET	_	32	det	_	_
+30	a	o	DET	DET	PronType=Art	32	det	_	_
 31	mesma	mesmo	ADJ	ADJ	_	32	amod	_	_
 32	textura	textura	NOUN	NOUN	_	26	conj	_	SpaceAfter=No
 33	"	"	PUNCT	.	_	8	punct	_	SpaceAfter=No

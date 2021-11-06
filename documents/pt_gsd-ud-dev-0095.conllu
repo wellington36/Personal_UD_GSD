@@ -113,7 +113,7 @@
 
 # sent_id = dev-s936
 # text = A causa exata é desconhecida, mas os cientistas acreditam que esteja ligada à genética.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	causa	causa	NOUN	NOUN	_	5	nsubj:pass	_	_
 3	exata	exato	ADJ	ADJ	_	2	amod	_	_
 4	é	ser	AUX	AUX	_	5	aux:pass	_	_
@@ -134,7 +134,7 @@
 
 # sent_id = dev-s937
 # text = As pedras são quase todas originais do final do século XIV, com pequenas reparações efetuadas na década de 1580.
-1	As	o	DET	DET	_	2	det	_	_
+1	As	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	pedras	pedra	NOUN	NOUN	_	5	nsubj	_	_
 3	são	ser	AUX	AUX	_	5	cop	_	_
 4	quase	quase	ADV	ADV	_	5	advmod	_	_
@@ -245,7 +245,7 @@
 
 # sent_id = dev-s941
 # text = A estrada está interrompida.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	estrada	estrada	NOUN	NOUN	_	3	nsubj	_	_
 3	está	estar	VERB	VERB	_	0	root	_	_
 4	interrompida	interrompido	ADJ	ADJ	_	3	xcomp	_	SpaceAfter=No

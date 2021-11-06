@@ -31,7 +31,7 @@
 10	de	de	ADP	ADP	_	11	case	_	_
 11	vanguarda	vanguarda	NOUN	NOUN	_	9	nmod	_	_
 12	para	para	ADP	ADP	_	14	case	_	_
-13	a	o	DET	DET	_	14	det	_	_
+13	a	o	DET	DET	PronType=Art	14	det	_	_
 14	sensibilização	sensibilização	NOUN	NOUN	_	9	nmod	_	_
 15-16	do	_	_	_	_	_	_	_	_
 15	de	de	ADP	ADP	_	17	case	_	_
@@ -94,7 +94,7 @@
 8	sentia	sentir	VERB	VERB	_	4	ccomp	_	_
 9	incomodada	incomodado	ADJ	ADJ	_	8	xcomp	_	_
 10	com	com	ADP	ADP	_	12	case	_	_
-11	a	o	DET	DET	_	12	det	_	_
+11	a	o	DET	DET	PronType=Art	12	det	_	_
 12	fama	fama	NOUN	NOUN	_	9	nmod	_	_
 13-14	do	_	_	_	_	_	_	_	_
 13	de	de	ADP	ADP	_	15	case	_	_
@@ -138,14 +138,14 @@
 21	policiais	policial	NOUN	NOUN	_	22	nsubj	_	_
 22	querem	querer	VERB	VERB	_	18	ccomp	_	_
 23	também	também	ADV	ADV	_	22	advmod	_	_
-24	a	o	DET	DET	_	25	det	_	_
+24	a	o	DET	DET	PronType=Art	25	det	_	_
 25	reestruturação	reestruturação	NOUN	NOUN	_	22	obj	_	_
 26-27	da	_	_	_	_	_	_	_	_
 26	de	de	ADP	ADP	_	28	case	_	_
 27	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
 28	carreira	_	NOUN	NOUN	_	25	nmod	_	_
 29	para	para	ADP	ADP	_	31	case	_	_
-30	as	o	DET	DET	_	31	det	_	_
+30	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	31	det	_	_
 31	funções	função	NOUN	NOUN	_	22	nmod	_	_
 32	de	de	ADP	ADP	_	33	case	_	_
 33	agentes	agente	NOUN	NOUN	_	31	nmod	_	SpaceAfter=No
@@ -184,7 +184,7 @@
 
 # sent_id = train-s5915
 # text = As exportações de produtos industrializados de Mato Grosso do Sul cresceram 2,8 % nos sete primeiros meses deste ano, em comparação com o mesmo período do ano anterior, somando receita de US $ 1,55 bilhão.
-1	As	o	DET	DET	_	2	det	_	_
+1	As	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	exportações	exportação	NOUN	NOUN	_	12	nsubj	_	_
 3	de	de	ADP	ADP	_	4	case	_	_
 4	produtos	produto	NOUN	NOUN	_	2	nmod	_	_

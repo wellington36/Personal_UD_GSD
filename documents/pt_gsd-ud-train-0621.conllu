@@ -152,7 +152,7 @@
 6	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	evento	evento	NOUN	NOUN	_	4	nmod	_	SpaceAfter=No
 8	,	,	PUNCT	.	_	4	punct	_	_
-9	a	o	DET	DET	_	10	det	_	_
+9	a	o	DET	DET	PronType=Art	10	det	_	_
 10	consultora	consultor	NOUN	NOUN	_	21	nsubj	_	_
 11-12	do	_	_	_	_	_	_	_	_
 11	de	de	ADP	ADP	_	13	case	_	_

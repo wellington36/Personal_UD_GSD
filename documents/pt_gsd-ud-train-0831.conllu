@@ -43,7 +43,7 @@
 
 # sent_id = train-s8252
 # text = A competição começa às 08h (horário de verão) de domingo.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	competição	competição	NOUN	NOUN	_	3	nsubj	_	_
 3	começa	_	VERB	VERB	_	0	root	_	_
 4-5	às	_	_	_	_	_	_	_	_
@@ -140,7 +140,7 @@
 33	projeto	projeto	NOUN	NOUN	_	34	nsubj	_	_
 34	vá	ir	VERB	VERB	_	24	conj	_	_
 35	para	para	ADP	ADP	_	37	case	_	_
-36	a	o	DET	DET	_	37	det	_	_
+36	a	o	DET	DET	PronType=Art	37	det	_	_
 37	sanção	sanção	NOUN	NOUN	_	34	nmod	_	SpaceAfter=No
 38	.	.	PUNCT	.	_	14	punct	_	_
 
@@ -239,7 +239,7 @@
 
 # sent_id = train-s8258
 # text = As reduções fazem parte das exigências dos credores do resgate de € 130 bilhões, entregue em fevereiro ao país.
-1	As	o	DET	DET	_	2	det	_	_
+1	As	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	reduções	redução	NOUN	NOUN	_	3	nsubj	_	_
 3	fazem	fazer	VERB	VERB	_	0	root	_	_
 4	parte	parte	NOUN	NOUN	_	3	obj	_	_

@@ -67,7 +67,7 @@
 
 # sent_id = test-s1058
 # text = A Rússia, aliada de Assad, pediu que a Síria explique que o ataque foi um "trágico acidente" que não se repetirá.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	Rússia	_	PROPN	PNOUN	_	8	nsubj	_	SpaceAfter=No
 3	,	,	PUNCT	.	_	4	punct	_	_
 4	aliada	aliado	NOUN	NOUN	_	2	appos	_	_
@@ -76,7 +76,7 @@
 7	,	,	PUNCT	.	_	4	punct	_	_
 8	pediu	pedir	VERB	VERB	_	0	root	_	_
 9	que	que	CCONJ	CONJ	_	12	mark	_	_
-10	a	o	DET	DET	_	11	det	_	_
+10	a	o	DET	DET	PronType=Art	11	det	_	_
 11	Síria	_	PROPN	PNOUN	_	12	nsubj	_	_
 12	explique	explicar	VERB	VERB	_	8	ccomp	_	_
 13	que	que	CCONJ	CONJ	_	20	mark	_	_
@@ -212,7 +212,7 @@
 12	Elba	_	PROPN	PNOUN	_	6	conj	_	_
 13	Ramalho	_	PROPN	PNOUN	_	12	flat	_	_
 14	animaram	animar	VERB	VERB	_	0	root	_	_
-15	a	o	DET	DET	_	16	det	_	_
+15	a	o	DET	DET	PronType=Art	16	det	_	_
 16	plateia	plateia	NOUN	NOUN	_	14	obj	_	_
 17	com	com	ADP	ADP	_	18	case	_	_
 18	canções	canção	NOUN	NOUN	_	14	nmod	_	_
@@ -231,7 +231,7 @@
 6	há	haver	VERB	VERB	_	0	root	_	_
 7	como	como	ADV	ADV	_	8	advmod	_	_
 8	admitir	admitir	VERB	VERB	_	6	ccomp	_	_
-9	a	o	DET	DET	_	10	det	_	_
+9	a	o	DET	DET	PronType=Art	10	det	_	_
 10	continuidade	continuidade	NOUN	NOUN	_	8	obj	_	_
 11	de	de	ADP	ADP	_	12	case	_	_
 12	processo	processo	NOUN	NOUN	_	10	nmod	_	_

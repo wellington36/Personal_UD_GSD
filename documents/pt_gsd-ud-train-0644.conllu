@@ -138,7 +138,7 @@
 10	Abdenur	_	PROPN	PNOUN	_	9	flat	_	SpaceAfter=No
 11	,	,	PUNCT	.	_	9	punct	_	_
 12	destaca	destacar	VERB	VERB	_	0	root	_	_
-13	a	o	DET	DET	_	14	det	_	_
+13	a	o	DET	DET	PronType=Art	14	det	_	_
 14	urgência	urgência	NOUN	NOUN	_	12	obj	_	_
 15	de	de	ADP	ADP	_	16	case	_	_
 16	medidas	medida	NOUN	NOUN	_	14	nmod	_	_
@@ -217,7 +217,7 @@
 7	quer	querer	VERB	VERB	_	4	ccomp	_	_
 8	voltar	voltar	VERB	VERB	_	7	xcomp	_	_
 9	para	para	ADP	ADP	_	11	case	_	_
-10	a	o	DET	DET	_	11	det	_	_
+10	a	o	DET	DET	PronType=Art	11	det	_	_
 11	casa	casa	NOUN	NOUN	_	8	nmod	_	SpaceAfter=No
 12	.	.	PUNCT	.	_	4	punct	_	_
 
@@ -248,7 +248,7 @@
 
 # sent_id = train-s6400
 # text = A Polícia Militar Rodoviária Estadual de Concórdia, apura as causas do acidente.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	Polícia	_	PROPN	PNOUN	_	9	nsubj	_	_
 3	Militar	_	PROPN	PNOUN	_	2	amod	_	_
 4	Rodoviária	_	PROPN	PNOUN	_	2	amod	_	_
@@ -257,7 +257,7 @@
 7	Concórdia	_	PROPN	PNOUN	_	2	nmod	_	SpaceAfter=No
 8	,	,	PUNCT	.	_	2	punct	_	_
 9	apura	apurar	VERB	VERB	_	0	root	_	_
-10	as	o	DET	DET	_	11	det	_	_
+10	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
 11	causas	causa	NOUN	NOUN	_	9	obj	_	_
 12-13	do	_	_	_	_	_	_	_	_
 12	de	de	ADP	ADP	_	14	case	_	_
@@ -270,11 +270,11 @@
 1	Acabou	acabar	VERB	VERB	_	0	root	_	_
 2	-	-	PUNCT	.	_	10	punct	_	_
 3	se	_	PRON	PRON	_	1	expl:pv	_	_
-4	a	o	DET	DET	_	5	det	_	_
+4	a	o	DET	DET	PronType=Art	5	det	_	_
 5	Olimpíada	olimpíada	NOUN	NOUN	_	1	nsubj	_	SpaceAfter=No
 6	,	,	PUNCT	.	_	10	punct	_	_
 7	mas	mas	CCONJ	CONJ	_	10	cc	_	_
-8	a	o	DET	DET	_	9	det	_	_
+8	a	o	DET	DET	PronType=Art	9	det	_	_
 9	vibração	vibração	NOUN	NOUN	_	10	nsubj	_	_
 10	continua	continuar	VERB	VERB	_	1	conj	_	_
 11	fora	fora	ADV	ADV	_	10	advmod	_	_

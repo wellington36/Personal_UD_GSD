@@ -28,7 +28,7 @@
 24	que	_	PRON	PRON	_	25	nsubj	_	_
 25	funciona	funcionar	VERB	VERB	_	17	acl:relcl	_	_
 26	com	com	ADP	ADP	_	28	case	_	_
-27	as	o	DET	DET	_	28	det	_	_
+27	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	28	det	_	_
 28	televisões	televisão	NOUN	NOUN	_	25	nmod	_	_
 29	de	de	ADP	ADP	_	31	case	_	_
 30	alta	alto	ADJ	ADJ	_	31	amod	_	_
@@ -137,7 +137,7 @@
 4	,	,	PUNCT	.	_	1	punct	_	_
 5	está	estar	VERB	VERB	_	0	root	_	_
 6	prevista	previsto	ADJ	ADJ	_	5	xcomp	_	_
-7	a	o	DET	DET	_	8	det	_	_
+7	a	o	DET	DET	PronType=Art	8	det	_	_
 8	presença	presença	NOUN	NOUN	_	5	nsubj	_	_
 9-10	do	_	_	_	_	_	_	_	_
 9	de	de	ADP	ADP	_	11	case	_	_
@@ -242,7 +242,7 @@
 
 # sent_id = train-s779
 # text = A ideia que subjaz ao termo é a de que o mundo deve obedecer a uma lei de harmonia, segundo a qual o bem deve ser compensado pelo mal em igual medida.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	ideia	ideia	NOUN	NOUN	_	9	nsubj	_	_
 3	que	_	PRON	PRON	_	4	nsubj	_	_
 4	subjaz	subjazer	VERB	VERB	_	2	acl:relcl	_	_

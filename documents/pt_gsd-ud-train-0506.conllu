@@ -75,7 +75,7 @@
 
 # sent_id = train-s5026
 # text = As principais vias que dão acesso aos litorais Norte e Sul de Alagoas passaram boa parte desta manhã com um intenso fluxo de veículos.
-1	As	o	DET	DET	_	3	det	_	_
+1	As	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
 2	principais	principal	ADJ	ADJ	_	3	amod	_	_
 3	vias	via	NOUN	NOUN	_	15	nsubj	_	_
 4	que	_	PRON	PRON	_	5	nsubj	_	_
@@ -127,7 +127,7 @@
 20	sido	ser	AUX	AUX	_	21	aux:pass	_	_
 21	anunciado	anunciar	VERB	VERB	_	10	advcl	_	_
 22	que	que	CCONJ	CONJ	_	25	mark	_	_
-23	a	o	DET	DET	_	24	det	_	_
+23	a	o	DET	DET	PronType=Art	24	det	_	_
 24	marca	marca	NOUN	NOUN	_	25	nsubj	_	_
 25	atingira	_	NOUN	NOUN	_	21	ccomp	_	_
 26	114	_	NUM	NUM	NumType=Card	27	nummod	_	_
@@ -167,7 +167,7 @@
 # text = Para atender a ocorrência, foram enviadas ao local equipes do Instituto de Medicina Legal (IML) do Recife e do Instituto de Criminalística (IC).
 1	Para	_	ADP	ADP	_	2	mark	_	_
 2	atender	atender	VERB	VERB	_	7	advcl	_	_
-3	a	o	DET	DET	_	4	det	_	_
+3	a	o	DET	DET	PronType=Art	4	det	_	_
 4	ocorrência	ocorrência	NOUN	NOUN	_	2	obj	_	SpaceAfter=No
 5	,	,	PUNCT	.	_	2	punct	_	_
 6	foram	_	AUX	AUX	_	7	aux:pass	_	_
@@ -205,7 +205,7 @@
 
 # sent_id = train-s5030
 # text = A moeda única europeia ganha terreno em relação ao dólar, iene e libra, mas o avanço é limitado por falhas apontadas por analistas no plano orçamentário espanhol, que foi apresentado na quinta - feira (27) e teve uma recepção inicial positiva.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	moeda	moeda	NOUN	NOUN	_	5	nsubj	_	_
 3	única	único	ADJ	ADJ	_	2	amod	_	_
 4	europeia	europeu	ADJ	ADJ	_	2	amod	_	_

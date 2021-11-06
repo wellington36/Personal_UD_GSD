@@ -88,7 +88,7 @@
 17	países	país	NOUN	NOUN	_	15	nmod	_	_
 18	em	em	ADP	ADP	_	19	case	_	_
 19	que	_	PRON	PRON	_	23	nmod	_	_
-20	a	o	DET	DET	_	21	det	_	_
+20	a	o	DET	DET	PronType=Art	21	det	_	_
 21	prática	_	NOUN	NOUN	_	23	nsubj:pass	_	_
 22	é	ser	AUX	AUX	_	23	aux:pass	_	_
 23	permitida	permitir	VERB	VERB	_	17	acl:relcl	_	SpaceAfter=No
@@ -123,7 +123,7 @@
 
 # sent_id = train-s3365
 # text = A perícia compareceu no local e liberou o veiculo, sendo o mesmo guinchado para o pátio do socorro.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	perícia	perícia	NOUN	NOUN	_	3	nsubj	_	_
 3	compareceu	comparecer	VERB	VERB	_	0	root	_	_
 4-5	no	_	_	_	_	_	_	_	_
@@ -157,7 +157,7 @@
 5	alternativas	_	NOUN	NOUN	_	4	obj	_	_
 6	para	_	ADP	ADP	_	7	mark	_	_
 7	dinamizar	dinamizar	VERB	VERB	_	4	advcl	_	_
-8	a	o	DET	DET	_	9	det	_	_
+8	a	o	DET	DET	PronType=Art	9	det	_	_
 9	troca	_	NOUN	NOUN	_	7	obj	_	_
 10	comercial	comercial	ADJ	ADJ	_	9	amod	_	_
 11	entre	_	ADP	ADP	_	14	case	_	_
@@ -250,7 +250,7 @@
 9	afirma	afirmar	VERB	VERB	_	0	root	_	SpaceAfter=No
 10	:	:	PUNCT	.	_	9	punct	_	_
 11	"	"	PUNCT	.	_	19	punct	_	SpaceAfter=No
-12	A	o	DET	DET	_	13	det	_	_
+12	A	o	DET	DET	PronType=Art	13	det	_	_
 13	variedade	variedade	NOUN	NOUN	_	19	nsubj	_	_
 14	de	de	ADP	ADP	_	15	case	_	_
 15	equipamentos	equipamento	NOUN	NOUN	_	13	nmod	_	_

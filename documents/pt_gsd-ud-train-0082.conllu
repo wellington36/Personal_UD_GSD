@@ -1,6 +1,6 @@
 # sent_id = train-s810
 # text = A convocação de candidatos na lista de espera terá início no dia 7 de agosto.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	convocação	convocação	NOUN	NOUN	_	10	nsubj	_	_
 3	de	de	ADP	ADP	_	4	case	_	_
 4	candidatos	candidato	NOUN	NOUN	_	2	nmod	_	_
@@ -101,7 +101,7 @@
 6	que	que	CCONJ	CONJ	_	7	mark	_	_
 7	seria	_	VERB	VERB	_	5	ccomp	_	_
 8	contra	_	ADP	ADP	_	10	case	_	_
-9	a	o	DET	DET	_	10	det	_	_
+9	a	o	DET	DET	PronType=Art	10	det	_	_
 10	intervenção	intervenção	NOUN	NOUN	_	7	nmod	_	SpaceAfter=No
 11	.	.	PUNCT	.	_	5	punct	_	_
 
@@ -118,7 +118,7 @@
 
 # sent_id = train-s815
 # text = A pesquisa revelou entrevistados mais felizes no dia que antecede o fim de semana, o que fortalece a ideia de que a sexta - feira traz "um sentimento especial".
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	pesquisa	pesquisa	NOUN	NOUN	_	3	nsubj	_	_
 3	revelou	revelar	VERB	VERB	_	0	root	_	_
 4	entrevistados	entrevistado	NOUN	NOUN	_	3	obj	_	_
@@ -138,11 +138,11 @@
 17	o	o	DET	DET	_	18	det	_	_
 18	que	_	PRON	PRON	_	19	nsubj	_	_
 19	fortalece	fortalecer	VERB	VERB	_	3	parataxis	_	_
-20	a	o	DET	DET	_	21	det	_	_
+20	a	o	DET	DET	PronType=Art	21	det	_	_
 21	ideia	ideia	NOUN	NOUN	_	19	obj	_	_
 22	de	_	ADP	ADP	_	28	mark	_	_
 23	que	que	CCONJ	CONJ	_	28	mark	_	_
-24	a	o	DET	DET	_	27	det	_	_
+24	a	o	DET	DET	PronType=Art	27	det	_	_
 25	sexta	_	PROPN	PNOUN	_	27	amod	_	_
 26	-	-	PUNCT	.	_	27	punct	_	_
 27	feira	_	PROPN	PNOUN	_	28	nsubj	_	_
@@ -181,7 +181,7 @@
 
 # sent_id = train-s817
 # text = A explicação pra isso é muito simples: eu sou um desastre no gênero.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	explicação	explicação	NOUN	NOUN	_	5	nsubj	_	_
 3	pra	_	ADP	ADP	_	4	case	_	_
 4	isso	_	PRON	PRON	_	2	nmod	_	_
@@ -204,7 +204,7 @@
 1	De	_	ADP	ADP	_	2	case	_	_
 2	acordo	acordo	NOUN	NOUN	_	24	nmod	_	_
 3	com	com	ADP	ADP	_	5	case	_	_
-4	a	o	DET	DET	_	5	det	_	_
+4	a	o	DET	DET	PronType=Art	5	det	_	_
 5	CPSP	_	PROPN	PNOUN	_	2	nmod	_	_
 6	(	(	PUNCT	.	_	7	punct	_	SpaceAfter=No
 7	Capitania	_	PROPN	PNOUN	_	5	appos	_	_

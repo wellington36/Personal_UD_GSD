@@ -36,7 +36,7 @@
 15	,	,	PUNCT	.	_	16	punct	_	_
 16	explicando	explicar	VERB	VERB	_	11	acl	_	_
 17	que	que	CCONJ	CONJ	_	21	mark	_	_
-18	a	o	DET	DET	_	19	det	_	_
+18	a	o	DET	DET	PronType=Art	19	det	_	_
 19	decisão	decisão	NOUN	NOUN	_	21	nsubj	_	_
 20	final	final	ADJ	ADJ	_	19	amod	_	_
 21	seria	_	VERB	VERB	_	16	ccomp	_	_
@@ -63,7 +63,7 @@
 3	já	já	ADV	ADV	_	4	advmod	_	_
 4	negocia	negociar	VERB	VERB	_	0	root	_	_
 5	com	com	ADP	ADP	_	7	case	_	_
-6	a	o	DET	DET	_	7	det	_	_
+6	a	o	DET	DET	PronType=Art	7	det	_	_
 7	Petrobrás	_	PROPN	PNOUN	_	4	nmod	_	_
 8	ação	ação	NOUN	NOUN	_	4	obj	_	_
 9	semelhante	semelhante	ADJ	ADJ	_	8	amod	_	SpaceAfter=No
@@ -135,7 +135,7 @@
 16	para	_	ADP	ADP	_	25	mark	_	_
 17	que	_	CCONJ	CONJ	_	16	fixed	_	_
 18	todas	_	DET	DET	_	20	det	_	_
-19	as	o	DET	DET	_	20	det	_	_
+19	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	20	det	_	_
 20	áreas	área	NOUN	NOUN	_	25	nsubj:pass	_	_
 21-22	da	_	_	_	_	_	_	_	_
 21	de	de	ADP	ADP	_	23	case	_	_
@@ -168,7 +168,7 @@
 12	,	,	PUNCT	.	_	8	punct	_	_
 13	saiu	sair	VERB	VERB	_	0	root	_	_
 14	com	com	ADP	ADP	_	16	case	_	_
-15	as	o	DET	DET	_	16	det	_	_
+15	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
 16	mãos	mão	NOUN	NOUN	_	13	nmod	_	_
 17	vazias	vazio	ADJ	ADJ	_	16	amod	_	_
 18-19	da	_	_	_	_	_	_	_	_

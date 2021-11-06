@@ -78,7 +78,7 @@
 42	Yucumã	_	PROPN	PNOUN	_	39	nmod	_	_
 43	e	e	CCONJ	CONJ	_	46	cc	_	_
 44	todas	_	DET	DET	_	46	det	_	_
-45	as	o	DET	DET	_	46	det	_	_
+45	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	46	det	_	_
 46	barragens	barragem	NOUN	NOUN	_	39	conj	_	_
 47	instaladas	instalar	VERB	VERB	_	46	acl	_	_
 48-49	no	_	_	_	_	_	_	_	_
@@ -116,7 +116,7 @@
 
 # sent_id = train-s952
 # text = A audiência contará, por fim, com a presença de Adelaide Oliveira, presidente da Funtelpa, e de Melquíades Justiniano Silva, secretário de Cultura de Marabá, além doutros representantes dos poderes Executivo e Legislativo locais.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	audiência	audiência	NOUN	NOUN	_	3	nsubj	_	_
 3	contará	contar	VERB	VERB	_	0	root	_	SpaceAfter=No
 4	,	,	PUNCT	.	_	6	punct	_	_
@@ -124,7 +124,7 @@
 6	fim	fim	NOUN	NOUN	_	3	nmod	_	SpaceAfter=No
 7	,	,	PUNCT	.	_	6	punct	_	_
 8	com	com	ADP	ADP	_	10	case	_	_
-9	a	o	DET	DET	_	10	det	_	_
+9	a	o	DET	DET	PronType=Art	10	det	_	_
 10	presença	presença	NOUN	NOUN	_	3	nmod	_	_
 11	de	de	ADP	ADP	_	12	case	_	_
 12	Adelaide	_	PROPN	PNOUN	_	10	nmod	_	_
@@ -165,7 +165,7 @@
 
 # sent_id = train-s953
 # text = A postura preguiçosa dos mexicanos serviu para recolocar o Ulsan na partida.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	postura	postura	NOUN	NOUN	_	7	nsubj	_	_
 3	preguiçosa	preguiçoso	ADJ	ADJ	_	2	amod	_	_
 4-5	dos	_	_	_	_	_	_	_	_
@@ -189,7 +189,7 @@
 2	o	o	DET	DET	_	3	det	_	_
 3	ano	ano	NOUN	NOUN	_	7	nmod	_	SpaceAfter=No
 4	,	,	PUNCT	.	_	3	punct	_	_
-5	a	o	DET	DET	_	6	det	_	_
+5	a	o	DET	DET	PronType=Art	6	det	_	_
 6	CICV	_	PROPN	PNOUN	_	7	nsubj	_	_
 7	atuou	atuar	VERB	VERB	_	0	root	_	_
 8	em	em	ADP	ADP	_	12	case	_	_
@@ -215,7 +215,7 @@
 26	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
 27	saneamento	saneamento	NOUN	NOUN	_	23	conj	_	_
 28	e	e	CCONJ	CONJ	_	30	cc	_	_
-29	a	o	DET	DET	_	30	det	_	_
+29	a	o	DET	DET	PronType=Art	30	det	_	_
 30	construções	construção	NOUN	NOUN	_	27	conj	_	SpaceAfter=No
 31	.	.	PUNCT	.	_	7	punct	_	_
 
@@ -316,7 +316,7 @@
 12	Estado	_	PROPN	PNOUN	_	9	nmod	_	_
 13	para	_	ADP	ADP	_	14	mark	_	_
 14	procurar	procurar	VERB	VERB	_	7	advcl	_	_
-15	a	o	DET	DET	_	16	det	_	_
+15	a	o	DET	DET	PronType=Art	16	det	_	_
 16	solução	solução	NOUN	NOUN	_	14	obj	_	_
 17-18	dos	_	_	_	_	_	_	_	_
 17	de	de	ADP	ADP	_	19	case	_	_
@@ -372,7 +372,7 @@
 
 # sent_id = train-s959
 # text = A receita da SFR, que representou 42 % da receita da Vivendi em 2011, recuou 7,5 % no segundo trimestre, para 2,83 bilhões de euros.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	receita	receita	NOUN	NOUN	_	20	nsubj	_	_
 3-4	da	_	_	_	_	_	_	_	_
 3	de	de	ADP	ADP	_	5	case	_	_

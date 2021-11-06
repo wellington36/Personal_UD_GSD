@@ -1,6 +1,6 @@
 # sent_id = train-s151
 # text = A seleção brasileira masculina de basquete fará na noite desta quarta - feira, em São Carlos (232 km de São Paulo), a segunda partida dum torneio preparatório para os Jogos Olímpicos de Londres, contra a Nigéria, às 21h30.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	seleção	seleção	NOUN	NOUN	_	7	nsubj	_	_
 3	brasileira	brasileiro	ADJ	ADJ	_	2	amod	_	_
 4	masculina	masculino	ADJ	ADJ	_	2	amod	_	_
@@ -27,7 +27,7 @@
 24	Paulo	_	PROPN	PNOUN	_	23	flat	_	SpaceAfter=No
 25	)	)	PUNCT	.	_	21	punct	_	SpaceAfter=No
 26	,	,	PUNCT	.	_	17	punct	_	_
-27	a	o	DET	DET	_	29	det	_	_
+27	a	o	DET	DET	PronType=Art	29	det	_	_
 28	segunda	segundo	ADJ	ADJ	_	29	amod	_	_
 29	partida	partida	NOUN	NOUN	_	7	obj	_	_
 30-31	dum	_	_	_	_	_	_	_	_
@@ -43,7 +43,7 @@
 39	Londres	_	PROPN	PNOUN	_	36	nmod	_	SpaceAfter=No
 40	,	,	PUNCT	.	_	43	punct	_	_
 41	contra	_	ADP	ADP	_	43	case	_	_
-42	a	o	DET	DET	_	43	det	_	_
+42	a	o	DET	DET	PronType=Art	43	det	_	_
 43	Nigéria	_	PROPN	PNOUN	_	29	nmod	_	SpaceAfter=No
 44	,	,	PUNCT	.	_	43	punct	_	_
 45-46	às	_	_	_	_	_	_	_	_
@@ -100,12 +100,12 @@
 6	dela	_	X	ADPPRON	_	5	det:poss	_	SpaceAfter=No
 7	,	,	PUNCT	.	_	2	punct	_	_
 8	procurou	procurar	VERB	VERB	_	0	root	_	_
-9	a	o	DET	DET	_	10	det	_	_
+9	a	o	DET	DET	PronType=Art	10	det	_	_
 10	Polícia	_	PROPN	PNOUN	_	8	obj	_	_
 11	Civil	_	PROPN	PNOUN	_	10	amod	_	_
 12	para	_	ADP	ADP	_	13	mark	_	_
 13	registrar	registrar	VERB	VERB	_	8	advcl	_	_
-14	a	o	DET	DET	_	15	det	_	_
+14	a	o	DET	DET	PronType=Art	15	det	_	_
 15	queixa	queixa	NOUN	NOUN	_	13	obj	_	SpaceAfter=No
 16	.	.	PUNCT	.	_	8	punct	_	_
 
@@ -138,7 +138,7 @@
 22	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
 23	Santos	_	PROPN	PNOUN	_	20	nmod	_	SpaceAfter=No
 24	,	,	PUNCT	.	_	20	punct	_	_
-25	as	o	DET	DET	_	26	det	_	_
+25	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	26	det	_	_
 26	chuvas	chuva	NOUN	NOUN	_	38	nsubj	_	_
 27	que	_	PRON	PRON	_	29	nsubj	_	_
 28	se	_	PRON	PRON	_	29	expl:pv	_	_
@@ -161,7 +161,7 @@
 44	,	,	PUNCT	.	_	46	punct	_	_
 45	mas	mas	CCONJ	CONJ	_	46	cc	_	_
 46	prejudicaram	prejudicar	VERB	VERB	_	38	conj	_	_
-47	a	o	DET	DET	_	48	det	_	_
+47	a	o	DET	DET	PronType=Art	48	det	_	_
 48	qualidade	qualidade	NOUN	NOUN	_	46	obj	_	SpaceAfter=No
 49	,	,	PUNCT	.	_	51	punct	_	_
 50	o	o	DET	DET	_	51	det	_	_
@@ -174,7 +174,7 @@
 
 # sent_id = train-s155
 # text = As poltronas são equipadas com pranchetas para facilitar a anotação durante as sessões de julgamento ou em treinamentos e palestras, uma vez que o espaço também poderá ser utilizado como auditório.
-1	As	o	DET	DET	_	2	det	_	_
+1	As	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	poltronas	_	NOUN	NOUN	_	4	nsubj:pass	_	_
 3	são	ser	AUX	AUX	_	4	aux:pass	_	_
 4	equipadas	equipar	VERB	VERB	_	0	root	_	_
@@ -182,10 +182,10 @@
 6	pranchetas	prancheta	NOUN	NOUN	_	4	nmod	_	_
 7	para	_	ADP	ADP	_	8	mark	_	_
 8	facilitar	facilitar	VERB	VERB	_	4	advcl	_	_
-9	a	o	DET	DET	_	10	det	_	_
+9	a	o	DET	DET	PronType=Art	10	det	_	_
 10	anotação	anotação	NOUN	NOUN	_	8	obj	_	_
 11	durante	_	ADP	ADP	_	13	case	_	_
-12	as	o	DET	DET	_	13	det	_	_
+12	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
 13	sessões	sessão	NOUN	NOUN	_	10	nmod	_	_
 14	de	de	ADP	ADP	_	15	case	_	_
 15	julgamento	julgamento	NOUN	NOUN	_	13	nmod	_	_
@@ -221,7 +221,7 @@
 8	Brasília	_	PROPN	PNOUN	_	6	nmod	_	SpaceAfter=No
 9	)	)	PUNCT	.	_	6	punct	_	SpaceAfter=No
 10	,	,	PUNCT	.	_	4	punct	_	_
-11	as	o	DET	DET	_	12	det	_	_
+11	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
 12	ações	ação	NOUN	NOUN	_	16	nsubj	_	_
 13-14	da	_	_	_	_	_	_	_	_
 13	de	de	ADP	ADP	_	15	case	_	_
@@ -272,7 +272,7 @@
 16	determinou	determinar	VERB	VERB	_	13	acl:relcl	_	_
 17	em	em	ADP	ADP	_	18	case	_	_
 18	setembro	_	PROPN	PNOUN	_	16	nmod	_	_
-19	a	o	DET	DET	_	20	det	_	_
+19	a	o	DET	DET	PronType=Art	20	det	_	_
 20	desocupação	desocupação	NOUN	NOUN	_	16	obj	_	_
 21-22	da	_	_	_	_	_	_	_	_
 21	de	de	ADP	ADP	_	23	case	_	_
@@ -302,7 +302,7 @@
 
 # sent_id = train-s158
 # text = A ação foi proposta pelo promotor Marcelo Camargo Milani e tramita na 3 ª Vara da Fazenda Pública da capital.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	ação	ação	NOUN	NOUN	_	4	nsubj:pass	_	_
 3	foi	_	AUX	AUX	_	4	aux:pass	_	_
 4	proposta	propor	VERB	VERB	_	0	root	_	_
@@ -381,7 +381,7 @@
 27	que	_	PRON	PRON	_	28	obj	_	_
 28	levou	levar	VERB	VERB	_	26	acl:relcl	_	_
 29	durante	_	ADP	ADP	_	31	case	_	_
-30	a	o	DET	DET	_	31	det	_	_
+30	a	o	DET	DET	PronType=Art	31	det	_	_
 31	gravação	gravação	NOUN	NOUN	_	28	nmod	_	_
 32-33	do	_	_	_	_	_	_	_	_
 32	de	de	ADP	ADP	_	34	case	_	_

@@ -123,7 +123,7 @@
 
 # sent_id = test-s43
 # text = A nota fundamental é definida pelo sistema de notação alfabética em que o nome de cada nota musical corresponde a uma letra da a G, com sustenidos ou bemóis quando necessário:
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	nota	nota	NOUN	NOUN	_	5	nsubj:pass	_	_
 3	fundamental	fundamental	ADJ	ADJ	_	2	amod	_	_
 4	é	ser	AUX	AUX	_	5	aux:pass	_	_
@@ -171,7 +171,7 @@
 6	ainda	ainda	ADV	ADV	_	7	advmod	_	_
 7	atuava	atuar	VERB	VERB	_	32	advcl	_	_
 8	como	como	ADP	ADP	_	10	case	_	_
-9	a	o	DET	DET	_	10	det	_	_
+9	a	o	DET	DET	PronType=Art	10	det	_	_
 10	heroína	_	NOUN	NOUN	_	7	nmod	_	_
 11	conhecida	conhecer	VERB	VERB	_	10	acl	_	_
 12	como	como	ADP	ADP	_	13	case	_	_
@@ -236,7 +236,7 @@
 2	teorema	teorema	NOUN	NOUN	_	3	nsubj	_	_
 3	afirma	afirmar	VERB	VERB	_	0	root	_	_
 4	que	que	CCONJ	CONJ	_	14	mark	_	_
-5	as	o	DET	DET	_	7	det	_	_
+5	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
 6	únicas	único	ADJ	ADJ	_	7	amod	_	_
 7	funções	função	NOUN	NOUN	_	14	nsubj	_	_
 8	que	_	PRON	PRON	_	10	nsubj	_	_
@@ -266,7 +266,7 @@
 # sent_id = test-s47
 # text = Segundo a Samsung, o Galaxy S III 4G tem preço sugerido de R $ 2.399,00.
 1	Segundo	_	ADP	ADP	_	3	case	_	_
-2	a	o	DET	DET	_	3	det	_	_
+2	a	o	DET	DET	PronType=Art	3	det	_	_
 3	Samsung	_	PROPN	PNOUN	_	10	nmod	_	SpaceAfter=No
 4	,	,	PUNCT	.	_	3	punct	_	_
 5	o	o	DET	DET	_	6	det	_	_
@@ -285,7 +285,7 @@
 
 # sent_id = test-s48
 # text = A história de residentes da casa incluem Lillian Gish, Cary Grant, Henry Fonda, Terry Melcher e Candice Bergen.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	história	história	NOUN	NOUN	_	8	nsubj	_	_
 3	de	de	ADP	ADP	_	4	case	_	_
 4	residentes	residente	NOUN	NOUN	_	2	nmod	_	_
@@ -328,14 +328,14 @@
 12	área	área	NOUN	NOUN	_	9	nmod	_	_
 13	e	e	CCONJ	CONJ	_	14	cc	_	_
 14	deixou	deixar	VERB	VERB	_	6	conj	_	_
-15	a	o	DET	DET	_	16	det	_	_
+15	a	o	DET	DET	PronType=Art	16	det	_	_
 16	bola	bola	NOUN	NOUN	_	17	nsubj	_	_
 17	livre	livre	ADJ	ADJ	_	14	xcomp	_	_
 18	para	_	ADP	ADP	_	21	mark	_	_
 19	Yaya	_	PROPN	PNOUN	_	21	nsubj	_	_
 20	Touré	_	PROPN	PNOUN	_	19	flat	_	_
 21	estufar	estufar	VERB	VERB	_	14	advcl	_	_
-22	as	o	DET	DET	_	23	det	_	_
+22	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
 23	redes	rede	NOUN	NOUN	_	21	obj	_	SpaceAfter=No
 24	.	.	PUNCT	.	_	6	punct	_	_
 

@@ -3,7 +3,7 @@
 1	Não	não	ADV	ADV	Polarity=Neg	3	advmod	_	_
 2	se	_	PRON	PRON	_	3	expl:pv	_	_
 3	admitirá	admitir	VERB	VERB	_	0	root	_	_
-4	a	o	DET	DET	_	5	det	_	_
+4	a	o	DET	DET	PronType=Art	5	det	_	_
 5	emenda	emenda	NOUN	NOUN	_	3	obj	_	_
 6-7	da	_	_	_	_	_	_	_	_
 6	de	de	ADP	ADP	_	8	case	_	_
@@ -65,7 +65,7 @@
 
 # sent_id = dev-s924
 # text = A advogada entrou com o apelo representando Ortega.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	advogada	advogado	NOUN	NOUN	_	3	nsubj	_	_
 3	entrou	entrar	VERB	VERB	_	0	root	_	_
 4	com	com	ADP	ADP	_	6	case	_	_
@@ -78,9 +78,9 @@
 # sent_id = dev-s925
 # text = São as seguintes as repúblicas constituintes: O país era constituído por seis repúblicas socialistas federadas;
 1	São	ser	AUX	AUX	_	5	cop	_	_
-2	as	o	DET	DET	_	3	det	_	_
+2	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
 3	seguintes	seguinte	NOUN	NOUN	_	5	nsubj	_	_
-4	as	o	DET	DET	_	5	det	_	_
+4	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
 5	repúblicas	_	NOUN	NOUN	_	0	root	_	_
 6	constituintes	constituinte	ADJ	ADJ	_	5	amod	_	SpaceAfter=No
 7	:	:	PUNCT	.	_	5	punct	_	_
@@ -98,7 +98,7 @@
 # sent_id = dev-s926
 # text = Infelizmente a maior parte da sua obra foi destruída ou sofreu grande alterações, e o original é conhecido apenas por gravuras antigas.
 1	Infelizmente	infelizmente	ADV	ADV	_	10	advmod	_	_
-2	a	o	DET	DET	_	4	det	_	_
+2	a	o	DET	DET	PronType=Art	4	det	_	_
 3	maior	maior	ADJ	ADJ	_	4	amod	_	_
 4	parte	parte	NOUN	NOUN	_	10	nsubj:pass	_	_
 5-6	da	_	_	_	_	_	_	_	_
@@ -192,7 +192,7 @@
 18	para	_	ADP	ADP	_	19	mark	_	_
 19	tentar	tentar	VERB	VERB	_	12	advcl	_	_
 20	diagnosticar	diagnosticar	VERB	VERB	_	19	xcomp	_	_
-21	a	o	DET	DET	_	22	det	_	_
+21	a	o	DET	DET	PronType=Art	22	det	_	_
 22	doença	doença	NOUN	NOUN	_	20	obj	_	SpaceAfter=No
 23	.	.	PUNCT	.	_	12	punct	_	_
 
@@ -209,7 +209,7 @@
 9	sociais	social	ADJ	ADJ	_	8	amod	_	_
 10	em	em	ADP	ADP	_	13	case	_	_
 11	todas	_	DET	DET	_	13	det	_	_
-12	as	o	DET	DET	_	13	det	_	_
+12	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
 13	áreas	área	NOUN	NOUN	_	7	nmod	_	_
 14-15	da	_	_	_	_	_	_	_	_
 14	de	de	ADP	ADP	_	16	case	_	_
@@ -257,7 +257,7 @@
 21	Zacarias	_	PROPN	PNOUN	_	20	appos	_	SpaceAfter=No
 22	,	,	PUNCT	.	_	25	punct	_	_
 23	sobre	_	ADP	ADP	_	25	case	_	_
-24	a	o	DET	DET	_	25	det	_	_
+24	a	o	DET	DET	PronType=Art	25	det	_	_
 25	proximidade	proximidade	NOUN	NOUN	_	12	nmod	_	_
 26-27	do	_	_	_	_	_	_	_	_
 26	de	de	ADP	ADP	_	28	case	_	_

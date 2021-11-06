@@ -42,7 +42,7 @@
 5	,	,	PUNCT	.	_	1	punct	_	_
 6	Almeida	_	PRON	PRON	_	7	nsubj	_	_
 7	transferiu	transferir	VERB	VERB	_	0	root	_	_
-8	a	o	DET	DET	_	9	det	_	_
+8	a	o	DET	DET	PronType=Art	9	det	_	_
 9	resposta	resposta	NOUN	NOUN	_	7	obj	_	SpaceAfter=No
 10	:	:	PUNCT	.	_	7	punct	_	_
 11	"	"	PUNCT	.	_	12	punct	_	SpaceAfter=No
@@ -94,7 +94,7 @@
 6	milhões	_	NUM	NUM	NumType=Card	3	nummod	_	_
 7	arrecadados	arrecadar	VERB	VERB	_	3	acl	_	SpaceAfter=No
 8	,	,	PUNCT	.	_	3	punct	_	_
-9	a	o	DET	DET	_	10	det	_	_
+9	a	o	DET	DET	PronType=Art	10	det	_	_
 10	coligação	coligação	NOUN	NOUN	_	20	nsubj	_	_
 11	"	"	PUNCT	.	_	14	punct	_	SpaceAfter=No
 12	Somos	_	PROPN	PNOUN	_	14	cop	_	_
@@ -144,7 +144,7 @@
 5	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	programa	programa	NOUN	NOUN	_	3	nmod	_	_
 7	será	ser	AUX	AUX	_	9	cop	_	_
-8	a	o	DET	DET	_	9	det	_	_
+8	a	o	DET	DET	PronType=Art	9	det	_	_
 9	aplicação	aplicação	NOUN	NOUN	_	0	root	_	_
 10	de	de	ADP	ADP	_	13	case	_	_
 11	150	_	NUM	NUM	NumType=Card	12	nummod	_	_
@@ -170,7 +170,7 @@
 
 # sent_id = train-s197
 # text = A vulcânica Ilha Savo é o único acidente geográfico digno de menção no estreito.
-1	A	o	DET	DET	_	3	det	_	_
+1	A	o	DET	DET	PronType=Art	3	det	_	_
 2	vulcânica	vulcânico	ADJ	ADJ	_	3	amod	_	_
 3	Ilha	_	PROPN	PNOUN	_	8	nsubj	_	_
 4	Savo	_	PROPN	PNOUN	_	3	flat	_	_
@@ -192,7 +192,7 @@
 # text = ANCARA -- A TV estatal turca TRT informou nesta quarta - feira que a Turquia obrigou um avião de passageiros sírio a pousar no aeroporto de Ancara.
 1	ANCARA	_	PROPN	PNOUN	_	8	parataxis	_	_
 2	--	_	PUNCT	.	_	8	punct	_	_
-3	A	o	DET	DET	_	4	det	_	_
+3	A	o	DET	DET	PronType=Art	4	det	_	_
 4	TV	tv	NOUN	NOUN	_	8	nsubj	_	_
 5	estatal	estatal	ADJ	ADJ	_	4	amod	_	_
 6	turca	turco	ADJ	ADJ	_	4	amod	_	_
@@ -203,7 +203,7 @@
 11	-	-	PUNCT	.	_	12	punct	_	_
 12	feira	_	PROPN	PNOUN	_	8	nmod	_	_
 13	que	que	CCONJ	CONJ	_	16	mark	_	_
-14	a	o	DET	DET	_	15	det	_	_
+14	a	o	DET	DET	PronType=Art	15	det	_	_
 15	Turquia	_	PROPN	PNOUN	_	16	nsubj	_	_
 16	obrigou	obrigar	VERB	VERB	_	8	ccomp	_	_
 17	um	um	DET	DET	_	18	det	_	_

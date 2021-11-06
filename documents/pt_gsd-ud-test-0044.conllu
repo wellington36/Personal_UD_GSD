@@ -61,13 +61,13 @@
 5	fazer	fazer	VERB	VERB	_	3	csubj	_	_
 6	com	_	ADP	ADP	_	10	mark	_	_
 7	que	que	CCONJ	CONJ	_	10	mark	_	_
-8	as	o	DET	DET	_	9	det	_	_
+8	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
 9	crianças	criança	NOUN	NOUN	_	10	nsubj	_	_
 10	entendam	entender	VERB	VERB	_	5	nmod	_	_
 11	o	o	DET	DET	_	12	det	_	_
 12	trabalho	trabalho	NOUN	NOUN	_	10	obj	_	_
 13	e	e	CCONJ	CONJ	_	15	cc	_	_
-14	as	o	DET	DET	_	15	det	_	_
+14	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
 15	atribuições	atribuição	NOUN	NOUN	_	12	conj	_	_
 16	de	de	ADP	ADP	_	17	case	_	_
 17	vereador	vereador	NOUN	NOUN	_	12	nmod	_	_
@@ -85,7 +85,7 @@
 # sent_id = test-s430
 # text = Para a executiva estadual da sigla, isso representa 18,6 milhões de habitantes, ou 45,2 % de todo o Estado, "um número bastante significativo".
 1	Para	_	ADP	ADP	_	3	case	_	_
-2	a	o	DET	DET	_	3	det	_	_
+2	a	o	DET	DET	PronType=Art	3	det	_	_
 3	executiva	executivo	NOUN	NOUN	_	10	nmod	_	_
 4	estadual	estadual	ADJ	ADJ	_	3	amod	_	_
 5-6	da	_	_	_	_	_	_	_	_
@@ -242,7 +242,7 @@
 
 # sent_id = test-s435
 # text = A secretária de Estado dos EUA, Hillary Clinton, discursa durante conferência científica sobre a Aids que acontece em Washington.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	secretária	_	NOUN	NOUN	_	12	nsubj	_	_
 3	de	de	ADP	ADP	_	4	case	_	_
 4	Estado	_	PROPN	PNOUN	_	2	nmod	_	_
@@ -259,7 +259,7 @@
 14	conferência	conferência	NOUN	NOUN	_	12	nmod	_	_
 15	científica	científico	ADJ	ADJ	_	14	amod	_	_
 16	sobre	_	ADP	ADP	_	18	case	_	_
-17	a	o	DET	DET	_	18	det	_	_
+17	a	o	DET	DET	PronType=Art	18	det	_	_
 18	Aids	_	NOUN	NOUN	_	14	nmod	_	_
 19	que	_	PRON	PRON	_	20	nsubj	_	_
 20	acontece	acontecer	VERB	VERB	_	14	acl:relcl	_	_

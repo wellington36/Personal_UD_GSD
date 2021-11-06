@@ -32,7 +32,7 @@
 29	gordura	gordura	NOUN	NOUN	_	27	nmod	_	_
 30	saturada	saturado	ADJ	ADJ	_	29	amod	_	_
 31	como	como	ADP	ADP	_	33	case	_	_
-32	as	o	DET	DET	_	33	det	_	_
+32	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	33	det	_	_
 33	carnes	carne	NOUN	NOUN	_	26	nmod	_	_
 34	bovinas	bovino	ADJ	ADJ	_	33	amod	_	_
 35	e	e	CCONJ	CONJ	_	37	cc	_	_
@@ -47,7 +47,7 @@
 1	Marta	_	PROPN	PNOUN	_	6	nsubj	_	_
 2	Suplicy	_	PROPN	PNOUN	_	1	flat	_	_
 3	é	ser	AUX	AUX	_	6	cop	_	_
-4	a	o	DET	DET	_	6	det	_	_
+4	a	o	DET	DET	PronType=Art	6	det	_	_
 5	nova	novo	ADJ	ADJ	_	6	amod	_	_
 6	ministra	_	NOUN	NOUN	_	0	root	_	_
 7-8	da	_	_	_	_	_	_	_	_
@@ -84,11 +84,11 @@
 1	E	_	CCONJ	CONJ	_	24	cc	_	_
 2	para	_	ADP	ADP	_	3	mark	_	_
 3	incentivar	incentivar	VERB	VERB	_	24	advcl	_	_
-4	a	o	DET	DET	_	5	det	_	_
+4	a	o	DET	DET	PronType=Art	5	det	_	_
 5	leitura	leitura	NOUN	NOUN	_	3	obj	_	_
 6	e	e	CCONJ	CONJ	_	7	cc	_	_
 7	facilitar	facilitar	VERB	VERB	_	3	conj	_	_
-8	a	o	DET	DET	_	9	det	_	_
+8	a	o	DET	DET	PronType=Art	9	det	_	_
 9	vida	vida	NOUN	NOUN	_	7	obj	_	_
 10-11	dos	_	_	_	_	_	_	_	_
 10	de	de	ADP	ADP	_	12	case	_	_
@@ -152,7 +152,7 @@
 
 # sent_id = train-s8036
 # text = A obra é uma reivindicação antiga da comunidade, uma vez que o grande fluxo de veículos na região (cerca de 20 mil por dia) causa muitos acidentes e torna o fluxo lento na região.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	obra	obra	NOUN	NOUN	_	5	nsubj	_	_
 3	é	ser	AUX	AUX	_	5	cop	_	_
 4	uma	um	DET	DET	_	5	det	_	_
@@ -264,7 +264,7 @@
 
 # sent_id = train-s8040
 # text = As rodadas preliminares foram realizadas a partir das 12:00 (horário padrão da China, correspondente a UTC + 8), e as semifinais, finais, repescagem e disputa do bronze a partir das 18:00, horário local.
-1	As	o	DET	DET	_	2	det	_	_
+1	As	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	rodadas	_	NOUN	NOUN	_	5	nsubj:pass	_	_
 3	preliminares	preliminar	ADJ	ADJ	_	2	amod	_	_
 4	foram	_	AUX	AUX	_	5	aux:pass	_	_
@@ -291,7 +291,7 @@
 23	)	)	PUNCT	.	_	12	punct	_	SpaceAfter=No
 24	,	,	PUNCT	.	_	27	punct	_	_
 25	e	e	CCONJ	CONJ	_	27	cc	_	_
-26	as	o	DET	DET	_	27	det	_	_
+26	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	27	det	_	_
 27	semifinais	semifinal	NOUN	NOUN	_	5	conj	_	SpaceAfter=No
 28	,	,	PUNCT	.	_	29	punct	_	_
 29	finais	final	NOUN	NOUN	_	27	conj	_	SpaceAfter=No

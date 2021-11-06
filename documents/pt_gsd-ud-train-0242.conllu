@@ -9,7 +9,7 @@
 7	ser	ser	AUX	AUX	_	8	aux:pass	_	_
 8	feito	_	VERB	VERB	_	0	root	_	_
 9	com	com	ADP	ADP	_	12	case	_	_
-10	a	o	DET	DET	_	12	det	_	_
+10	a	o	DET	DET	PronType=Art	12	det	_	_
 11	sua	_	DET	DET	_	12	det:poss	_	_
 12	senha	senha	NOUN	NOUN	_	8	nmod	_	_
 13	atual	atual	ADJ	ADJ	_	12	amod	_	_
@@ -113,14 +113,14 @@
 1	Pike	_	PROPN	PNOUN	_	2	nsubj	_	_
 2	resite	_	VERB	VERB	_	0	root	_	_
 3	todas	_	DET	DET	_	5	det	_	_
-4	as	o	DET	DET	_	5	det	_	_
+4	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
 5	formas	forma	NOUN	NOUN	_	2	obj	_	SpaceAfter=No
 6	,	,	PUNCT	.	_	10	punct	_	_
 7	então	então	ADV	ADV	_	10	advmod	_	_
 8	os	o	DET	DET	_	9	det	_	_
 9	talosianos	_	NOUN	NOUN	_	10	nsubj	_	_
 10	atraem	atrair	VERB	VERB	_	2	conj	_	_
-11	a	o	DET	DET	_	13	det	_	_
+11	a	o	DET	DET	PronType=Art	13	det	_	_
 12	Primeira	_	PROPN	PNOUN	_	13	amod	_	_
 13	Oficial	_	PROPN	PNOUN	_	10	obj	_	_
 14	e	e	CCONJ	CONJ	_	15	cc	_	_

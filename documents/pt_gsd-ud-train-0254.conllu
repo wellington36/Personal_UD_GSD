@@ -1,7 +1,7 @@
 # sent_id = train-s2521
 # text = Existe a possibilidade do trio voltar no domingo, quando o Botafogo enfrentará Ponte Preta, em Campinas.
 1	Existe	existir	VERB	VERB	_	0	root	_	_
-2	a	o	DET	DET	_	3	det	_	_
+2	a	o	DET	DET	PronType=Art	3	det	_	_
 3	possibilidade	possibilidade	NOUN	NOUN	_	1	nsubj	_	_
 4-5	do	_	_	_	_	_	_	_	_
 4	de	de	ADP	ADP	_	7	case	_	_
@@ -51,7 +51,7 @@
 
 # sent_id = train-s2523
 # text = A ABI Research afirma que os usuários móveis deverão baixar cerca de 36 bilhões de aplicativos em 2012 e haverá demanda por essas ferramentas corporativas na nova área de trabalho.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	ABI	_	PROPN	PNOUN	_	4	nsubj	_	_
 3	Research	_	PROPN	PNOUN	_	2	flat	_	_
 4	afirma	afirmar	VERB	VERB	_	0	root	_	_
@@ -152,7 +152,7 @@
 26	de	de	ADP	ADP	_	27	case	_	_
 27	Manaus	_	PROPN	PNOUN	_	25	nmod	_	SpaceAfter=No
 28	)	)	PUNCT	.	_	25	punct	_	_
-29	a	o	DET	DET	_	30	det	_	_
+29	a	o	DET	DET	PronType=Art	30	det	_	_
 30	base	base	NOUN	NOUN	_	15	obj	_	_
 31-32	do	_	_	_	_	_	_	_	_
 31	de	de	ADP	ADP	_	33	case	_	_
@@ -239,7 +239,7 @@
 # sent_id = train-s2528
 # text = -- A Justiça exagera quando me impede de ir.
 1	--	_	PUNCT	.	_	4	punct	_	_
-2	A	o	DET	DET	_	3	det	_	_
+2	A	o	DET	DET	PronType=Art	3	det	_	_
 3	Justiça	_	PROPN	PNOUN	_	4	nsubj	_	_
 4	exagera	exagerar	VERB	VERB	_	0	root	_	_
 5	quando	_	CCONJ	CONJ	_	7	mark	_	_
@@ -251,7 +251,7 @@
 
 # sent_id = train-s2529
 # text = A sua mãe era duma família de peleteiros e agricultores, também com alguns músicos, todos profundamente religiosos, seguidores duma doutrina anabatista de inclinação mística.
-1	A	o	DET	DET	_	3	det	_	_
+1	A	o	DET	DET	PronType=Art	3	det	_	_
 2	sua	_	DET	DET	_	3	det:poss	_	_
 3	mãe	mãe	NOUN	NOUN	_	4	nsubj	_	_
 4	era	_	VERB	VERB	_	0	root	_	_
@@ -308,7 +308,7 @@
 20	Luiz	_	PROPN	PNOUN	_	19	flat	_	_
 21	ficou	ficar	VERB	VERB	_	11	advcl	_	_
 22	com	com	ADP	ADP	_	24	case	_	_
-23	a	o	DET	DET	_	24	det	_	_
+23	a	o	DET	DET	PronType=Art	24	det	_	_
 24	Bola	_	PROPN	PNOUN	_	21	nmod	_	_
 25	de	de	ADP	ADP	_	26	case	_	_
 26	Prata	_	PROPN	PNOUN	_	24	nmod	_	SpaceAfter=No

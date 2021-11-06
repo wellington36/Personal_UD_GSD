@@ -27,7 +27,7 @@
 2	executivo	executivo	NOUN	NOUN	_	3	nsubj	_	_
 3	explicou	explicar	VERB	VERB	_	0	root	_	_
 4	que	que	CCONJ	CONJ	_	8	mark	_	_
-5	a	o	DET	DET	_	6	det	_	_
+5	a	o	DET	DET	PronType=Art	6	det	_	_
 6	companhia	companhia	NOUN	NOUN	_	8	nsubj	_	_
 7	vai	ir	AUX	AUX	_	8	aux	_	_
 8	manter	manter	VERB	VERB	_	3	ccomp	_	_
@@ -85,7 +85,7 @@
 
 # sent_id = test-s5
 # text = A espada, que era uma peça de decoração da casa, foi apreendida para ser periciada.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	espada	espada	NOUN	NOUN	_	15	nsubj:pass	_	SpaceAfter=No
 3	,	,	PUNCT	.	_	7	punct	_	_
 4	que	_	PRON	PRON	_	7	nsubj	_	_

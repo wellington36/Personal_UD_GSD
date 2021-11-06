@@ -3,7 +3,7 @@
 1	Durante	_	ADP	ADP	_	3	case	_	_
 2	dois	_	NUM	NUM	NumType=Card	3	nummod	_	_
 3	dias	dia	NOUN	NOUN	_	12	nmod	_	_
-4	a	o	DET	DET	_	5	det	_	_
+4	a	o	DET	DET	PronType=Art	5	det	_	_
 5	Caravana	_	PROPN	PNOUN	_	12	nsubj	_	_
 6	Social	_	PROPN	PNOUN	_	5	amod	_	_
 7	e	e	CCONJ	CONJ	_	6	cc	_	_
@@ -76,7 +76,7 @@
 
 # sent_id = train-s3492
 # text = As origens do jogo podem ser traçadas até o clássico jogo de tabuleiro chinês Xo Dou Qi ou "Xadrez dos Animais".
-1	As	o	DET	DET	_	2	det	_	_
+1	As	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	origens	origem	NOUN	NOUN	_	8	nsubj:pass	_	_
 3-4	do	_	_	_	_	_	_	_	_
 3	de	de	ADP	ADP	_	5	case	_	_
@@ -213,11 +213,11 @@
 
 # sent_id = train-s3497
 # text = As medal races para as demais classes serão realizadas entre os dias 5 e 9 de agosto.
-1	As	o	DET	DET	_	2	det	_	_
+1	As	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	medal	_	NOUN	NOUN	_	9	nsubj:pass	_	_
 3	races	_	NOUN	NOUN	_	2	flat	_	_
 4	para	para	ADP	ADP	_	7	case	_	_
-5	as	o	DET	DET	_	7	det	_	_
+5	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
 6	demais	_	DET	DET	_	7	det	_	_
 7	classes	classe	NOUN	NOUN	_	2	nmod	_	_
 8	serão	ser	AUX	AUX	_	9	aux:pass	_	_

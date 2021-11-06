@@ -66,7 +66,7 @@
 
 # sent_id = train-s6574
 # text = A solenidade foi acompanhada pelo presidente do Tribunal Regional da 1 ª Região, desembargador Mário César Ribeiro, o diretor do foro da Seção Judiciária de Rondônia, Rodrigo de Godoy Mendes, o diretor da Subseção Judiciária de Ji - Paraná, juiz federal Flávio da Silva Andrade e o prefeito José de Abreu Bianco (DEM), entre outras autoridades.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	solenidade	solenidade	NOUN	NOUN	_	4	nsubj:pass	_	_
 3	foi	_	AUX	AUX	_	4	aux:pass	_	_
 4	acompanhada	acompanhar	VERB	VERB	_	0	root	_	_
@@ -203,7 +203,7 @@
 
 # sent_id = train-s6577
 # text = A entidade acredita que os juros mais baixos possibilitam que mais pessoas físicas e jurídicas adquiram financiamento, estimulando a produção e o consumo interno.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	entidade	entidade	NOUN	NOUN	_	3	nsubj	_	_
 3	acredita	acreditar	VERB	VERB	_	0	root	_	_
 4	que	que	CCONJ	CONJ	_	9	mark	_	_
@@ -222,7 +222,7 @@
 17	financiamento	financiamento	NOUN	NOUN	_	16	obj	_	SpaceAfter=No
 18	,	,	PUNCT	.	_	19	punct	_	_
 19	estimulando	estimular	VERB	VERB	_	16	acl	_	_
-20	a	o	DET	DET	_	21	det	_	_
+20	a	o	DET	DET	PronType=Art	21	det	_	_
 21	produção	produção	NOUN	NOUN	_	19	obj	_	_
 22	e	e	CCONJ	CONJ	_	24	cc	_	_
 23	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
@@ -232,7 +232,7 @@
 
 # sent_id = train-s6578
 # text = A experiência foi confirmada por Hallwachs.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	experiência	experiência	NOUN	NOUN	_	4	nsubj:pass	_	_
 3	foi	_	AUX	AUX	_	4	aux:pass	_	_
 4	confirmada	confirmar	VERB	VERB	_	0	root	_	_
@@ -262,7 +262,7 @@
 16	Campo	_	PROPN	PNOUN	_	15	appos	_	_
 17	Grande	_	PROPN	PNOUN	_	16	amod	_	_
 18	--	_	PUNCT	.	_	9	punct	_	_
-19	a	o	DET	DET	_	20	det	_	_
+19	a	o	DET	DET	PronType=Art	20	det	_	_
 20	restrição	restrição	NOUN	NOUN	_	21	nsubj	_	_
 21	vale	_	VERB	VERB	_	0	root	_	_
 22	até	_	ADP	ADP	_	24	case	_	_

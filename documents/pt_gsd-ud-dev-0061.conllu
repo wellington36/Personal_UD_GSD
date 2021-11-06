@@ -66,7 +66,7 @@
 
 # sent_id = dev-s595
 # text = A colisão aconteceu na Avenida Cristiano Machado, ao lado do Minas Shopping.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	colisão	colisão	NOUN	NOUN	_	3	nsubj	_	_
 3	aconteceu	acontecer	VERB	VERB	_	0	root	_	_
 4-5	na	_	_	_	_	_	_	_	_
@@ -245,7 +245,7 @@
 # sent_id = dev-s601
 # text = -- A greve começou no dia 18 de junho, e eles cortaram os dias proporcionais.
 1	--	_	PUNCT	.	_	4	punct	_	_
-2	A	o	DET	DET	_	3	det	_	_
+2	A	o	DET	DET	PronType=Art	3	det	_	_
 3	greve	greve	NOUN	NOUN	_	4	nsubj	_	_
 4	começou	começar	VERB	VERB	_	0	root	_	_
 5-6	no	_	_	_	_	_	_	_	_
@@ -273,7 +273,7 @@
 5	em	em	ADP	ADP	_	6	case	_	_
 6	campo	campo	NOUN	NOUN	_	4	nmod	_	_
 7	com	com	ADP	ADP	_	10	case	_	_
-8	a	o	DET	DET	_	10	det	_	_
+8	a	o	DET	DET	PronType=Art	10	det	_	_
 9	seguinte	seguinte	ADJ	ADJ	_	10	amod	_	_
 10	formação	formação	NOUN	NOUN	_	4	nmod	_	SpaceAfter=No
 11	:	:	PUNCT	.	_	10	punct	_	_

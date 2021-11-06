@@ -1,6 +1,6 @@
 # sent_id = train-s5379
 # text = A Comissão Eleitoral Nacional disse que os resultados iniciais devem ser anunciados ainda neste sábado, mas eleitores desesperados por informações sobre a eleição encheram as bancas de jornais em busca dum exemplar do periódico oficial Jornal de Angola.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	Comissão	_	PROPN	PNOUN	_	5	nsubj	_	_
 3	Eleitoral	_	PROPN	PNOUN	_	2	amod	_	_
 4	Nacional	_	PROPN	PNOUN	_	2	amod	_	_
@@ -22,10 +22,10 @@
 20	por	por	ADP	ADP	_	21	case	_	_
 21	informações	informação	NOUN	NOUN	_	19	nmod	_	_
 22	sobre	_	ADP	ADP	_	24	case	_	_
-23	a	o	DET	DET	_	24	det	_	_
+23	a	o	DET	DET	PronType=Art	24	det	_	_
 24	eleição	eleição	NOUN	NOUN	_	21	nmod	_	_
 25	encheram	encher	VERB	VERB	_	12	conj	_	_
-26	as	o	DET	DET	_	27	det	_	_
+26	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	27	det	_	_
 27	bancas	banca	NOUN	NOUN	_	25	obj	_	_
 28	de	de	ADP	ADP	_	29	case	_	_
 29	jornais	jornal	NOUN	NOUN	_	27	nmod	_	_
@@ -166,7 +166,7 @@
 22	três	_	NUM	NUM	NumType=Card	23	nummod	_	_
 23	treinamentos	treinamento	NOUN	NOUN	_	20	obj	_	_
 24	para	para	ADP	ADP	_	26	case	_	_
-25	as	o	DET	DET	_	26	det	_	_
+25	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	26	det	_	_
 26	secretárias	_	NOUN	NOUN	_	20	nmod	_	_
 27	que	_	PRON	PRON	_	28	nsubj	_	_
 28	atuam	_	VERB	VERB	_	26	acl:relcl	_	_
@@ -276,7 +276,7 @@
 
 # sent_id = train-s5386
 # text = A informação foi confirmada ao iCarros por Caique Ferreira, diretor de comunicação da marca.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	informação	informação	NOUN	NOUN	_	4	nsubj:pass	_	_
 3	foi	_	AUX	AUX	_	4	aux:pass	_	_
 4	confirmada	confirmar	VERB	VERB	_	0	root	_	_
@@ -308,7 +308,7 @@
 7	mas	mas	CCONJ	CONJ	_	8	cc	_	_
 8	promete	prometer	VERB	VERB	_	3	conj	_	_
 9	ajudar	ajudar	VERB	VERB	_	8	xcomp	_	_
-10	a	o	DET	DET	_	11	det	_	_
+10	a	o	DET	DET	PronType=Art	11	det	_	_
 11	marcação	marcação	NOUN	NOUN	_	9	obj	_	_
 12	também	também	ADV	ADV	_	9	advmod	_	_
 13	em	em	ADP	ADP	_	15	case	_	_

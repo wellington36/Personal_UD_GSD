@@ -1,6 +1,6 @@
 # sent_id = dev-s1091
 # text = A Universidade Federal Rural de Pernambuco (UFRPE) informou que não vai se pronunciar publicamente sobre o assunto.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	Universidade	_	PROPN	PNOUN	_	10	nsubj	_	_
 3	Federal	_	PROPN	PNOUN	_	2	amod	_	_
 4	Rural	_	PROPN	PNOUN	_	2	amod	_	_
@@ -89,7 +89,7 @@
 
 # sent_id = dev-s1094
 # text = A presidente ainda ressaltou que o país "precisa, mais do que nunca, investir na ampliação e na modernização de nossos aeroportos para oferecer um serviço de qualidade", ao comentar os anúncios feitos pelo governo para o setor aeroportuário em dezembro.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	presidente	presidente	NOUN	NOUN	_	4	nsubj	_	_
 3	ainda	ainda	ADV	ADV	_	4	advmod	_	_
 4	ressaltou	ressaltar	VERB	VERB	_	0	root	_	_
@@ -192,7 +192,7 @@
 13	satélite	satélite	NOUN	NOUN	_	9	obj	_	SpaceAfter=No
 14	,	,	PUNCT	.	_	28	punct	_	_
 15	mas	mas	CCONJ	CONJ	_	28	cc	_	_
-16	a	o	DET	DET	_	17	det	_	_
+16	a	o	DET	DET	PronType=Art	17	det	_	_
 17	Coreia	_	PROPN	PNOUN	_	28	nsubj	_	_
 18-19	do	_	_	_	_	_	_	_	_
 18	de	de	ADP	ADP	_	20	case	_	_
@@ -207,7 +207,7 @@
 27	aliados	aliado	NOUN	NOUN	_	17	conj	_	_
 28	acreditam	acreditar	VERB	VERB	_	2	conj	_	_
 29	que	que	CCONJ	CONJ	_	32	mark	_	_
-30	a	o	DET	DET	_	31	det	_	_
+30	a	o	DET	DET	PronType=Art	31	det	_	_
 31	operação	operação	NOUN	NOUN	_	32	nsubj	_	_
 32	encobre	encobrir	VERB	VERB	_	28	ccomp	_	_
 33	uma	um	DET	DET	_	34	det	_	_
@@ -221,7 +221,7 @@
 41	o	o	DET	DET	_	42	det	_	_
 42	que	_	PRON	PRON	_	43	nsubj	_	_
 43	viola	violar	VERB	VERB	_	32	parataxis	_	_
-44	as	o	DET	DET	_	45	det	_	_
+44	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	45	det	_	_
 45	resoluções	resolução	NOUN	NOUN	_	43	obj	_	_
 46-47	do	_	_	_	_	_	_	_	_
 46	de	de	ADP	ADP	_	48	case	_	_
@@ -258,7 +258,7 @@
 4	enquanto	_	CCONJ	CONJ	_	5	mark	_	_
 5	esteve	_	VERB	VERB	_	22	advcl	_	_
 6	com	com	ADP	ADP	_	8	case	_	_
-7	a	o	DET	DET	_	8	det	_	_
+7	a	o	DET	DET	PronType=Art	8	det	_	_
 8	seleção	seleção	NOUN	NOUN	_	5	nmod	_	_
 9	brasileira	brasileiro	ADJ	ADJ	_	8	amod	_	_
 10	--	_	PUNCT	.	_	13	punct	_	_
@@ -271,7 +271,7 @@
 16	Américas	_	PROPN	PNOUN	_	13	nmod	_	SpaceAfter=No
 17	,	,	PUNCT	.	_	20	punct	_	_
 18	contra	_	ADP	ADP	_	20	case	_	_
-19	a	o	DET	DET	_	20	det	_	_
+19	a	o	DET	DET	PronType=Art	20	det	_	_
 20	Argentina	_	PROPN	PNOUN	_	13	nmod	_	_
 21	--	_	PUNCT	.	_	13	punct	_	_
 22	deu	dar	VERB	VERB	_	2	ccomp	_	_
@@ -286,7 +286,7 @@
 30	que	_	PRON	PRON	_	32	nsubj	_	_
 31	também	também	ADV	ADV	_	32	advmod	_	_
 32	vestiram	vestir	VERB	VERB	_	29	acl:relcl	_	_
-33	a	o	DET	DET	_	34	det	_	_
+33	a	o	DET	DET	PronType=Art	34	det	_	_
 34	Amarelinha	_	PROPN	PNOUN	_	32	obj	_	SpaceAfter=No
 35	.	.	PUNCT	.	_	2	punct	_	_
 
@@ -322,7 +322,7 @@
 
 # sent_id = dev-s1100
 # text = A chuva fina deixava em seu casaco preto incontáveis gotinhas prateadas, o vento gelado balançava as árvores, os faróis iam e vinham, mas o rapaz não ligava mais para aquela paisagem invulgar na sua cidade.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	chuva	chuva	NOUN	NOUN	_	4	nsubj	_	_
 3	fina	fino	ADJ	ADJ	_	2	amod	_	_
 4	deixava	deixar	VERB	VERB	_	0	root	_	_
@@ -338,7 +338,7 @@
 14	vento	vento	NOUN	NOUN	_	16	nsubj	_	_
 15	gelado	gelado	ADJ	ADJ	_	14	amod	_	_
 16	balançava	balançar	VERB	VERB	_	4	conj	_	_
-17	as	o	DET	DET	_	18	det	_	_
+17	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
 18	árvores	árvore	NOUN	NOUN	_	16	obj	_	SpaceAfter=No
 19	,	,	PUNCT	.	_	22	punct	_	_
 20	os	o	DET	DET	_	21	det	_	_

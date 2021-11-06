@@ -16,7 +16,7 @@
 14	informou	informar	VERB	VERB	_	0	root	_	_
 15	hoje	hoje	ADV	ADV	_	14	advmod	_	_
 16	que	que	CCONJ	CONJ	_	23	mark	_	_
-17	as	o	DET	DET	_	18	det	_	_
+17	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
 18	forças	força	NOUN	NOUN	_	23	nsubj	_	_
 19-20	da	_	_	_	_	_	_	_	_
 19	de	de	ADP	ADP	_	21	case	_	_
@@ -69,7 +69,7 @@
 20	debatem	debater	VERB	VERB	_	0	root	_	_
 21	quais	_	PRON	PRON	_	20	ccomp	_	_
 22	foram	_	AUX	AUX	_	21	cop	_	_
-23	as	o	DET	DET	_	25	det	_	_
+23	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	25	det	_	_
 24	principais	principal	ADJ	ADJ	_	25	amod	_	_
 25	conquistas	conquista	NOUN	NOUN	_	21	nsubj	_	_
 26	e	e	CCONJ	CONJ	_	27	cc	_	_
@@ -85,7 +85,7 @@
 
 # sent_id = train-s5740
 # text = A cúpula também deliberou sobre cidades no Espírito Santo: em Cariacica a sigla ficará neutra, em Vila Velha optou - se pelo "não ao DEM" (para impedir que prefeitos petistas da região anunciassem apoio ao candidato do DEM) e em Vitória não haverá apoio a nenhum dos candidatos que disputam o segundo turno.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	cúpula	cúpula	NOUN	NOUN	_	4	nsubj	_	_
 3	também	também	ADV	ADV	_	4	advmod	_	_
 4	deliberou	deliberar	VERB	VERB	_	0	root	_	_
@@ -99,7 +99,7 @@
 11	:	:	PUNCT	.	_	4	punct	_	_
 12	em	em	ADP	ADP	_	13	case	_	_
 13	Cariacica	_	PROPN	PNOUN	_	16	nmod	_	_
-14	a	o	DET	DET	_	15	det	_	_
+14	a	o	DET	DET	PronType=Art	15	det	_	_
 15	sigla	sigla	NOUN	NOUN	_	16	nsubj	_	_
 16	ficará	ficar	VERB	VERB	_	4	parataxis	_	_
 17	neutra	neutro	ADJ	ADJ	_	16	xcomp	_	SpaceAfter=No
@@ -208,7 +208,7 @@
 
 # sent_id = train-s5743
 # text = A expectativa é que cerca de nove mil alunos da rede Faetec, estudantes de escolas públicas e visitantes aproveitem as oportunidades de estágio e emprego e desfrutem doutros serviços, como emissão de documentos gratuitamente, através da Secretaria de Trabalho.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	expectativa	expectativa	NOUN	NOUN	_	0	root	_	_
 3	é	ser	AUX	AUX	_	2	cop	_	_
 4	que	que	CCONJ	CONJ	_	21	mark	_	_
@@ -230,7 +230,7 @@
 19	e	e	CCONJ	CONJ	_	20	cc	_	_
 20	visitantes	_	NOUN	NOUN	_	9	conj	_	_
 21	aproveitem	aproveitar	VERB	VERB	_	2	csubj	_	_
-22	as	o	DET	DET	_	23	det	_	_
+22	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
 23	oportunidades	oportunidade	NOUN	NOUN	_	21	obj	_	_
 24	de	de	ADP	ADP	_	25	case	_	_
 25	estágio	estágio	NOUN	NOUN	_	23	nmod	_	_
@@ -291,7 +291,7 @@
 14	o	o	DET	DET	_	15	det	_	_
 15	funcionamento	funcionamento	NOUN	NOUN	_	12	nmod	_	SpaceAfter=No
 16	,	,	PUNCT	.	_	19	punct	_	_
-17	as	o	DET	DET	_	19	det	_	_
+17	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
 18	principais	principal	ADJ	ADJ	_	19	amod	_	_
 19	modalidades	modalidade	NOUN	NOUN	_	15	conj	_	_
 20	de	de	ADP	ADP	_	21	case	_	_
@@ -307,7 +307,7 @@
 29	cooperação	cooperação	NOUN	NOUN	_	27	nmod	_	_
 30	científica	científico	ADJ	ADJ	_	29	amod	_	_
 31	que	_	PRON	PRON	_	34	obj	_	_
-32	a	o	DET	DET	_	33	det	_	_
+32	a	o	DET	DET	PronType=Art	33	det	_	_
 33	FAPESP	_	PROPN	PNOUN	_	34	nsubj	_	_
 34	possui	possuir	VERB	VERB	_	27	acl:relcl	_	_
 35	com	com	ADP	ADP	_	36	case	_	_

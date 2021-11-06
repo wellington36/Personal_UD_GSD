@@ -78,7 +78,7 @@
 43	artilheiros	artilheiro	NOUN	NOUN	_	40	nmod	_	SpaceAfter=No
 44	,	,	PUNCT	.	_	48	punct	_	_
 45	com	com	ADP	ADP	_	48	case	_	_
-46	as	o	DET	DET	_	48	det	_	_
+46	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	48	det	_	_
 47	respectivas	respectivo	ADJ	ADJ	_	48	amod	_	_
 48	armas	arma	NOUN	NOUN	_	40	nmod	_	SpaceAfter=No
 49	.	.	PUNCT	.	_	22	punct	_	_
@@ -97,7 +97,7 @@
 9	turno	turno	NOUN	NOUN	_	4	nmod	_	_
 10	devem	_	AUX	AUX	_	11	aux	_	_
 11	apresentar	apresentar	VERB	VERB	_	0	root	_	_
-12	as	o	DET	DET	_	13	det	_	_
+12	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
 13	contas	conta	NOUN	NOUN	_	11	obj	_	_
 14	até	_	ADP	ADP	_	15	case	_	_
 15	6	_	NUM	NUM	NumType=Card	11	nmod	_	_
@@ -129,7 +129,7 @@
 17	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
 18	vezes	vez	NOUN	NOUN	_	15	nmod	_	SpaceAfter=No
 19	,	,	PUNCT	.	_	15	punct	_	_
-20	a	o	DET	DET	_	22	det	_	_
+20	a	o	DET	DET	PronType=Art	22	det	_	_
 21	única	único	ADJ	ADJ	_	22	amod	_	_
 22	fonte	fonte	NOUN	NOUN	_	0	root	_	_
 23	de	de	ADP	ADP	_	24	case	_	_
@@ -285,7 +285,7 @@
 
 # sent_id = train-s580
 # text = A oportunidade é para contratação imediata e oferece como benefícios: plano de saúde e odontológico para o funcionário e dependentes, 14 º salário, ticket refeição, seguro de vida, previdência privada, bolsa de estudo, material escolar e bônus individual por metas alcançadas.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	oportunidade	oportunidade	NOUN	NOUN	_	3	nsubj	_	_
 3	é	ser	VERB	VERB	_	0	root	_	_
 4	para	para	ADP	ADP	_	5	case	_	_

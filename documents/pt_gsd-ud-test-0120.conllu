@@ -159,7 +159,7 @@
 4	mais	mais	ADV	ADV	_	6	advmod	_	_
 5	de	_	ADP	ADP	_	6	mark	_	_
 6	perto	perto	ADV	ADV	_	3	nmod	_	_
-7	as	o	DET	DET	_	8	det	_	_
+7	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
 8	cores	cor	NOUN	NOUN	_	3	obj	_	_
 9	expostas	exposto	ADJ	ADJ	_	8	amod	_	_
 10-11	na	_	_	_	_	_	_	_	_
@@ -199,7 +199,7 @@
 12	o	o	DET	DET	_	13	det	_	_
 13	Grêmio	_	PROPN	PNOUN	_	14	nsubj	_	_
 14	teve	ter	VERB	VERB	_	0	root	_	_
-15	a	o	DET	DET	_	16	det	_	_
+15	a	o	DET	DET	PronType=Art	16	det	_	_
 16	posse	posse	NOUN	NOUN	_	14	obj	_	_
 17	de	de	ADP	ADP	_	18	case	_	_
 18	bola	bola	NOUN	NOUN	_	16	nmod	_	_
@@ -263,7 +263,7 @@
 # sent_id = test-s1193
 # text = Com a (primeira) aposentadoria de Michael Jordan na temporada 1993-1994, muitos acharam que seria a hora dos Knicks conseguirem finalmente a passagem para as finais da NBA.
 1	Com	_	ADP	ADP	_	6	case	_	_
-2	a	o	DET	DET	_	6	det	_	_
+2	a	o	DET	DET	PronType=Art	6	det	_	_
 3	(	(	PUNCT	.	_	4	punct	_	SpaceAfter=No
 4	primeira	primeiro	ADJ	ADJ	_	6	amod	_	SpaceAfter=No
 5	)	)	PUNCT	.	_	4	punct	_	_
@@ -281,7 +281,7 @@
 16	acharam	achar	VERB	VERB	_	0	root	_	_
 17	que	que	CCONJ	CONJ	_	20	mark	_	_
 18	seria	_	AUX	AUX	_	20	cop	_	_
-19	a	o	DET	DET	_	20	det	_	_
+19	a	o	DET	DET	PronType=Art	20	det	_	_
 20	hora	hora	NOUN	NOUN	_	16	ccomp	_	_
 21-22	dos	_	_	_	_	_	_	_	_
 21	de	de	ADP	ADP	_	24	case	_	_
@@ -289,10 +289,10 @@
 23	Knicks	_	PROPN	PNOUN	_	24	nsubj	_	_
 24	conseguirem	conseguir	VERB	VERB	_	20	nmod	_	_
 25	finalmente	finalmente	ADV	ADV	_	24	advmod	_	_
-26	a	o	DET	DET	_	27	det	_	_
+26	a	o	DET	DET	PronType=Art	27	det	_	_
 27	passagem	passagem	NOUN	NOUN	_	24	obj	_	_
 28	para	para	ADP	ADP	_	30	case	_	_
-29	as	o	DET	DET	_	30	det	_	_
+29	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	30	det	_	_
 30	finais	final	NOUN	NOUN	_	27	nmod	_	_
 31-32	da	_	_	_	_	_	_	_	_
 31	de	de	ADP	ADP	_	33	case	_	_

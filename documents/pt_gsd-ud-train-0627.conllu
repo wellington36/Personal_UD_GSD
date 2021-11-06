@@ -76,7 +76,7 @@
 1	Apesar	apesar	ADV	ADV	_	5	case	_	_
 2	de	_	ADP	ADP	_	1	fixed	_	_
 3	todas	_	DET	DET	_	5	det	_	_
-4	as	o	DET	DET	_	5	det	_	_
+4	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
 5	merdas	_	NOUN	NOUN	_	13	nmod	_	_
 6-7	da	_	_	_	_	_	_	_	_
 6	de	de	ADP	ADP	_	8	case	_	_
@@ -122,7 +122,7 @@
 
 # sent_id = train-s6228
 # text = A Lei de Diretrizes Orçamentárias (LDO) estabelece que o Executivo envie a atualização dos parâmetros da economia.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	Lei	_	PROPN	PNOUN	_	9	nsubj	_	_
 3	de	de	ADP	ADP	_	4	case	_	_
 4	Diretrizes	_	PROPN	PNOUN	_	2	nmod	_	_
@@ -135,7 +135,7 @@
 11	o	o	DET	DET	_	12	det	_	_
 12	Executivo	_	PROPN	PNOUN	_	13	nsubj	_	_
 13	envie	enviar	VERB	VERB	_	9	ccomp	_	_
-14	a	o	DET	DET	_	15	det	_	_
+14	a	o	DET	DET	PronType=Art	15	det	_	_
 15	atualização	atualização	NOUN	NOUN	_	13	obj	_	_
 16-17	dos	_	_	_	_	_	_	_	_
 16	de	de	ADP	ADP	_	18	case	_	_
@@ -267,7 +267,7 @@
 4	de	de	ADP	ADP	_	5	case	_	_
 5	2013	_	NUM	NUM	NumType=Card	3	nmod	_	SpaceAfter=No
 6	,	,	PUNCT	.	_	3	punct	_	_
-7	a	o	DET	DET	_	8	det	_	_
+7	a	o	DET	DET	PronType=Art	8	det	_	_
 8	expectativa	expectativa	NOUN	NOUN	_	11	nsubj	_	_
 9	também	também	ADV	ADV	_	11	advmod	_	_
 10	não	não	ADV	ADV	Polarity=Neg	11	advmod	_	_
@@ -282,7 +282,7 @@
 
 # sent_id = train-s6234
 # text = A gente viu todo o processo que aconteceu e quer respeitar o posicionamento dele.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	gente	gente	NOUN	NOUN	_	3	nsubj	_	_
 3	viu	ver	VERB	VERB	_	0	root	_	_
 4	todo	_	DET	DET	_	6	det	_	_

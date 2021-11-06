@@ -13,7 +13,7 @@
 
 # sent_id = train-s4008
 # text = A forte expansão atual pelo interior acontece principalmente por meio da bandeira econômica, devido a um recente impulso no turismo de negócios.
-1	A	o	DET	DET	_	3	det	_	_
+1	A	o	DET	DET	PronType=Art	3	det	_	_
 2	forte	forte	ADJ	ADJ	_	3	amod	_	_
 3	expansão	expansão	NOUN	NOUN	_	8	nsubj	_	_
 4	atual	atual	ADJ	ADJ	_	3	amod	_	_
@@ -184,7 +184,7 @@
 11	50	_	NUM	NUM	NumType=Card	9	nmod	_	SpaceAfter=No
 12	,	,	PUNCT	.	_	15	punct	_	_
 13	com	com	ADP	ADP	_	15	case	_	_
-14	a	o	DET	DET	_	15	det	_	_
+14	a	o	DET	DET	PronType=Art	15	det	_	_
 15	doação	doação	NOUN	NOUN	_	3	nmod	_	_
 16-17	das	_	_	_	_	_	_	_	_
 16	de	de	ADP	ADP	_	18	case	_	_
@@ -223,7 +223,7 @@
 13	em	em	ADP	ADP	_	14	case	_	_
 14	sintonia	sintonia	NOUN	NOUN	_	8	nmod	_	_
 15	com	com	ADP	ADP	_	18	case	_	_
-16	as	o	DET	DET	_	18	det	_	_
+16	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
 17	novas	novo	ADJ	ADJ	_	18	amod	_	_
 18	configurações	configuração	NOUN	NOUN	_	14	nmod	_	_
 19-20	das	_	_	_	_	_	_	_	_
@@ -245,7 +245,7 @@
 7	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
 8	casos	caso	NOUN	NOUN	_	5	nmod	_	SpaceAfter=No
 9	,	,	PUNCT	.	_	5	punct	_	_
-10	a	o	DET	DET	_	11	det	_	_
+10	a	o	DET	DET	PronType=Art	11	det	_	_
 11	patologia	patologia	NOUN	NOUN	_	12	nsubj	_	_
 12	ocorre	ocorrer	VERB	VERB	_	0	root	_	_
 13-14	pela	_	_	_	_	_	_	_	_
@@ -280,7 +280,7 @@
 15	o	o	DET	DET	_	16	det	_	_
 16	controle	_	NOUN	NOUN	_	14	obj	_	_
 17	sobre	_	ADP	ADP	_	19	case	_	_
-18	a	o	DET	DET	_	19	det	_	_
+18	a	o	DET	DET	PronType=Art	19	det	_	_
 19	substância	substância	NOUN	NOUN	_	16	nmod	_	SpaceAfter=No
 20	,	,	PUNCT	.	_	10	punct	_	_
 21	porque	_	CCONJ	CONJ	_	28	mark	_	_
@@ -318,7 +318,7 @@
 
 # sent_id = train-s4016
 # text = A confissão dos pecados graves é o único modo ordinário para obter o perdão."
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	confissão	confissão	NOUN	NOUN	_	10	nsubj	_	_
 3-4	dos	_	_	_	_	_	_	_	_
 3	de	de	ADP	ADP	_	5	case	_	_

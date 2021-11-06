@@ -38,7 +38,7 @@
 4	compromisso	compromisso	NOUN	NOUN	_	2	obj	_	_
 5	de	_	ADP	ADP	_	6	mark	_	_
 6	gerenciar	gerenciar	VERB	VERB	_	4	nmod	_	_
-7	a	o	DET	DET	_	9	det	_	_
+7	a	o	DET	DET	PronType=Art	9	det	_	_
 8	nossa	_	DET	DET	_	9	det:poss	_	_
 9	franquia	franquia	NOUN	NOUN	_	6	obj	_	_
 10	mantendo	manter	VERB	VERB	_	6	acl	_	_
@@ -127,7 +127,7 @@
 # sent_id = train-s6238
 # text = "A crise afeta em maior grau os países mais dependentes dos mercados desenvolvidos, mas o Brasil, por depender menos do que os outros países, leva vantagem", afirmou.
 1	"	"	PUNCT	.	_	4	punct	_	SpaceAfter=No
-2	A	o	DET	DET	_	3	det	_	_
+2	A	o	DET	DET	PronType=Art	3	det	_	_
 3	crise	crise	NOUN	NOUN	_	4	nsubj	_	_
 4	afeta	afetar	VERB	VERB	_	35	ccomp	_	_
 5	em	em	ADP	ADP	_	7	case	_	_
@@ -193,7 +193,7 @@
 # sent_id = train-s6240
 # text = Com a transformação do nosso salário em subsídio, isso não aconteceria mais.
 1	Com	_	ADP	ADP	_	3	case	_	_
-2	a	o	DET	DET	_	3	det	_	_
+2	a	o	DET	DET	PronType=Art	3	det	_	_
 3	transformação	transformação	NOUN	NOUN	_	13	nmod	_	_
 4-5	do	_	_	_	_	_	_	_	_
 4	de	de	ADP	ADP	_	7	case	_	_
@@ -357,7 +357,7 @@
 8	de	de	ADP	ADP	_	9	case	_	_
 9	Igreja	_	PROPN	PNOUN	_	3	nmod	_	_
 10	Metropolitana	_	PROPN	PNOUN	_	9	amod	_	_
-11	a	o	DET	DET	_	12	det	_	_
+11	a	o	DET	DET	PronType=Art	12	det	_	_
 12	Sé	_	PROPN	PNOUN	_	1	obj	_	_
 13	e	e	CCONJ	CONJ	_	14	cc	_	_
 14	Cadeira	_	PROPN	PNOUN	_	12	conj	_	SpaceAfter=No

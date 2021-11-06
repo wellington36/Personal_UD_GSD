@@ -23,7 +23,7 @@
 21	questões	questão	NOUN	NOUN	_	19	nmod	_	_
 22	de	de	ADP	ADP	_	25	case	_	_
 23	todas	_	DET	DET	_	25	det	_	_
-24	as	o	DET	DET	_	25	det	_	_
+24	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	25	det	_	_
 25	provas	prova	NOUN	NOUN	_	21	nmod	_	_
 26	anteriores	anterior	ADJ	ADJ	_	25	amod	_	_
 27-28	do	_	_	_	_	_	_	_	_
@@ -55,7 +55,7 @@
 
 # sent_id = train-s373
 # text = A expectativa da organização da festa era de encerrar as atividades com um público superior aos 100 mil visitantes, mas os números ainda não foram divulgados.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	expectativa	expectativa	NOUN	NOUN	_	9	nsubj	_	_
 3-4	da	_	_	_	_	_	_	_	_
 3	de	de	ADP	ADP	_	5	case	_	_
@@ -68,7 +68,7 @@
 9	era	_	VERB	VERB	_	0	root	_	_
 10	de	_	ADP	ADP	_	11	mark	_	_
 11	encerrar	encerrar	VERB	VERB	_	9	nmod	_	_
-12	as	o	DET	DET	_	13	det	_	_
+12	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
 13	atividades	atividade	NOUN	NOUN	_	11	obj	_	_
 14	com	com	ADP	ADP	_	16	case	_	_
 15	um	um	DET	DET	_	16	det	_	_
@@ -102,7 +102,7 @@
 8	o	o	DET	DET	_	9	det	_	_
 9	hospital	hospital	NOUN	NOUN	_	6	nmod	_	_
 10	onde	onde	ADV	ADV	_	15	advmod	_	_
-11	a	o	DET	DET	_	12	det	_	_
+11	a	o	DET	DET	PronType=Art	12	det	_	_
 12	vítima	vítima	NOUN	NOUN	_	15	nsubj:pass	_	_
 13	estava	estar	AUX	AUX	_	15	aux	_	_
 14	sendo	ser	AUX	AUX	_	15	aux:pass	_	_

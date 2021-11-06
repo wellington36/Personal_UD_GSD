@@ -96,7 +96,7 @@
 # text = Azul: As águas do Rio Taquari que banham o município.
 1	Azul	azul	NOUN	NOUN	_	0	root	_	SpaceAfter=No
 2	:	:	PUNCT	.	_	1	punct	_	_
-3	As	o	DET	DET	_	4	det	_	_
+3	As	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
 4	águas	água	NOUN	NOUN	_	1	appos	_	_
 5-6	do	_	_	_	_	_	_	_	_
 5	de	de	ADP	ADP	_	7	case	_	_
@@ -225,7 +225,7 @@
 6	de	de	ADP	ADP	_	7	case	_	_
 7	imprensa	imprensa	NOUN	NOUN	_	5	nmod	_	SpaceAfter=No
 8	,	,	PUNCT	.	_	5	punct	_	_
-9	a	o	DET	DET	_	10	det	_	_
+9	a	o	DET	DET	PronType=Art	10	det	_	_
 10	causa	causa	NOUN	NOUN	_	16	nsubj:pass	_	_
 11-12	da	_	_	_	_	_	_	_	_
 11	de	de	ADP	ADP	_	13	case	_	_

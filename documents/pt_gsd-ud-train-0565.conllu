@@ -1,6 +1,6 @@
 # sent_id = train-s5609
 # text = A confiança precisa prevalecer sempre para que os bons resultados tornem a acontecer.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	confiança	confiança	NOUN	NOUN	_	3	nsubj	_	_
 3	precisa	precisar	VERB	VERB	_	0	root	_	_
 4	prevalecer	prevalecer	VERB	VERB	_	3	xcomp	_	_
@@ -38,7 +38,7 @@
 19	eliminado	eliminar	VERB	VERB	_	4	conj	_	SpaceAfter=No
 20	,	,	PUNCT	.	_	21	punct	_	_
 21	passando	passar	VERB	VERB	_	19	acl	_	_
-22	a	o	DET	DET	_	23	det	_	_
+22	a	o	DET	DET	PronType=Art	23	det	_	_
 23	função	função	NOUN	NOUN	_	21	obj	_	_
 24	de	de	ADP	ADP	_	25	case	_	_
 25	treinador	treinador	NOUN	NOUN	_	23	nmod	_	_
@@ -54,7 +54,7 @@
 35	(	(	PUNCT	.	_	36	punct	_	SpaceAfter=No
 36	ampliando	ampliar	VERB	VERB	_	21	acl	_	_
 37	consideravelmente	consideravelmente	ADV	ADV	_	36	advmod	_	_
-38	a	o	DET	DET	_	39	det	_	_
+38	a	o	DET	DET	PronType=Art	39	det	_	_
 39	participação	participação	NOUN	NOUN	_	36	obj	_	_
 40-41	do	_	_	_	_	_	_	_	_
 40	de	de	ADP	ADP	_	42	case	_	_
@@ -174,7 +174,7 @@
 
 # sent_id = train-s5615
 # text = A ação foi proposta pelo Promotor de Justiça Fábio Rodrigo Casaril como resultado de investigação que comprovou que Vilma Menegotto Matt, na qualidade de esposa de Valdir Matt (vereador), irmão do atual Prefeito, foi nomeada para o exercício de cargo em comissão na Prefeitura de Santa Luzia do Oeste / RO, como diretora de Ensino e Cultura, vinculada à Secretaria Municipal de Educação.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	ação	ação	NOUN	NOUN	_	4	nsubj:pass	_	_
 3	foi	_	AUX	AUX	_	4	aux:pass	_	_
 4	proposta	propor	VERB	VERB	_	0	root	_	_

@@ -1,6 +1,6 @@
 # sent_id = train-s1895
 # text = A proposta é ousada: elevar o status dos produtos brasileiros.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	proposta	_	NOUN	NOUN	_	3	nsubj	_	_
 3	é	ser	VERB	VERB	_	0	root	_	_
 4	ousada	ousado	ADJ	ADJ	_	3	xcomp	_	SpaceAfter=No
@@ -21,10 +21,10 @@
 2	que	_	CCONJ	CONJ	_	1	fixed	_	_
 3	ele	_	PRON	PRON	_	4	nsubj	_	_
 4	banhou	banhar	VERB	VERB	_	16	advcl	_	_
-5	a	o	DET	DET	_	6	det	_	_
+5	a	o	DET	DET	PronType=Art	6	det	_	_
 6	perna	perna	NOUN	NOUN	_	4	obj	_	_
 7	com	com	ADP	ADP	_	9	case	_	_
-8	a	o	DET	DET	_	9	det	_	_
+8	a	o	DET	DET	PronType=Art	9	det	_	_
 9	água	água	NOUN	NOUN	_	4	nmod	_	_
 10-11	da	_	_	_	_	_	_	_	_
 10	de	de	ADP	ADP	_	12	case	_	_
@@ -49,14 +49,14 @@
 5	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
 6	menores	_	NOUN	NOUN	_	3	nmod	_	SpaceAfter=No
 7	,	,	PUNCT	.	_	3	punct	_	_
-8	as	o	DET	DET	_	9	det	_	_
+8	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
 9	medidas	medida	NOUN	NOUN	_	10	nsubj	_	_
 10	envolvem	envolver	VERB	VERB	_	0	root	_	_
 11	questões	questão	NOUN	NOUN	_	10	obj	_	_
 12	de	de	ADP	ADP	_	13	case	_	_
 13	segurança	segurança	NOUN	NOUN	_	11	nmod	_	SpaceAfter=No
 14	,	,	PUNCT	.	_	16	punct	_	_
-15	a	o	DET	DET	_	16	det	_	_
+15	a	o	DET	DET	PronType=Art	16	det	_	_
 16	formação	formação	NOUN	NOUN	_	11	conj	_	_
 17	de	de	ADP	ADP	_	18	case	_	_
 18	mesas	mesa	NOUN	NOUN	_	16	nmod	_	_
@@ -90,7 +90,7 @@
 # text = Teles anunciou a exclusão de Messac da lista de testemunhas menos de duas horas depois do site do GLOBO informar que o deputado era, até então, o principal trunfo dos advogados para atrasar o processo contra a organização de Cachoeira.
 1	Teles	_	PROPN	PNOUN	_	2	nsubj	_	_
 2	anunciou	anunciar	VERB	VERB	_	0	root	_	_
-3	a	o	DET	DET	_	4	det	_	_
+3	a	o	DET	DET	PronType=Art	4	det	_	_
 4	exclusão	exclusão	NOUN	NOUN	_	2	obj	_	_
 5	de	de	ADP	ADP	_	6	case	_	_
 6	Messac	_	PROPN	PNOUN	_	4	nmod	_	_
@@ -134,7 +134,7 @@
 40	o	o	DET	DET	_	41	det	_	_
 41	processo	processo	NOUN	NOUN	_	39	obj	_	_
 42	contra	_	ADP	ADP	_	44	case	_	_
-43	a	o	DET	DET	_	44	det	_	_
+43	a	o	DET	DET	PronType=Art	44	det	_	_
 44	organização	organização	NOUN	NOUN	_	41	nmod	_	_
 45	de	de	ADP	ADP	_	46	case	_	_
 46	Cachoeira	_	PROPN	PNOUN	_	44	nmod	_	SpaceAfter=No
@@ -212,12 +212,12 @@
 
 # sent_id = train-s1902
 # text = As autoridades locais confirmaram que a ação deixou vários mortos.
-1	As	o	DET	DET	_	2	det	_	_
+1	As	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	autoridades	autoridade	NOUN	NOUN	_	4	nsubj	_	_
 3	locais	local	ADJ	ADJ	_	2	amod	_	_
 4	confirmaram	confirmar	VERB	VERB	_	0	root	_	_
 5	que	que	CCONJ	CONJ	_	8	mark	_	_
-6	a	o	DET	DET	_	7	det	_	_
+6	a	o	DET	DET	PronType=Art	7	det	_	_
 7	ação	ação	NOUN	NOUN	_	8	nsubj	_	_
 8	deixou	deixar	VERB	VERB	_	4	ccomp	_	_
 9	vários	_	DET	DET	_	10	det	_	_
@@ -260,7 +260,7 @@
 
 # sent_id = train-s1904
 # text = As crianças com menos de dez não deviam trabalhar.
-1	As	o	DET	DET	_	2	det	_	_
+1	As	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	crianças	criança	NOUN	NOUN	_	9	nsubj	_	_
 3	com	com	ADP	ADP	_	6	case	_	_
 4	menos	menos	ADV	ADV	_	6	advmod	_	_

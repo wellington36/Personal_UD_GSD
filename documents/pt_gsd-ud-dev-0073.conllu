@@ -39,7 +39,7 @@
 5	anos	ano	NOUN	NOUN	_	10	nmod	_	SpaceAfter=No
 6	,	,	PUNCT	.	_	5	punct	_	_
 7	é	ser	AUX	AUX	_	10	cop	_	_
-8	a	o	DET	DET	_	10	det	_	_
+8	a	o	DET	DET	PronType=Art	10	det	_	_
 9	terceira	_	ADJ	ADJ	_	10	amod	_	_
 10	vez	vez	NOUN	NOUN	_	0	root	_	_
 11	que	que	CCONJ	CONJ	_	14	mark	_	_
@@ -99,7 +99,7 @@
 2	Grupos	grupo	NOUN	NOUN	_	4	nsubj	_	_
 3	terroristas	terrorista	ADJ	ADJ	_	2	amod	_	_
 4	atacaram	atacar	VERB	VERB	_	20	ccomp	_	_
-5	a	o	DET	DET	_	6	det	_	_
+5	a	o	DET	DET	PronType=Art	6	det	_	_
 6	aldeia	aldeia	NOUN	NOUN	_	4	obj	_	_
 7	e	e	CCONJ	CONJ	_	8	cc	_	_
 8	instalaram	instalar	VERB	VERB	_	4	conj	_	_
@@ -224,7 +224,7 @@
 
 # sent_id = dev-s722
 # text = A rodovia possui uma extensão total de aproximadamente 460,2 km, podendo ser dividida em 30 trechos, conforme listados a seguir:
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	rodovia	rodovia	NOUN	NOUN	_	3	nsubj	_	_
 3	possui	possuir	VERB	VERB	_	0	root	_	_
 4	uma	um	DET	DET	_	5	det	_	_
@@ -252,7 +252,7 @@
 # text = Para viver as três mulheres, o diretor João Fonseca optou por atores -- Gilberto Gawronski, Alexandre Pinheiro e Paulo Verlings.
 1	Para	_	ADP	ADP	_	2	mark	_	_
 2	viver	viver	VERB	VERB	_	11	advcl	_	_
-3	as	o	DET	DET	_	5	det	_	_
+3	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
 4	três	_	NUM	NUM	NumType=Card	5	nummod	_	_
 5	mulheres	mulher	NOUN	NOUN	_	2	obj	_	SpaceAfter=No
 6	,	,	PUNCT	.	_	2	punct	_	_

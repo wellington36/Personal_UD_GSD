@@ -85,7 +85,7 @@
 7	de	de	ADP	ADP	_	8	case	_	_
 8	2000	_	NUM	NUM	NumType=Card	3	nmod	_	SpaceAfter=No
 9	,	,	PUNCT	.	_	3	punct	_	_
-10	a	o	DET	DET	_	12	det	_	_
+10	a	o	DET	DET	PronType=Art	12	det	_	_
 11	sua	_	DET	DET	_	12	det:poss	_	_
 12	população	população	NOUN	NOUN	_	13	nsubj	_	_
 13	era	_	VERB	VERB	_	0	root	_	_
@@ -176,7 +176,7 @@
 
 # sent_id = train-s1265
 # text = A ideia é que em todas os equipamentos erguidos com dinheiro público no País sejam respeitadas regras e efetivados serviços voltados para a acessibilidade de portadores de necessidades especiais.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	ideia	ideia	NOUN	NOUN	_	0	root	_	_
 3	é	ser	AUX	AUX	_	2	cop	_	_
 4	que	que	CCONJ	CONJ	_	17	mark	_	_
@@ -200,7 +200,7 @@
 21	serviços	serviço	NOUN	NOUN	_	20	nsubj:pass	_	_
 22	voltados	voltar	VERB	VERB	_	21	acl	_	_
 23	para	para	ADP	ADP	_	25	case	_	_
-24	a	o	DET	DET	_	25	det	_	_
+24	a	o	DET	DET	PronType=Art	25	det	_	_
 25	acessibilidade	acessibilidade	NOUN	NOUN	_	22	nmod	_	_
 26	de	de	ADP	ADP	_	27	case	_	_
 27	portadores	portador	NOUN	NOUN	_	25	nmod	_	_
@@ -217,14 +217,14 @@
 4	de	de	ADP	ADP	_	5	case	_	_
 5	citoqueratinas	_	NOUN	NOUN	_	3	nmod	_	SpaceAfter=No
 6	:	:	PUNCT	.	_	3	punct	_	_
-7	as	o	DET	DET	_	8	det	_	_
+7	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
 8	citoqueratinas	_	NOUN	NOUN	_	3	appos	_	_
 9	ácidas	ácido	ADJ	ADJ	_	8	amod	_	_
 10	de	de	ADP	ADP	_	11	case	_	_
 11	tipo	tipo	NOUN	NOUN	_	8	nmod	_	_
 12	I	_	NUM	NUM	NumType=Card	11	appos	_	_
 13	e	e	CCONJ	CONJ	_	15	cc	_	_
-14	as	o	DET	DET	_	15	det	_	_
+14	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
 15	citoqueratinas	_	NOUN	NOUN	_	8	conj	_	_
 16	básicas	básico	ADJ	ADJ	_	15	amod	_	_
 17	ou	ou	CCONJ	CONJ	_	18	cc	_	_
@@ -282,7 +282,7 @@
 
 # sent_id = train-s1268b
 # text = A escolha de Daniel Radcliffe para o episódio, pode ser não só pelo fato do ator ser fã declarado da série, como trazer uma força maior à sátira pelo fato de participar de Harry Potter, saga com a qual Crepúsculo "concorre".
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	escolha	escolha	NOUN	NOUN	_	11	nsubj	_	_
 3	de	de	ADP	ADP	_	4	case	_	_
 4	Daniel	_	PROPN	PNOUN	_	2	nmod	_	_

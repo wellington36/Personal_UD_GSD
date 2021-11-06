@@ -1,6 +1,6 @@
 # sent_id = dev-s320
 # text = As comercializações posteriores ocorreram com os preços à vista.
-1	As	o	DET	DET	_	2	det	_	_
+1	As	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	comercializações	comercialização	NOUN	NOUN	_	4	nsubj	_	_
 3	posteriores	posterior	ADJ	ADJ	_	2	amod	_	_
 4	ocorreram	ocorrer	VERB	VERB	_	0	root	_	_
@@ -41,7 +41,7 @@
 22	deve	dever	AUX	AUX	_	23	aux	_	_
 23	contemplar	contemplar	VERB	VERB	_	5	conj	_	_
 24	principalmente	principalmente	ADV	ADV	_	23	advmod	_	_
-25	a	o	DET	DET	_	26	det	_	_
+25	a	o	DET	DET	PronType=Art	26	det	_	_
 26	recomposição	recomposição	NOUN	NOUN	_	23	obj	_	_
 27-28	dos	_	_	_	_	_	_	_	_
 27	de	de	ADP	ADP	_	29	case	_	_
@@ -148,7 +148,7 @@
 32	companhias	companhia	NOUN	NOUN	_	29	nmod	_	SpaceAfter=No
 33	,	,	PUNCT	.	_	36	punct	_	_
 34	para	para	ADP	ADP	_	36	case	_	_
-35	a	o	DET	DET	_	36	det	_	_
+35	a	o	DET	DET	PronType=Art	36	det	_	_
 36	definição	definição	NOUN	NOUN	_	13	nmod	_	_
 37-38	das	_	_	_	_	_	_	_	_
 37	de	de	ADP	ADP	_	39	case	_	_
@@ -158,7 +158,7 @@
 
 # sent_id = dev-s324
 # text = As inscrições ficarão abertas até 24 de setembro, no endereço eletrônicowww.cespe.unb.br/concursos/pc_al_12.
-1	As	o	DET	DET	_	2	det	_	_
+1	As	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	inscrições	inscrição	NOUN	NOUN	_	3	nsubj	_	_
 3	ficarão	ficar	VERB	VERB	_	0	root	_	_
 4	abertas	aberto	ADJ	ADJ	_	3	xcomp	_	_
@@ -217,12 +217,12 @@
 
 # sent_id = dev-s326
 # text = A organização Freedom House define a imprensa chinesa como "não livre", a pior classificação, dizendo que o controle estatal sobre a imprensa noticiosa na China é conseguido por uma combinação complexa de monitoramento partidário do conteúdo das notícias, restrições legais sobre os jornalistas e incentivos financeiros para a auto - censura.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	organização	organização	NOUN	NOUN	_	5	nsubj	_	_
 3	Freedom	_	PROPN	PNOUN	_	2	appos	_	_
 4	House	_	PROPN	PNOUN	_	3	flat	_	_
 5	define	definir	VERB	VERB	_	0	root	_	_
-6	a	o	DET	DET	_	7	det	_	_
+6	a	o	DET	DET	PronType=Art	7	det	_	_
 7	imprensa	imprensa	NOUN	NOUN	_	5	obj	_	_
 8	chinesa	chinês	ADJ	ADJ	_	7	amod	_	_
 9	como	_	ADP	ADP	_	12	mark	_	_
@@ -231,7 +231,7 @@
 12	livre	livre	ADJ	ADJ	_	5	nmod	_	SpaceAfter=No
 13	"	"	PUNCT	.	_	12	punct	_	SpaceAfter=No
 14	,	,	PUNCT	.	_	17	punct	_	_
-15	a	o	DET	DET	_	17	det	_	_
+15	a	o	DET	DET	PronType=Art	17	det	_	_
 16	pior	pior	ADJ	ADJ	_	17	amod	_	_
 17	classificação	classificação	NOUN	NOUN	_	5	parataxis	_	SpaceAfter=No
 18	,	,	PUNCT	.	_	19	punct	_	_
@@ -241,7 +241,7 @@
 22	controle	_	NOUN	NOUN	_	32	nsubj:pass	_	_
 23	estatal	estatal	ADJ	ADJ	_	22	amod	_	_
 24	sobre	_	ADP	ADP	_	26	case	_	_
-25	a	o	DET	DET	_	26	det	_	_
+25	a	o	DET	DET	PronType=Art	26	det	_	_
 26	imprensa	imprensa	NOUN	NOUN	_	22	nmod	_	_
 27	noticiosa	noticioso	ADJ	ADJ	_	26	amod	_	_
 28-29	na	_	_	_	_	_	_	_	_

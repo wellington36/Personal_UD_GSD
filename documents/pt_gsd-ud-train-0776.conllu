@@ -37,7 +37,7 @@
 3	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	trailer	trailer	NOUN	NOUN	_	1	nmod	_	_
 5	"	"	PUNCT	.	_	7	punct	_	SpaceAfter=No
-6	A	o	DET	DET	_	7	det	_	_
+6	A	o	DET	DET	PronType=Art	7	det	_	_
 7	Tentação	_	PROPN	PNOUN	_	4	appos	_	SpaceAfter=No
 8	"	"	PUNCT	.	_	7	punct	_	SpaceAfter=No
 9	,	,	PUNCT	.	_	11	punct	_	_
@@ -137,7 +137,7 @@
 12	ir	ir	VERB	VERB	_	10	nmod	_	_
 13	direto	direto	ADV	ADV	_	12	advmod	_	_
 14	fazer	fazer	VERB	VERB	_	12	xcomp	_	_
-15	a	o	DET	DET	_	16	det	_	_
+15	a	o	DET	DET	PronType=Art	16	det	_	_
 16	coleta	coleta	NOUN	NOUN	_	14	obj	_	SpaceAfter=No
 17	,	,	PUNCT	.	_	22	punct	_	_
 18	de	_	ADP	ADP	_	22	mark	_	_

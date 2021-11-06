@@ -1,6 +1,6 @@
 # sent_id = train-s3222
 # text = A crítica argentina, que dá nome a um espaço no Memorial da América Latina, em São Paulo, a Galeria Marta Traba, faz minucioso estudo de artistas latino - americanos na época, dividindo em duas categorias.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	crítica	_	NOUN	NOUN	_	28	nsubj	_	_
 3	argentina	argentino	ADJ	ADJ	_	2	amod	_	SpaceAfter=No
 4	,	,	PUNCT	.	_	6	punct	_	_
@@ -24,7 +24,7 @@
 20	São	_	PROPN	PNOUN	_	13	nmod	_	_
 21	Paulo	_	PROPN	PNOUN	_	20	flat	_	SpaceAfter=No
 22	,	,	PUNCT	.	_	24	punct	_	_
-23	a	o	DET	DET	_	24	det	_	_
+23	a	o	DET	DET	PronType=Art	24	det	_	_
 24	Galeria	_	PROPN	PNOUN	_	10	appos	_	_
 25	Marta	_	PROPN	PNOUN	_	24	flat	_	_
 26	Traba	_	PROPN	PNOUN	_	24	flat	_	SpaceAfter=No
@@ -51,7 +51,7 @@
 # sent_id = train-s3223
 # text = Para a cidade em si, quadruplicou sua superfície para o oeste e a fechou com novas muralhas.
 1	Para	_	ADP	ADP	_	3	case	_	_
-2	a	o	DET	DET	_	3	det	_	_
+2	a	o	DET	DET	PronType=Art	3	det	_	_
 3	cidade	cidade	NOUN	NOUN	_	7	nmod	_	_
 4	em	em	ADP	ADP	_	5	case	_	_
 5	si	_	PRON	PRON	_	3	nmod	_	SpaceAfter=No
@@ -73,7 +73,7 @@
 # sent_id = train-s3224
 # text = Durante a feira, uma quadrilha com cães vestidos a caráter e um espaço para as crianças, com brincadeiras, contadores de história e pinturas.
 1	Durante	_	ADP	ADP	_	3	case	_	_
-2	a	o	DET	DET	_	3	det	_	_
+2	a	o	DET	DET	PronType=Art	3	det	_	_
 3	feira	_	PROPN	PNOUN	_	6	nmod	_	SpaceAfter=No
 4	,	,	PUNCT	.	_	3	punct	_	_
 5	uma	um	DET	DET	_	6	det	_	_
@@ -87,7 +87,7 @@
 13	um	um	DET	DET	_	14	det	_	_
 14	espaço	espaço	NOUN	NOUN	_	6	conj	_	_
 15	para	para	ADP	ADP	_	17	case	_	_
-16	as	o	DET	DET	_	17	det	_	_
+16	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
 17	crianças	criança	NOUN	NOUN	_	14	nmod	_	SpaceAfter=No
 18	,	,	PUNCT	.	_	20	punct	_	_
 19	com	com	ADP	ADP	_	20	case	_	_
@@ -185,7 +185,7 @@
 
 # sent_id = train-s3227
 # text = A assessoria do TSE informou que a urna eletrônica tem autonomia de 12 horas e pode funcionar mesmo desligada da rede elétrica.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	assessoria	assessoria	NOUN	NOUN	_	6	nsubj	_	_
 3-4	do	_	_	_	_	_	_	_	_
 3	de	de	ADP	ADP	_	5	case	_	_
@@ -193,7 +193,7 @@
 5	TSE	_	PROPN	PNOUN	_	2	nmod	_	_
 6	informou	informar	VERB	VERB	_	0	root	_	_
 7	que	que	CCONJ	CONJ	_	11	mark	_	_
-8	a	o	DET	DET	_	9	det	_	_
+8	a	o	DET	DET	PronType=Art	9	det	_	_
 9	urna	urna	NOUN	NOUN	_	11	nsubj	_	_
 10	eletrônica	eletrônico	ADJ	ADJ	_	9	amod	_	_
 11	tem	ter	VERB	VERB	_	6	ccomp	_	_
@@ -224,7 +224,7 @@
 6	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	mensalão	_	NOUN	NOUN	_	4	nmod	_	SpaceAfter=No
 8	,	,	PUNCT	.	_	1	punct	_	_
-9	a	o	DET	DET	_	10	det	_	_
+9	a	o	DET	DET	PronType=Art	10	det	_	_
 10	senadora	senador	NOUN	NOUN	_	11	nsubj	_	_
 11	disse	dizer	VERB	VERB	_	0	root	_	_
 12	que	que	CCONJ	CONJ	_	21	mark	_	_
@@ -257,7 +257,7 @@
 
 # sent_id = train-s3230
 # text = A Polícia Civil abrirá inquérito para apurar o crime de concussão (vantagem indevida obtida por meio da própria função para o favorecimento de terceiros) e prevê de 2 a 8 anos de prisão, porém Sérgio Roberto poderá ser libertado após pagar a fiança fixada em R $ 5 mil.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	Polícia	_	PROPN	PNOUN	_	4	nsubj	_	_
 3	Civil	_	PROPN	PNOUN	_	2	amod	_	_
 4	abrirá	abrir	VERB	VERB	_	0	root	_	_
@@ -303,7 +303,7 @@
 43	libertado	libertar	VERB	VERB	_	4	conj	_	_
 44	após	_	ADP	ADP	_	45	mark	_	_
 45	pagar	pagar	VERB	VERB	_	43	advcl	_	_
-46	a	o	DET	DET	_	47	det	_	_
+46	a	o	DET	DET	PronType=Art	47	det	_	_
 47	fiança	fiança	NOUN	NOUN	_	45	obj	_	_
 48	fixada	fixar	VERB	VERB	_	47	acl	_	_
 49	em	em	ADP	ADP	_	50	case	_	_

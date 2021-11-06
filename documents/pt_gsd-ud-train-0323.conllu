@@ -1,6 +1,6 @@
 # sent_id = train-s3202
 # text = A ação, que teve início na última quarta - feira (1), vai agilizar o andamento das duas varas da capital que estão sobrecarregadas.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	ação	ação	NOUN	NOUN	_	18	nsubj	_	SpaceAfter=No
 3	,	,	PUNCT	.	_	5	punct	_	_
 4	que	_	PRON	PRON	_	5	nsubj	_	_
@@ -101,7 +101,7 @@
 44	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	45	det	_	_
 45	Eurocopa	_	PROPN	PNOUN	_	42	nmod	_	_
 46	com	com	ADP	ADP	_	49	case	_	_
-47	a	o	DET	DET	_	49	det	_	_
+47	a	o	DET	DET	PronType=Art	49	det	_	_
 48	''	_	PUNCT	.	_	49	punct	_	_
 49	Fúria	_	PROPN	PNOUN	_	45	nmod	_	_
 50	''	_	PUNCT	.	_	49	punct	_	SpaceAfter=No
@@ -138,7 +138,7 @@
 # text = Só que a parcela "invertida" da torcida pensa doutra forma.
 1	Só	só	ADV	ADV	_	11	mark	_	_
 2	que	_	CCONJ	CONJ	_	1	fixed	_	_
-3	a	o	DET	DET	_	4	det	_	_
+3	a	o	DET	DET	PronType=Art	4	det	_	_
 4	parcela	parcela	NOUN	NOUN	_	11	nsubj	_	_
 5	"	"	PUNCT	.	_	6	punct	_	SpaceAfter=No
 6	invertida	invertido	ADJ	ADJ	_	4	amod	_	SpaceAfter=No
@@ -192,10 +192,10 @@
 19	que	que	CCONJ	CONJ	_	20	mark	_	_
 20	acham	achar	VERB	VERB	_	18	ccomp	_	_
 21	preconceituosa	preconceituoso	ADJ	ADJ	_	20	xcomp	_	_
-22	a	o	DET	DET	_	23	det	_	_
+22	a	o	DET	DET	PronType=Art	23	det	_	_
 23	forma	forma	NOUN	NOUN	_	21	nsubj	_	_
 24	como	como	ADV	ADV	_	28	advmod	_	_
-25	a	o	DET	DET	_	26	det	_	_
+25	a	o	DET	DET	PronType=Art	26	det	_	_
 26	mídia	mídia	NOUN	NOUN	_	28	nsubj	_	_
 27	se	_	PRON	PRON	_	28	expl:pv	_	_
 28	refere	referir	VERB	VERB	_	23	acl:relcl	_	_
@@ -299,12 +299,12 @@
 1	De	_	ADP	ADP	_	2	case	_	_
 2	acordo	acordo	NOUN	NOUN	_	15	nmod	_	_
 3	com	com	ADP	ADP	_	5	case	_	_
-4	a	o	DET	DET	_	5	det	_	_
+4	a	o	DET	DET	PronType=Art	5	det	_	_
 5	Polícia	_	PROPN	PNOUN	_	2	nmod	_	_
 6	Rodoviária	_	PROPN	PNOUN	_	5	amod	_	_
 7	Federal	_	PROPN	PNOUN	_	5	amod	_	SpaceAfter=No
 8	,	,	PUNCT	.	_	2	punct	_	_
-9	a	o	DET	DET	_	10	det	_	_
+9	a	o	DET	DET	PronType=Art	10	det	_	_
 10	pista	pista	NOUN	NOUN	_	15	nsubj	_	_
 11-12	da	_	_	_	_	_	_	_	_
 11	de	de	ADP	ADP	_	13	case	_	_

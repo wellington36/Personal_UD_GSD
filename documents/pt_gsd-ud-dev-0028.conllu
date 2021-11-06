@@ -74,7 +74,7 @@
 9	de	de	ADP	ADP	_	10	case	_	_
 10	provas	prova	NOUN	NOUN	_	8	nmod	_	_
 11	para	para	ADP	ADP	_	13	case	_	_
-12	a	o	DET	DET	_	13	det	_	_
+12	a	o	DET	DET	PronType=Art	13	det	_	_
 13	confecção	confecção	NOUN	NOUN	_	8	nmod	_	_
 14	de	de	ADP	ADP	_	15	case	_	_
 15	carteira	_	NOUN	NOUN	_	13	nmod	_	_
@@ -151,7 +151,7 @@
 20	,	,	PUNCT	.	_	29	punct	_	_
 21	mas	mas	CCONJ	CONJ	_	29	cc	_	_
 22	recentemente	recentemente	ADV	ADV	_	29	advmod	_	_
-23	a	o	DET	DET	_	24	det	_	_
+23	a	o	DET	DET	PronType=Art	24	det	_	_
 24	concept	_	NOUN	NOUN	_	29	nsubj:pass	_	_
 25	art	_	NOUN	NOUN	_	24	flat	_	_
 26	desse	_	ADP	ADP	_	27	case	_	_
@@ -169,7 +169,7 @@
 37	2012	_	NUM	NUM	NumType=Card	34	nmod	_	SpaceAfter=No
 38	,	,	PUNCT	.	_	43	punct	_	_
 39	e	e	CCONJ	CONJ	_	43	cc	_	_
-40	as	o	DET	DET	_	41	det	_	_
+40	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	41	det	_	_
 41	suposições	suposição	NOUN	NOUN	_	43	nsubj	_	_
 42	se	_	PRON	PRON	_	43	expl:pv	_	_
 43	confirmaram	confirmar	VERB	VERB	_	4	conj	_	SpaceAfter=No

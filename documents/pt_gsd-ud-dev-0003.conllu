@@ -1,6 +1,6 @@
 # sent_id = dev-s21
 # text = A tendência, no entanto, pode ser muito perigosa, já que normalmente está vinculada à restrição de nutrientes na dieta.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	tendência	tendência	NOUN	NOUN	_	9	nsubj	_	SpaceAfter=No
 3	,	,	PUNCT	.	_	6	punct	_	_
 4-5	no	_	_	_	_	_	_	_	_
@@ -36,7 +36,7 @@
 2	o	o	DET	DET	_	3	det	_	_
 3	Planejamento	_	PROPN	PNOUN	_	9	nmod	_	SpaceAfter=No
 4	,	,	PUNCT	.	_	3	punct	_	_
-5	as	o	DET	DET	_	6	det	_	_
+5	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
 6	áreas	área	NOUN	NOUN	_	9	nsubj	_	_
 7	prioritárias	prioritário	ADJ	ADJ	_	6	amod	_	_
 8	serão	ser	AUX	AUX	_	9	cop	_	_
@@ -92,7 +92,7 @@
 2	seu	seu	DET	DET	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	3	det	_	_
 3	consultório	consultório	NOUN	NOUN	_	7	nmod	_	SpaceAfter=No
 4	,	,	PUNCT	.	_	3	punct	_	_
-5	a	o	DET	DET	_	6	det	_	_
+5	a	o	DET	DET	PronType=Art	6	det	_	_
 6	consulta	consulta	NOUN	NOUN	_	7	nsubj	_	_
 7	custa	custar	VERB	VERB	_	0	root	_	_
 8	R	r	NOUN	NOUN	_	7	obj	_	_
@@ -118,7 +118,7 @@
 
 # sent_id = dev-s25
 # text = A Lenovo ainda investe no mercado de desktops e apresentou três lançamentos em comunicado enviado à imprensa na CES 2013: o IdeaCentre A730, o IdeaCentre C540 e o Erazer X700, desenvolvido para garantir aos usuários um alto desempenho em jogos.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	Lenovo	_	PROPN	PNOUN	_	4	nsubj	_	_
 3	ainda	ainda	ADV	ADV	_	4	advmod	_	_
 4	investe	investir	VERB	VERB	_	0	root	_	_

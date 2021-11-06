@@ -1,9 +1,9 @@
 # sent_id = train-s4027
 # text = A China manteve a liderança nas vendas globais de automóveis em maio, com crescimento de 17,9 % nos emplacamentos de veículos, ante igual período de 2011, para um total de 1,34 milhão de unidades, segundo relatório da empresa de consultoria e informações do setor automotivo Jato Dynamics.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	China	_	PROPN	PNOUN	_	3	nsubj	_	_
 3	manteve	manter	VERB	VERB	_	0	root	_	_
-4	a	o	DET	DET	_	5	det	_	_
+4	a	o	DET	DET	PronType=Art	5	det	_	_
 5	liderança	liderança	NOUN	NOUN	_	3	obj	_	_
 6-7	nas	_	_	_	_	_	_	_	_
 6	em	em	ADP	ADP	_	8	case	_	_
@@ -63,7 +63,7 @@
 
 # sent_id = train-s4028
 # text = A mídia nacional foi absolutamente equivocada.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	mídia	mídia	NOUN	NOUN	_	4	nsubj	_	_
 3	nacional	nacional	ADJ	ADJ	_	2	amod	_	_
 4	foi	_	VERB	VERB	_	0	root	_	_
@@ -126,7 +126,7 @@
 9	Paulista	_	PROPN	PNOUN	_	8	amod	_	_
 10	procurou	procurar	VERB	VERB	_	0	root	_	_
 11	explorar	explorar	VERB	VERB	_	10	xcomp	_	_
-12	as	o	DET	DET	_	13	det	_	_
+12	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
 13	laterais	lateral	NOUN	NOUN	_	11	obj	_	_
 14-15	do	_	_	_	_	_	_	_	_
 14	de	de	ADP	ADP	_	16	case	_	_
@@ -200,7 +200,7 @@
 8	:	:	PUNCT	.	_	5	punct	_	_
 9	ou	ou	CCONJ	CONJ	_	10	cc	_	_
 10	controla	controlar	VERB	VERB	_	5	parataxis	_	_
-11	a	o	DET	DET	_	12	det	_	_
+11	a	o	DET	DET	PronType=Art	12	det	_	_
 12	fronteira	_	NOUN	NOUN	_	10	obj	_	_
 13	ou	ou	CCONJ	CONJ	_	17	cc	_	_
 14	[	_	PUNCT	.	_	15	punct	_	SpaceAfter=No
@@ -259,7 +259,7 @@
 27	,	,	PUNCT	.	_	31	punct	_	_
 28	e	e	CCONJ	CONJ	_	31	cc	_	_
 29	sim	sim	ADV	ADV	_	31	advmod	_	_
-30	a	o	DET	DET	_	31	det	_	_
+30	a	o	DET	DET	PronType=Art	31	det	_	_
 31	formação	formação	NOUN	NOUN	_	26	conj	_	_
 32	de	de	ADP	ADP	_	33	case	_	_
 33	atletas	atleta	NOUN	NOUN	_	31	nmod	_	SpaceAfter=No
@@ -284,7 +284,7 @@
 14	Pack	_	PROPN	PNOUN	_	13	flat	_	_
 15	1	_	NUM	NUM	NumType=Card	13	appos	_	SpaceAfter=No
 16	,	,	PUNCT	.	_	7	punct	_	_
-17	a	o	DET	DET	_	18	det	_	_
+17	a	o	DET	DET	PronType=Art	18	det	_	_
 18	maioria	maioria	NOUN	NOUN	_	26	nsubj:pass	_	_
 19-20	do	_	_	_	_	_	_	_	_
 19	de	de	ADP	ADP	_	21	case	_	_
@@ -296,7 +296,7 @@
 25	foi	_	AUX	AUX	_	26	aux:pass	_	_
 26	entregue	entregar	VERB	VERB	_	3	ccomp	_	_
 27	para	para	ADP	ADP	_	29	case	_	_
-28	a	o	DET	DET	_	29	det	_	_
+28	a	o	DET	DET	PronType=Art	29	det	_	_
 29	maioria	maioria	NOUN	NOUN	_	26	nmod	_	_
 30-31	dos	_	_	_	_	_	_	_	_
 30	de	de	ADP	ADP	_	32	case	_	_

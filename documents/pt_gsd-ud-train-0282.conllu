@@ -2,7 +2,7 @@
 # text = Treinamos todas as situações.
 1	Treinamos	treinar	VERB	VERB	_	0	root	_	_
 2	todas	_	DET	DET	_	4	det	_	_
-3	as	o	DET	DET	_	4	det	_	_
+3	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
 4	situações	situação	NOUN	NOUN	_	1	obj	_	SpaceAfter=No
 5	.	.	PUNCT	.	_	1	punct	_	_
 
@@ -43,7 +43,7 @@
 2	ter	ter	AUX	AUX	_	3	aux	_	_
 3	percebido	perceber	VERB	VERB	_	1	xcomp	_	_
 4	que	que	CCONJ	CONJ	_	7	mark	_	_
-5	a	o	DET	DET	_	6	det	_	_
+5	a	o	DET	DET	PronType=Art	6	det	_	_
 6	situação	situação	NOUN	NOUN	_	7	nsubj	_	_
 7	estava	estar	VERB	VERB	_	3	ccomp	_	_
 8	sob	_	ADP	ADP	_	9	case	_	_
@@ -145,7 +145,7 @@
 
 # sent_id = train-s2804
 # text = A PEC 23 / 2009, do senador Alvaro Dias (PSDB - PR), altera o artigo 159 da Constituição Federal para destinar ao Fundo de Participação dos Municípios 23,5 % do produto da arrecadação das contribuições sociais do empregador e da empresa sobre a receita ou faturamento e o lucro.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	PEC	_	PROPN	PNOUN	_	18	nsubj	_	_
 3	23	_	NUM	NUM	NumType=Card	2	appos	_	_
 4	/	/	PUNCT	.	_	3	punct	_	_
@@ -209,7 +209,7 @@
 53	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	54	det	_	_
 54	empresa	empresa	NOUN	NOUN	_	50	conj	_	_
 55	sobre	_	ADP	ADP	_	57	case	_	_
-56	a	o	DET	DET	_	57	det	_	_
+56	a	o	DET	DET	PronType=Art	57	det	_	_
 57	receita	receita	NOUN	NOUN	_	46	nmod	_	_
 58	ou	ou	CCONJ	CONJ	_	59	cc	_	_
 59	faturamento	faturamento	NOUN	NOUN	_	57	conj	_	_

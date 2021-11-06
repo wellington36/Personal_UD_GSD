@@ -1,7 +1,7 @@
 # sent_id = train-s7741
 # text = Já a expectativa de expansão do PIB (Produto Interno Bruto) foi reduzida no Focus pela quarta vez.
 1	Já	já	ADV	ADV	_	15	advmod	_	_
-2	a	o	DET	DET	_	3	det	_	_
+2	a	o	DET	DET	PronType=Art	3	det	_	_
 3	expectativa	expectativa	NOUN	NOUN	_	15	nsubj:pass	_	_
 4	de	de	ADP	ADP	_	5	case	_	_
 5	expansão	expansão	NOUN	NOUN	_	3	nmod	_	_
@@ -29,7 +29,7 @@
 
 # sent_id = train-s7742
 # text = A publicação afirma ainda que apesar dos problemas com a Justiça, o que arrasou a carreira da atriz neste ano foi sua atuação como Elizabeth Taylor para o filme Liz &amp; Dick.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	publicação	publicação	NOUN	NOUN	_	3	nsubj	_	_
 3	afirma	afirmar	VERB	VERB	_	0	root	_	_
 4	ainda	ainda	ADV	ADV	_	3	advmod	_	_
@@ -40,13 +40,13 @@
 8	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
 9	problemas	problema	NOUN	NOUN	_	26	nmod	_	_
 10	com	com	ADP	ADP	_	12	case	_	_
-11	a	o	DET	DET	_	12	det	_	_
+11	a	o	DET	DET	PronType=Art	12	det	_	_
 12	Justiça	_	PROPN	PNOUN	_	9	nmod	_	SpaceAfter=No
 13	,	,	PUNCT	.	_	9	punct	_	_
 14	o	_	PRON	PRON	_	26	nsubj	_	_
 15	que	_	PRON	PRON	_	16	nsubj	_	_
 16	arrasou	arrasar	VERB	VERB	_	14	acl:relcl	_	_
-17	a	o	DET	DET	_	18	det	_	_
+17	a	o	DET	DET	PronType=Art	18	det	_	_
 18	carreira	_	NOUN	NOUN	_	16	obj	_	_
 19-20	da	_	_	_	_	_	_	_	_
 19	de	de	ADP	ADP	_	21	case	_	_
@@ -139,7 +139,7 @@
 # sent_id = train-s7745
 # text = "A preocupação é desburocratizar o fechamento de microempresas e empresas de pequeno porte no País, além de desonerá - las ao serem submetidas ao processo de baixa de seus registros", explica o autor da proposta.
 1	"	"	PUNCT	.	_	3	punct	_	SpaceAfter=No
-2	A	o	DET	DET	_	3	det	_	_
+2	A	o	DET	DET	PronType=Art	3	det	_	_
 3	preocupação	preocupação	NOUN	NOUN	_	38	ccomp	_	_
 4	é	ser	AUX	AUX	_	3	cop	_	_
 5	desburocratizar	desburocratizar	VERB	VERB	_	3	csubj	_	_
@@ -325,7 +325,7 @@
 8	de	de	ADP	ADP	_	9	case	_	_
 9	situações	situação	NOUN	NOUN	_	6	conj	_	_
 10	que	_	PRON	PRON	_	14	dep	_	_
-11	as	o	DET	DET	_	12	det	_	_
+11	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
 12	pessoas	pessoa	NOUN	NOUN	_	14	nsubj	_	_
 13	vão	ir	AUX	AUX	_	14	aux	_	_
 14	achar	achar	VERB	VERB	_	9	acl:relcl	_	_

@@ -46,7 +46,7 @@
 1	Os	o	DET	DET	_	2	det	_	_
 2	resultados	resultado	NOUN	NOUN	_	3	nsubj	_	_
 3	surpreenderam	surpreender	VERB	VERB	_	0	root	_	_
-4	as	o	DET	DET	_	5	det	_	_
+4	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
 5	expectativas	expectativa	NOUN	NOUN	_	3	obj	_	_
 6	e	e	CCONJ	CONJ	_	7	cc	_	_
 7	vieram	vir	VERB	VERB	_	3	conj	_	_
@@ -146,7 +146,7 @@
 3	isso	_	PRON	PRON	_	5	nsubj	_	_
 4	vai	ir	AUX	AUX	_	5	aux	_	_
 5	desgastar	desgastar	VERB	VERB	_	14	ccomp	_	_
-6	a	o	DET	DET	_	7	det	_	_
+6	a	o	DET	DET	PronType=Art	7	det	_	_
 7	relação	relação	NOUN	NOUN	_	5	obj	_	_
 8-9	das	_	_	_	_	_	_	_	_
 8	de	de	ADP	ADP	_	11	case	_	_
@@ -228,7 +228,7 @@
 
 # sent_id = test-s138
 # text = A diferença em favor de 2011 é de 531 vagas, ou 8,7 % acima do balanço dos primeiros seis meses desse ano.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	diferença	diferença	NOUN	NOUN	_	7	nsubj	_	_
 3	em	em	ADP	ADP	_	4	case	_	_
 4	favor	favor	NOUN	NOUN	_	2	nmod	_	_
@@ -273,7 +273,7 @@
 11	sua	_	DET	DET	_	12	det:poss	_	_
 12	qualidade	qualidade	NOUN	NOUN	_	0	root	_	_
 13	com	com	ADP	ADP	_	15	case	_	_
-14	a	o	DET	DET	_	15	det	_	_
+14	a	o	DET	DET	PronType=Art	15	det	_	_
 15	bola	bola	NOUN	NOUN	_	12	nmod	_	_
 16-17	nos	_	_	_	_	_	_	_	_
 16	em	em	ADP	ADP	_	18	case	_	_

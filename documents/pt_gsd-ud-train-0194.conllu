@@ -38,14 +38,14 @@
 14	eleitoral	eleitoral	ADJ	ADJ	_	13	amod	_	SpaceAfter=No
 15	,	,	PUNCT	.	_	16	punct	_	_
 16	evidenciando	evidenciar	VERB	VERB	_	10	acl	_	_
-17	a	o	DET	DET	_	18	det	_	_
+17	a	o	DET	DET	PronType=Art	18	det	_	_
 18	dificuldade	dificuldade	NOUN	NOUN	_	16	obj	_	_
 19	de	_	ADP	ADP	_	20	mark	_	_
 20	separar	separar	VERB	VERB	_	18	nmod	_	_
-21	a	o	DET	DET	_	22	det	_	_
+21	a	o	DET	DET	PronType=Art	22	det	_	_
 22	gestão	gestão	NOUN	NOUN	_	20	obj	_	_
 23	e	e	CCONJ	CONJ	_	25	cc	_	_
-24	as	o	DET	DET	_	25	det	_	_
+24	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	25	det	_	_
 25	campanhas	campanha	NOUN	NOUN	_	22	conj	_	SpaceAfter=No
 26	.	.	PUNCT	.	_	10	punct	_	_
 
@@ -120,7 +120,7 @@
 2	Estados	_	PROPN	PNOUN	_	6	nsubj	_	_
 3	Unidos	_	PROPN	PNOUN	_	2	amod	_	_
 4	são	ser	AUX	AUX	_	6	cop	_	_
-5	a	o	DET	DET	_	6	det	_	_
+5	a	o	DET	DET	PronType=Art	6	det	_	_
 6	terra	terra	NOUN	NOUN	_	0	root	_	_
 7-8	do	_	_	_	_	_	_	_	_
 7	de	de	ADP	ADP	_	9	case	_	_
@@ -156,7 +156,7 @@
 9	duração	duração	NOUN	NOUN	_	7	nmod	_	_
 10	e	e	CCONJ	CONJ	_	11	cc	_	_
 11	mostrará	mostrar	VERB	VERB	_	3	conj	_	_
-12	as	o	DET	DET	_	13	det	_	_
+12	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
 13	histórias	história	NOUN	NOUN	_	11	obj	_	_
 14	mais	mais	ADV	ADV	_	15	advmod	_	_
 15	conhecidas	conhecido	ADJ	ADJ	_	13	amod	_	_
@@ -185,7 +185,7 @@
 35	,	,	PUNCT	.	_	36	punct	_	_
 36	claro	_	PART	PRT	_	39	dep	_	SpaceAfter=No
 37	,	,	PUNCT	.	_	36	punct	_	_
-38	a	o	DET	DET	_	39	det	_	_
+38	a	o	DET	DET	PronType=Art	39	det	_	_
 39	vida	vida	NOUN	NOUN	_	22	conj	_	_
 40	de	de	ADP	ADP	_	41	case	_	_
 41	Cristo	_	PROPN	PNOUN	_	39	nmod	_	SpaceAfter=No
@@ -218,7 +218,7 @@
 4	,	,	PUNCT	.	_	3	punct	_	_
 5	crê	crer	VERB	VERB	_	0	root	_	_
 6	que	que	CCONJ	CONJ	_	10	mark	_	_
-7	a	o	DET	DET	_	9	det	_	_
+7	a	o	DET	DET	PronType=Art	9	det	_	_
 8	sua	_	DET	DET	_	9	det:poss	_	_
 9	equipe	equipe	NOUN	NOUN	_	10	nsubj	_	_
 10	terá	ter	VERB	VERB	_	5	ccomp	_	_
@@ -262,7 +262,7 @@
 2	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	reunião	reunião	NOUN	NOUN	_	14	nmod	_	_
 4	com	com	ADP	ADP	_	6	case	_	_
-5	a	o	DET	DET	_	6	det	_	_
+5	a	o	DET	DET	PronType=Art	6	det	_	_
 6	chanceler	chanceler	NOUN	NOUN	_	3	nmod	_	_
 7-8	da	_	_	_	_	_	_	_	_
 7	de	de	ADP	ADP	_	9	case	_	_

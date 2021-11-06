@@ -124,7 +124,7 @@
 
 # sent_id = test-s1081
 # text = A General Motors também optou por um feirão na fábrica de São Caetano do Sul (SP), com direito a test drive.
-1	A	o	DET	DET	_	3	det	_	_
+1	A	o	DET	DET	PronType=Art	3	det	_	_
 2	General	_	PROPN	PNOUN	_	3	amod	_	_
 3	Motors	_	PROPN	PNOUN	_	5	nsubj	_	_
 4	também	também	ADV	ADV	_	5	advmod	_	_

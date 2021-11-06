@@ -52,7 +52,7 @@
 48	"	"	PUNCT	.	_	2	punct	_	SpaceAfter=No
 49	,	,	PUNCT	.	_	50	punct	_	_
 50	argumenta	argumentar	VERB	VERB	_	0	root	_	_
-51	a	o	DET	DET	_	52	det	_	_
+51	a	o	DET	DET	PronType=Art	52	det	_	_
 52	mamãe	mamãe	NOUN	NOUN	_	50	nsubj	_	_
 53	Pitt	_	PROPN	PNOUN	_	52	appos	_	_
 54	em	em	ADP	ADP	_	56	case	_	_
@@ -262,7 +262,7 @@
 19	Justo	_	PROPN	PNOUN	_	18	flat	_	_
 20	Urquiza	_	PROPN	PNOUN	_	18	flat	_	_
 21	percorreu	percorrer	VERB	VERB	_	0	root	_	_
-22	as	o	DET	DET	_	23	det	_	_
+22	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
 23	fileiras	fileira	NOUN	NOUN	_	21	obj	_	_
 24	aliadas	aliado	ADJ	ADJ	_	23	amod	_	_
 25	e	e	CCONJ	CONJ	_	34	cc	_	_
@@ -325,7 +325,7 @@
 14	)	)	PUNCT	.	_	13	punct	_	_
 15	mostram	mostrar	VERB	VERB	_	0	root	_	_
 16	que	que	CCONJ	CONJ	_	36	mark	_	_
-17	as	o	DET	DET	_	18	det	_	_
+17	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
 18	próteses	prótese	NOUN	NOUN	_	36	nsubj	_	_
 19	mamárias	mamário	ADJ	ADJ	_	18	amod	_	_
 20	de	de	ADP	ADP	_	21	case	_	_
@@ -362,7 +362,7 @@
 # text = RIO -- A reforma que ocorre há cinco meses no Centro Nacional de Folclore e Cultura Popular (CNFCP), no Catete, virou uma dor de cabeça para o Instituto do Patrimônio Histórico Nacional (Iphan) nas últimas semanas.
 1	RIO	_	PROPN	PNOUN	_	27	parataxis	_	_
 2	--	_	PUNCT	.	_	27	punct	_	_
-3	A	o	DET	DET	_	4	det	_	_
+3	A	o	DET	DET	PronType=Art	4	det	_	_
 4	reforma	reforma	NOUN	NOUN	_	27	nsubj	_	_
 5	que	_	PRON	PRON	_	6	nsubj	_	_
 6	ocorre	ocorrer	VERB	VERB	_	4	acl:relcl	_	_

@@ -2,7 +2,7 @@
 # text = Começe retirando a corja PeTelha da Prefeitura.
 1	Começe	_	AUX	AUX	_	2	aux	_	_
 2	retirando	retirar	VERB	VERB	_	0	root	_	_
-3	a	o	DET	DET	_	4	det	_	_
+3	a	o	DET	DET	PronType=Art	4	det	_	_
 4	corja	corja	NOUN	NOUN	_	2	obj	_	_
 5	PeTelha	_	PROPN	PNOUN	_	4	appos	_	_
 6-7	da	_	_	_	_	_	_	_	_
@@ -23,7 +23,7 @@
 8	site	site	NOUN	NOUN	_	5	nmod	_	_
 9	oficial	oficial	ADJ	ADJ	_	8	amod	_	SpaceAfter=No
 10	,	,	PUNCT	.	_	2	punct	_	_
-11	a	o	DET	DET	_	12	det	_	_
+11	a	o	DET	DET	PronType=Art	12	det	_	_
 12	Fifa	_	PROPN	PNOUN	_	13	nsubj	_	_
 13	disse	dizer	VERB	VERB	_	0	root	_	_
 14	que	que	CCONJ	CONJ	_	26	mark	_	_
@@ -43,7 +43,7 @@
 28	e	e	CCONJ	CONJ	_	29	cc	_	_
 29	advertiu	advertir	VERB	VERB	_	13	conj	_	_
 30	formalmente	formalmente	ADV	ADV	_	29	advmod	_	_
-31	a	o	DET	DET	_	32	det	_	_
+31	a	o	DET	DET	PronType=Art	32	det	_	_
 32	Associação	_	PROPN	PNOUN	_	29	obj	_	_
 33	Sul	_	PROPN	PNOUN	_	35	amod	_	_
 34	-	-	PUNCT	.	_	35	punct	_	_
@@ -109,7 +109,7 @@
 22	sete	_	NUM	NUM	NumType=Card	23	nummod	_	_
 23	locais	local	NOUN	NOUN	_	31	nsubj:pass	_	_
 24	onde	onde	ADV	ADV	_	28	advmod	_	_
-25	a	o	DET	DET	_	26	det	_	_
+25	a	o	DET	DET	PronType=Art	26	det	_	_
 26	bebida	bebida	NOUN	NOUN	_	28	nsubj:pass	_	_
 27	é	ser	AUX	AUX	_	28	aux:pass	_	_
 28	produzida	produzir	VERB	VERB	_	23	acl:relcl	_	_
@@ -152,7 +152,7 @@
 
 # sent_id = train-s6557
 # text = A proposta, que tramita em caráter conclusivo, será analisada pelas Comissões de Meio Ambiente e Desenvolvimento Sustentável;
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	proposta	_	NOUN	NOUN	_	11	nsubj:pass	_	SpaceAfter=No
 3	,	,	PUNCT	.	_	5	punct	_	_
 4	que	_	PRON	PRON	_	5	nsubj	_	_
@@ -177,7 +177,7 @@
 
 # sent_id = train-s6558
 # text = A celebração foi prestigiada ainda pelo deputado estadual José Bonifácio, o prefeito de Tocantinópolis, Fabion Gomes, o conselheiro do Tribunal de Contas do Estado, José Wagner Praxedes, o secretário - chefe da Casa Civil, Renan de Arimatéia Pereira, o secretário executivo da Habitação, Gláucio Barbosa, entre outras autoridades.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	celebração	celebração	NOUN	NOUN	_	4	nsubj:pass	_	_
 3	foi	_	AUX	AUX	_	4	aux:pass	_	_
 4	prestigiada	prestigiar	VERB	VERB	_	0	root	_	_
@@ -283,7 +283,7 @@
 
 # sent_id = train-s6561
 # text = A decisão ocorre no momento em que o governo brasileiro cobra providências para evitar que episódios semelhantes voltem a ocorrer.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	decisão	decisão	NOUN	NOUN	_	3	nsubj	_	_
 3	ocorre	ocorrer	VERB	VERB	_	0	root	_	_
 4-5	no	_	_	_	_	_	_	_	_

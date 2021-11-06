@@ -34,7 +34,7 @@
 
 # sent_id = train-s3157
 # text = A agropecuária se destacou em 2011 como o setor que mais cresceu no Brasil -- foram 3,9 %, ante o aumento de 1,6 % da indústria e 2,7 % de serviços;
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	agropecuária	_	NOUN	NOUN	_	4	nsubj	_	_
 3	se	_	PRON	PRON	_	4	expl:pv	_	_
 4	destacou	destacar	VERB	VERB	_	0	root	_	_
@@ -188,7 +188,7 @@
 10	que	_	CCONJ	CONJ	_	9	fixed	_	_
 11	motoristas	motorista	NOUN	NOUN	_	12	nsubj	_	_
 12	regularizem	regularizar	VERB	VERB	_	4	advcl	_	_
-13	a	o	DET	DET	_	14	det	_	_
+13	a	o	DET	DET	PronType=Art	14	det	_	_
 14	inspeção	inspeção	NOUN	NOUN	_	12	obj	_	SpaceAfter=No
 15	.	.	PUNCT	.	_	4	punct	_	_
 

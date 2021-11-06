@@ -12,7 +12,7 @@
 # text = Inicialmente, a montadora oferecia apenas reposição da inflação, de 5,39 %, segundo o sindicato.
 1	Inicialmente	inicialmente	ADV	ADV	_	5	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	.	_	1	punct	_	_
-3	a	o	DET	DET	_	4	det	_	_
+3	a	o	DET	DET	PronType=Art	4	det	_	_
 4	montadora	montador	NOUN	NOUN	_	5	nsubj	_	_
 5	oferecia	oferecer	VERB	VERB	_	0	root	_	_
 6	apenas	apenas	ADV	ADV	_	5	advmod	_	_
@@ -211,7 +211,7 @@
 
 # sent_id = train-s7395
 # text = A presidente do principal tribunal do país, Luisa Estella Morales, disse, em entrevista, que, como se trata dum presidente reeleito, não é necessária nova posse diante da Assembleia para o mandato entre 2013 e 2019.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	presidente	presidente	NOUN	NOUN	_	15	nsubj	_	_
 3-4	do	_	_	_	_	_	_	_	_
 3	de	de	ADP	ADP	_	6	case	_	_

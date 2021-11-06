@@ -127,7 +127,7 @@
 
 # sent_id = train-s7995
 # text = A solenidade de abertura teve início com um pronunciamento do presidente do Sindicato Nacional das Distribuidoras de Combustíveis e de Lubrificantes (Sindicom), Alisio Vaz.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	solenidade	solenidade	NOUN	NOUN	_	5	nsubj	_	_
 3	de	de	ADP	ADP	_	4	case	_	_
 4	abertura	abertura	NOUN	NOUN	_	2	nmod	_	_
@@ -271,7 +271,7 @@
 7	e	e	CCONJ	CONJ	_	8	cc	_	_
 8	tranquilidade	tranquilidade	NOUN	NOUN	_	5	conj	_	SpaceAfter=No
 9	,	,	PUNCT	.	_	3	punct	_	_
-10	as	o	DET	DET	_	11	det	_	_
+10	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
 11	opções	opção	NOUN	NOUN	_	14	nsubj	_	_
 12	de	de	ADP	ADP	_	13	case	_	_
 13	pedra	pedra	NOUN	NOUN	_	11	nmod	_	_

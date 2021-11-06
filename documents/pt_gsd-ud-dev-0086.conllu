@@ -50,7 +50,7 @@
 
 # sent_id = dev-s846
 # text = A brasileira foi levada à penitenciária do condado de Polk sob acusação de tentativa de homicídio doloso e agressão contra criança agravada.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	brasileira	brasileiro	NOUN	NOUN	_	4	nsubj:pass	_	_
 3	foi	_	AUX	AUX	_	4	aux:pass	_	_
 4	levada	levar	VERB	VERB	_	0	root	_	_
@@ -89,7 +89,7 @@
 7	soluções	solução	NOUN	NOUN	_	6	nsubj:pass	_	_
 8	inadequadas	inadequado	ADJ	ADJ	_	7	amod	_	_
 9	para	para	ADP	ADP	_	11	case	_	_
-10	a	o	DET	DET	_	11	det	_	_
+10	a	o	DET	DET	PronType=Art	11	det	_	_
 11	crise	crise	NOUN	NOUN	_	8	nmod	_	_
 12	e	e	CCONJ	CONJ	_	17	cc	_	_
 13	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
@@ -172,14 +172,14 @@
 
 # sent_id = dev-s850
 # text = A Taça Brasil, que costumeiramente fecha a temporada, foi deslocada para abrir o ano, em março.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	Taça	_	PROPN	PNOUN	_	12	nsubj:pass	_	_
 3	Brasil	_	PROPN	PNOUN	_	2	flat	_	SpaceAfter=No
 4	,	,	PUNCT	.	_	7	punct	_	_
 5	que	_	PRON	PRON	_	7	nsubj	_	_
 6	costumeiramente	costumeiramente	ADV	ADV	_	7	advmod	_	_
 7	fecha	fechar	VERB	VERB	_	2	acl:relcl	_	_
-8	a	o	DET	DET	_	9	det	_	_
+8	a	o	DET	DET	PronType=Art	9	det	_	_
 9	temporada	temporada	NOUN	NOUN	_	7	obj	_	SpaceAfter=No
 10	,	,	PUNCT	.	_	7	punct	_	_
 11	foi	_	AUX	AUX	_	12	aux:pass	_	_
@@ -234,7 +234,7 @@
 
 # sent_id = dev-s852
 # text = A gente sabe que o voto demanda tempo e não é uma coisa que se conquista da noite pro dia.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	gente	gente	NOUN	NOUN	_	3	nsubj	_	_
 3	sabe	saber	VERB	VERB	_	0	root	_	_
 4	que	que	CCONJ	CONJ	_	7	mark	_	_

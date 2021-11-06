@@ -1,6 +1,6 @@
 # sent_id = train-s2721
 # text = A característica da equipe, priorizando o coletivo ao invés do individual, "é muito difícil de implantar" no campo da informática, declarou o produtor do jogo, o colombiano Santiago Jaramillo, à agência Efe, na sede da Electronics Arts (EA), fabricante do jogo, em Vancouver, no Canadá.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	característica	_	NOUN	NOUN	_	18	nsubj	_	_
 3-4	da	_	_	_	_	_	_	_	_
 3	de	de	ADP	ADP	_	5	case	_	_
@@ -96,7 +96,7 @@
 9	capital	capital	NOUN	NOUN	_	6	nmod	_	SpaceAfter=No
 10	,	,	PUNCT	.	_	6	punct	_	_
 11	todas	_	DET	DET	_	13	det	_	_
-12	as	o	DET	DET	_	13	det	_	_
+12	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
 13	unidades	unidade	NOUN	NOUN	_	18	nsubj	_	_
 14-15	do	_	_	_	_	_	_	_	_
 14	de	de	ADP	ADP	_	16	case	_	_
@@ -157,7 +157,7 @@
 1	Mirelles	_	PROPN	PNOUN	_	2	nsubj	_	_
 2	comentou	comentar	VERB	VERB	_	0	root	_	_
 3	também	também	ADV	ADV	_	2	advmod	_	_
-4	a	o	DET	DET	_	5	det	_	_
+4	a	o	DET	DET	PronType=Art	5	det	_	_
 5	questão	questão	NOUN	NOUN	_	2	obj	_	_
 6-7	do	_	_	_	_	_	_	_	_
 6	de	de	ADP	ADP	_	8	case	_	_
@@ -181,7 +181,7 @@
 3	M	_	PROPN	PNOUN	_	1	conj	_	_
 4	_	_	PUNCT	.	_	1	punct	_	_
 5	Qual	_	DET	DET	_	7	det	_	_
-6	a	o	DET	DET	_	7	det	_	_
+6	a	o	DET	DET	PronType=Art	7	det	_	_
 7	participação	participação	NOUN	NOUN	_	0	root	_	_
 8-9	do	_	_	_	_	_	_	_	_
 8	de	de	ADP	ADP	_	10	case	_	_

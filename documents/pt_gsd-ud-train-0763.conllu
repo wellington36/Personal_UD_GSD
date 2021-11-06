@@ -29,7 +29,7 @@
 4	quando	_	CCONJ	CONJ	_	6	mark	_	_
 5	não	não	ADV	ADV	Polarity=Neg	6	advmod	_	_
 6	recebem	receber	VERB	VERB	_	1	advcl	_	_
-7	a	o	DET	DET	_	8	det	_	_
+7	a	o	DET	DET	PronType=Art	8	det	_	_
 8	etiqueta	etiqueta	NOUN	NOUN	_	6	obj	_	_
 9	de	_	ADP	ADP	_	11	mark	_	_
 10	"	"	PUNCT	.	_	11	punct	_	SpaceAfter=No
@@ -90,7 +90,7 @@
 
 # sent_id = train-s7579
 # text = As informações são da Agência Senado.
-1	As	o	DET	DET	_	2	det	_	_
+1	As	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	informações	informação	NOUN	NOUN	_	3	nsubj	_	_
 3	são	ser	VERB	VERB	_	0	root	_	_
 4-5	da	_	_	_	_	_	_	_	_
@@ -142,7 +142,7 @@
 
 # sent_id = train-s7582
 # text = A apresentação única começa às 18h30.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	apresentação	apresentação	NOUN	NOUN	_	4	nsubj	_	_
 3	única	único	ADJ	ADJ	_	2	amod	_	_
 4	começa	_	VERB	VERB	_	0	root	_	_
@@ -156,7 +156,7 @@
 # text = "É a melhor estrutura dum campeonato que eu já fui na minha vida.
 1	"	"	PUNCT	.	_	5	punct	_	SpaceAfter=No
 2	É	ser	AUX	AUX	_	5	cop	_	_
-3	a	o	DET	DET	_	5	det	_	_
+3	a	o	DET	DET	PronType=Art	5	det	_	_
 4	melhor	melhor	ADJ	ADJ	_	5	amod	_	_
 5	estrutura	estrutura	NOUN	NOUN	_	0	root	_	_
 6-7	dum	_	_	_	_	_	_	_	_
@@ -243,11 +243,11 @@
 33	)	)	PUNCT	.	_	25	punct	_	SpaceAfter=No
 34	,	,	PUNCT	.	_	37	punct	_	_
 35	e	e	CCONJ	CONJ	_	37	cc	_	_
-36	a	o	DET	DET	_	37	det	_	_
+36	a	o	DET	DET	PronType=Art	37	det	_	_
 37	ligação	ligação	NOUN	NOUN	_	14	conj	_	_
 38	surpreendente	surpreendente	ADJ	ADJ	_	37	amod	_	_
 39	com	com	ADP	ADP	_	42	case	_	_
-40	a	o	DET	DET	_	42	det	_	_
+40	a	o	DET	DET	PronType=Art	42	det	_	_
 41	antiga	antigo	ADJ	ADJ	_	42	amod	_	_
 42	oposicionista	oposicionista	NOUN	NOUN	_	37	nmod	_	_
 43	(	(	PUNCT	.	_	45	punct	_	SpaceAfter=No
@@ -309,7 +309,7 @@
 97	último	último	NOUN	NOUN	_	101	nsubj	_	_
 98	havia	haver	AUX	AUX	_	101	aux	_	_
 99	sido	ser	AUX	AUX	_	101	cop	_	_
-100	a	o	DET	DET	_	101	det	_	_
+100	a	o	DET	DET	PronType=Art	101	det	_	_
 101	Série	_	PROPN	PNOUN	_	94	csubj	_	_
 102	B	_	PROPN	PNOUN	_	101	flat	_	_
 103	de	_	ADP	ADP	_	101	nmod	_	_

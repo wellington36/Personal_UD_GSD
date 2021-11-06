@@ -295,7 +295,7 @@
 11	a	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	festa	festa	NOUN	NOUN	_	5	conj	_	_
 13	durante	_	ADP	ADP	_	15	case	_	_
-14	a	o	DET	DET	_	15	det	_	_
+14	a	o	DET	DET	PronType=Art	15	det	_	_
 15	carreata	carreata	NOUN	NOUN	_	12	nmod	_	_
 16	que	_	PRON	PRON	_	17	nsubj	_	_
 17	reuniu	reunir	VERB	VERB	_	15	acl:relcl	_	_

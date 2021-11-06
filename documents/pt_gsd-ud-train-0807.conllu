@@ -4,7 +4,7 @@
 2	fica	ficar	VERB	VERB	_	0	root	_	_
 3	entusiasmada	entusiasmado	ADJ	ADJ	_	2	xcomp	_	_
 4	com	com	ADP	ADP	_	6	case	_	_
-5	a	o	DET	DET	_	6	det	_	_
+5	a	o	DET	DET	PronType=Art	6	det	_	_
 6	ideia	ideia	NOUN	NOUN	_	3	nmod	_	SpaceAfter=No
 7	,	,	PUNCT	.	_	11	punct	_	_
 8	então	então	ADV	ADV	_	11	advmod	_	_
@@ -156,7 +156,7 @@
 14	Avenida	avenida	NOUN	NOUN	_	12	nmod	_	_
 15	Barril	_	PROPN	PNOUN	_	14	flat	_	SpaceAfter=No
 16	,	,	PUNCT	.	_	18	punct	_	_
-17	a	o	DET	DET	_	18	det	_	_
+17	a	o	DET	DET	PronType=Art	18	det	_	_
 18	paródia	paródia	NOUN	NOUN	_	14	appos	_	_
 19-20	da	_	_	_	_	_	_	_	_
 19	de	de	ADP	ADP	_	21	case	_	_
@@ -190,7 +190,7 @@
 
 # sent_id = train-s8018
 # text = A declaração do atleta de 25 anos de que gostaria de atuar em Porto Alegre aliada a declaração do Grêmio de que não pensa em repatriar o jogador fizeram ventilar o nome do atacante do Rubin Kazan para os lados da Padre Cacique.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	declaração	declaração	NOUN	NOUN	_	31	nsubj	_	_
 3-4	do	_	_	_	_	_	_	_	_
 3	de	de	ADP	ADP	_	5	case	_	_
@@ -344,7 +344,7 @@
 
 # sent_id = train-s8020
 # text = A bolsa de Taiwan subiu 0,24 % e Cingapura teve alta de 0,89 %.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	bolsa	bolsa	NOUN	NOUN	_	5	nsubj	_	_
 3	de	de	ADP	ADP	_	4	case	_	_
 4	Taiwan	_	PROPN	PNOUN	_	2	nmod	_	_

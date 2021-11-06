@@ -26,7 +26,7 @@
 
 # sent_id = train-s7027
 # text = A defesa do empresário afirmou ter ficado "perplexa" com o teor do documento, divulgado pela revista Carta Capital.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	defesa	_	NOUN	NOUN	_	6	nsubj	_	_
 3-4	do	_	_	_	_	_	_	_	_
 3	de	de	ADP	ADP	_	5	case	_	_
@@ -124,7 +124,7 @@
 
 # sent_id = train-s7031
 # text = A guerra ocorreu no nordeste asiático, agravou - se, e o regime político do czar Nicolau II da Rússia foi abalado por uma série de revoltas internas em 1905, envolvendo operários, camponeses, marinheiros (como a revolta no couraçado Potemkin) e soldados do exército.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	guerra	guerra	NOUN	NOUN	_	3	nsubj	_	_
 3	ocorreu	ocorrer	VERB	VERB	_	0	root	_	_
 4-5	no	_	_	_	_	_	_	_	_
@@ -170,7 +170,7 @@
 41	marinheiros	marinheiro	NOUN	NOUN	_	37	conj	_	_
 42	(	(	PUNCT	.	_	45	punct	_	SpaceAfter=No
 43	como	como	ADP	ADP	_	45	case	_	_
-44	a	o	DET	DET	_	45	det	_	_
+44	a	o	DET	DET	PronType=Art	45	det	_	_
 45	revolta	_	NOUN	NOUN	_	41	nmod	_	_
 46-47	no	_	_	_	_	_	_	_	_
 46	em	em	ADP	ADP	_	48	case	_	_
@@ -204,7 +204,7 @@
 # text = Depois que as penas dos condenados forem fixadas, os ministros terão de redigir o acórdão em que serão resumidas as conclusões do caso.
 1	Depois	depois	ADV	ADV	_	9	mark	_	_
 2	que	_	CCONJ	CONJ	_	1	fixed	_	_
-3	as	o	DET	DET	_	4	det	_	_
+3	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
 4	penas	_	NOUN	NOUN	_	9	nsubj:pass	_	_
 5-6	dos	_	_	_	_	_	_	_	_
 5	de	de	ADP	ADP	_	7	case	_	_
@@ -224,7 +224,7 @@
 19	que	_	NOUN	NOUN	_	21	nmod	_	_
 20	serão	ser	AUX	AUX	_	21	aux:pass	_	_
 21	resumidas	resumir	VERB	VERB	_	17	acl:relcl	_	_
-22	as	o	DET	DET	_	23	det	_	_
+22	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
 23	conclusões	conclusão	NOUN	NOUN	_	21	nsubj:pass	_	_
 24-25	do	_	_	_	_	_	_	_	_
 24	de	de	ADP	ADP	_	26	case	_	_
@@ -234,7 +234,7 @@
 
 # sent_id = train-s7034
 # text = A expressão está muito desgastada.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	expressão	expressão	NOUN	NOUN	_	3	nsubj	_	_
 3	está	estar	VERB	VERB	_	0	root	_	_
 4	muito	muito	ADV	ADV	_	5	advmod	_	_
@@ -243,7 +243,7 @@
 
 # sent_id = train-s7035
 # text = A lei também amplia significativamente o limite máximo de renda de famílias pobres, para ter direito ao Medicaid -- o único seguro - saúde "socializado" existentes nos EUA (também existe um outro programa, o Medicare, que é dedicado apenas a pessoas idosas -- com mais de 65 anos).
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	lei	lei	NOUN	NOUN	_	4	nsubj	_	_
 3	também	também	ADV	ADV	_	4	advmod	_	_
 4	amplia	ampliar	VERB	VERB	_	0	root	_	_

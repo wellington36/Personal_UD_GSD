@@ -35,7 +35,7 @@
 10	Paraná	_	PROPN	PNOUN	_	7	nmod	_	SpaceAfter=No
 11	,	,	PUNCT	.	_	7	punct	_	_
 12	publicou	publicar	VERB	VERB	_	0	root	_	_
-13	as	o	DET	DET	_	14	det	_	_
+13	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
 14	páginas	página	NOUN	NOUN	_	12	obj	_	_
 15	destinadas	destinar	VERB	VERB	_	14	acl	_	_
 16	a	_	ADP	ADP	_	17	case	_	_
@@ -61,7 +61,7 @@
 
 # sent_id = train-s1848
 # text = A estreia mundial deverá acontecer no Salão de Paris (França), a partir do próximo dia 29 deste mês.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	estreia	estreia	NOUN	NOUN	_	5	nsubj	_	_
 3	mundial	mundial	ADJ	ADJ	_	2	amod	_	_
 4	deverá	dever	AUX	AUX	_	5	aux	_	_
@@ -90,7 +90,7 @@
 
 # sent_id = train-s1849
 # text = A inflação volta a subir e em 6 de janeiro de 1988, Bresser é substituído por Maílson da Nóbrega.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	inflação	inflação	NOUN	NOUN	_	5	nsubj	_	_
 3	volta	voltar	AUX	AUX	_	5	aux	_	_
 4	a	_	ADP	ADP	_	5	mark	_	_
@@ -129,7 +129,7 @@
 10	correto	correto	ADJ	ADJ	_	9	xcomp	_	_
 11	acentuar	acentuar	VERB	VERB	_	9	csubj	_	_
 12	que	que	CCONJ	CONJ	_	16	mark	_	_
-13	a	o	DET	DET	_	15	det	_	_
+13	a	o	DET	DET	PronType=Art	15	det	_	_
 14	velha	velho	ADJ	ADJ	_	15	amod	_	_
 15	mídia	mídia	NOUN	NOUN	_	16	nsubj	_	_
 16	tem	ter	VERB	VERB	_	11	ccomp	_	_
@@ -159,7 +159,7 @@
 37	político	político	ADJ	ADJ	_	36	amod	_	_
 38	iniciado	iniciar	VERB	VERB	_	36	acl	_	_
 39	com	com	ADP	ADP	_	41	case	_	_
-40	a	o	DET	DET	_	41	det	_	_
+40	a	o	DET	DET	PronType=Art	41	det	_	_
 41	vitória	vitória	NOUN	NOUN	_	38	nmod	_	_
 42	de	de	ADP	ADP	_	43	case	_	_
 43	Lula	_	PROPN	PNOUN	_	41	nmod	_	_
@@ -234,7 +234,7 @@
 32	semana	semana	NOUN	NOUN	_	20	nmod	_	SpaceAfter=No
 33	,	,	PUNCT	.	_	32	punct	_	_
 34	durante	_	ADP	ADP	_	36	case	_	_
-35	a	o	DET	DET	_	36	det	_	_
+35	a	o	DET	DET	PronType=Art	36	det	_	_
 36	Operação	_	PROPN	PNOUN	_	20	nmod	_	_
 37	Liberdade	_	PROPN	PNOUN	_	36	flat	_	_
 38	-	-	PUNCT	.	_	39	punct	_	_

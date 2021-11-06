@@ -128,14 +128,14 @@
 10	de	de	ADP	ADP	_	11	case	_	_
 11	exercícios	exercício	NOUN	NOUN	_	9	nmod	_	_
 12	--	_	PUNCT	.	_	14	punct	_	_
-13	as	o	DET	DET	_	14	det	_	_
+13	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
 14	posturas	postura	NOUN	NOUN	_	11	appos	_	_
 15	--	_	PUNCT	.	_	14	punct	_	_
 16	que	_	PRON	PRON	_	17	nsubj	_	_
 17	alongam	alongar	VERB	VERB	_	11	acl:relcl	_	_
 18	e	e	CCONJ	CONJ	_	19	cc	_	_
 19	fortalecem	fortalecer	VERB	VERB	_	17	conj	_	_
-20	a	o	DET	DET	_	21	det	_	_
+20	a	o	DET	DET	PronType=Art	21	det	_	_
 21	musculatura	musculatura	NOUN	NOUN	_	19	obj	_	SpaceAfter=No
 22	,	,	PUNCT	.	_	23	punct	_	_
 23	além	além	ADV	ADV	_	17	advmod	_	_
@@ -145,10 +145,10 @@
 27	o	o	DET	DET	_	28	det	_	_
 28	equilíbrio	equilíbrio	NOUN	NOUN	_	25	nmod	_	SpaceAfter=No
 29	,	,	PUNCT	.	_	31	punct	_	_
-30	a	o	DET	DET	_	31	det	_	_
+30	a	o	DET	DET	PronType=Art	31	det	_	_
 31	focalização	focalização	NOUN	NOUN	_	28	conj	_	_
 32	e	e	CCONJ	CONJ	_	34	cc	_	_
-33	a	o	DET	DET	_	34	det	_	_
+33	a	o	DET	DET	PronType=Art	34	det	_	_
 34	respiração	respiração	NOUN	NOUN	_	28	conj	_	_
 35	juntamente	juntamente	ADV	ADV	_	25	advmod	_	_
 36	com	com	ADP	ADP	_	37	case	_	_
@@ -241,7 +241,7 @@
 # text = Especificamente sobre a Operação Porto Seguro, ele disse ainda que a Polícia Federal não está imune a erros e que, apesar do ótimo trabalho realizado, "Houve um ou outro caso de excesso ao longo do processo".
 1	Especificamente	especificamente	ADV	ADV	_	4	advmod	_	_
 2	sobre	_	ADP	ADP	_	4	case	_	_
-3	a	o	DET	DET	_	4	det	_	_
+3	a	o	DET	DET	PronType=Art	4	det	_	_
 4	Operação	_	PROPN	PNOUN	_	9	nmod	_	_
 5	Porto	_	PROPN	PNOUN	_	4	flat	_	_
 6	Seguro	_	PROPN	PNOUN	_	4	amod	_	SpaceAfter=No
@@ -250,7 +250,7 @@
 9	disse	dizer	VERB	VERB	_	0	root	_	_
 10	ainda	ainda	ADV	ADV	_	9	advmod	_	_
 11	que	que	CCONJ	CONJ	_	16	mark	_	_
-12	a	o	DET	DET	_	13	det	_	_
+12	a	o	DET	DET	PronType=Art	13	det	_	_
 13	Polícia	_	PROPN	PNOUN	_	16	nsubj	_	_
 14	Federal	_	PROPN	PNOUN	_	13	amod	_	_
 15	não	não	ADV	ADV	Polarity=Neg	16	advmod	_	_

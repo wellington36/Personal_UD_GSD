@@ -1,6 +1,6 @@
 # sent_id = train-s4286
 # text = A iniciativa é direcionada à conscientização da prevenção pelo diagnóstico precoce e luta contra o câncer de mama.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	iniciativa	iniciativa	NOUN	NOUN	_	4	nsubj:pass	_	_
 3	é	ser	AUX	AUX	_	4	aux:pass	_	_
 4	direcionada	direcionar	VERB	VERB	_	0	root	_	_
@@ -71,7 +71,7 @@
 2	reivindicação	reivindicação	NOUN	NOUN	_	0	root	_	_
 3	é	ser	AUX	AUX	_	2	cop	_	_
 4	transformar	transformar	VERB	VERB	_	2	csubj	_	_
-5	a	o	DET	DET	_	6	det	_	_
+5	a	o	DET	DET	PronType=Art	6	det	_	_
 6	Caputera	_	NOUN	NOUN	_	4	obj	_	_
 7	em	em	ADP	ADP	_	8	case	_	_
 8	Bairro	_	PROPN	PNOUN	_	4	nmod	_	_
@@ -108,7 +108,7 @@
 2	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	ano	ano	NOUN	NOUN	_	9	nmod	_	SpaceAfter=No
 4	,	,	PUNCT	.	_	3	punct	_	_
-5	a	o	DET	DET	_	6	det	_	_
+5	a	o	DET	DET	PronType=Art	6	det	_	_
 6	geração	geração	NOUN	NOUN	_	9	nsubj	_	_
 7	de	de	ADP	ADP	_	8	case	_	_
 8	vagas	vaga	NOUN	NOUN	_	6	nmod	_	_
@@ -221,7 +221,7 @@
 30	que	_	PRON	PRON	_	32	nsubj	_	_
 31	irá	_	AUX	AUX	_	32	aux	_	_
 32	escolher	escolher	VERB	VERB	_	20	acl:relcl	_	_
-33	a	o	DET	DET	_	34	det	_	_
+33	a	o	DET	DET	PronType=Art	34	det	_	_
 34	logomarca	logomarca	NOUN	NOUN	_	32	obj	_	_
 35	comemorativa	comemorativo	ADJ	ADJ	_	34	amod	_	_
 36-37	dos	_	_	_	_	_	_	_	_
@@ -237,7 +237,7 @@
 
 # sent_id = train-s4294
 # text = A vítima sofreu ferimentos leves e foi atendida pelo Serviço de Atendimento Móvel de Urgência (Samu).
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	vítima	vítima	NOUN	NOUN	_	3	nsubj	_	_
 3	sofreu	sofrer	VERB	VERB	_	0	root	_	_
 4	ferimentos	ferimento	NOUN	NOUN	_	3	obj	_	_
@@ -263,7 +263,7 @@
 # text = Essas são as receitas da nossa regularidade e estamos conseguindo mantê - las rodada após rodada ", afirmou.
 1	Essas	_	PRON	PRON	_	4	nsubj	_	_
 2	são	ser	AUX	AUX	_	4	cop	_	_
-3	as	o	DET	DET	_	4	det	_	_
+3	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
 4	receitas	receita	NOUN	NOUN	_	20	ccomp	_	_
 5-6	da	_	_	_	_	_	_	_	_
 5	de	de	ADP	ADP	_	8	case	_	_

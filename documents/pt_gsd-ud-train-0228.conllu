@@ -118,7 +118,7 @@
 2	encerrou	encerrar	VERB	VERB	_	0	root	_	_
 3	destacando	destacar	VERB	VERB	_	2	acl	_	_
 4	também	também	ADV	ADV	_	3	advmod	_	_
-5	as	o	DET	DET	_	6	det	_	_
+5	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
 6	qualidades	qualidade	NOUN	NOUN	_	3	obj	_	_
 7-8	do	_	_	_	_	_	_	_	_
 7	de	de	ADP	ADP	_	9	case	_	_
@@ -192,7 +192,7 @@
 17	Nápoles	_	PROPN	PNOUN	_	15	nmod	_	SpaceAfter=No
 18	,	,	PUNCT	.	_	19	punct	_	_
 19	informou	informar	VERB	VERB	_	0	root	_	_
-20	a	o	DET	DET	_	21	det	_	_
+20	a	o	DET	DET	PronType=Art	21	det	_	_
 21	imprensa	imprensa	NOUN	NOUN	_	19	nsubj	_	_
 22	italiana	italiano	ADJ	ADJ	_	21	amod	_	SpaceAfter=No
 23	.	.	PUNCT	.	_	19	punct	_	_
@@ -226,13 +226,13 @@
 1	Em	em	ADP	ADP	_	2	case	_	_
 2	nota	nota	NOUN	NOUN	_	6	nmod	_	SpaceAfter=No
 3	,	,	PUNCT	.	_	2	punct	_	_
-4	a	o	DET	DET	_	5	det	_	_
+4	a	o	DET	DET	PronType=Art	5	det	_	_
 5	empresa	empresa	NOUN	NOUN	_	6	nsubj	_	_
 6	informou	informar	VERB	VERB	_	0	root	_	_
 7	que	que	CCONJ	CONJ	_	9	mark	_	_
 8	"	"	PUNCT	.	_	9	punct	_	SpaceAfter=No
 9	tem	ter	VERB	VERB	_	6	ccomp	_	_
-10	a	o	DET	DET	_	11	det	_	_
+10	a	o	DET	DET	PronType=Art	11	det	_	_
 11	reputação	reputação	NOUN	NOUN	_	9	obj	_	_
 12	inigualável	inigualável	ADJ	ADJ	_	11	amod	_	_
 13	de	_	ADP	ADP	_	14	mark	_	_
@@ -304,7 +304,7 @@
 
 # sent_id = train-s2271
 # text = As artes marciais mistas, mais conhecidas pela sigla em inglês MMA, reúnem técnicas de diversas lutas, entre elas o jiu - jítsu, o boxe, o judô, o caratê, o kickboxing, o muay thai e o wrestling, luta que usa basicamente o agarramento, arremessos e derrubadas e que é um dos esportes mais antigos de que se tem conhecimento.
-1	As	o	DET	DET	_	2	det	_	_
+1	As	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	artes	arte	NOUN	NOUN	_	15	nsubj	_	_
 3	marciais	marcial	ADJ	ADJ	_	2	amod	_	_
 4	mistas	misto	ADJ	ADJ	_	2	amod	_	SpaceAfter=No

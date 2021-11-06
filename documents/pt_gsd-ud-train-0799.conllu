@@ -27,7 +27,7 @@
 24	privados	privado	ADJ	ADJ	_	23	amod	_	_
 25	--	_	PUNCT	.	_	17	punct	_	_
 26	desequilibram	desequilibrar	VERB	VERB	_	4	ccomp	_	_
-27	a	o	DET	DET	_	28	det	_	_
+27	a	o	DET	DET	PronType=Art	28	det	_	_
 28	campanha	campanha	NOUN	NOUN	_	26	obj	_	_
 29-30	ao	_	_	_	_	_	_	_	_
 29	a	a	ADP	ADP	_	31	case	_	_
@@ -43,7 +43,7 @@
 1	O	o	DET	DET	_	2	det	_	_
 2	relatório	relatório	NOUN	NOUN	_	3	nsubj	_	_
 3	recomenda	recomendar	VERB	VERB	_	0	root	_	_
-4	a	o	DET	DET	_	5	det	_	_
+4	a	o	DET	DET	PronType=Art	5	det	_	_
 5	paralisação	paralisação	NOUN	NOUN	_	3	obj	_	_
 6	de	de	ADP	ADP	_	8	case	_	_
 7	três	_	NUM	NUM	NumType=Card	8	nummod	_	_
@@ -131,7 +131,7 @@
 5	sexta	_	PROPN	PNOUN	_	7	amod	_	_
 6	-	-	PUNCT	.	_	7	punct	_	_
 7	feira	_	PROPN	PNOUN	_	3	nmod	_	_
-8	a	o	DET	DET	_	9	det	_	_
+8	a	o	DET	DET	PronType=Art	9	det	_	_
 9	transferência	transferência	NOUN	NOUN	_	3	obj	_	_
 10-11	do	_	_	_	_	_	_	_	_
 10	de	de	ADP	ADP	_	12	case	_	_
@@ -171,7 +171,7 @@
 23	se	_	PRON	PRON	_	24	obj	_	_
 24	debruçar	debruçar	VERB	VERB	_	15	csubj	_	_
 25	sobre	_	ADP	ADP	_	27	case	_	_
-26	a	o	DET	DET	_	27	det	_	_
+26	a	o	DET	DET	PronType=Art	27	det	_	_
 27	forma	forma	NOUN	NOUN	_	24	nmod	_	_
 28	de	de	ADP	ADP	_	30	case	_	_
 29	sua	_	DET	DET	_	30	det:poss	_	_
@@ -232,7 +232,7 @@
 5	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
 6	8h30	_	NUM	NUM	NumType=Card	10	nmod	_	SpaceAfter=No
 7	,	,	PUNCT	.	_	6	punct	_	_
-8	as	o	DET	DET	_	9	det	_	_
+8	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
 9	imagens	imagem	NOUN	NOUN	_	10	nsubj	_	_
 10	mostram	mostrar	VERB	VERB	_	0	root	_	SpaceAfter=No
 11	,	,	PUNCT	.	_	13	punct	_	_
@@ -272,7 +272,7 @@
 3	gregos	grego	ADJ	ADJ	_	1	amod	_	_
 4	concordaram	concordar	VERB	VERB	_	51	ccomp	_	_
 5	com	com	ADP	ADP	_	8	case	_	_
-6	a	o	DET	DET	_	8	det	_	_
+6	a	o	DET	DET	PronType=Art	8	det	_	_
 7	maior	maior	ADJ	ADJ	_	8	amod	_	_
 8	parte	parte	NOUN	NOUN	_	4	nmod	_	_
 9-10	das	_	_	_	_	_	_	_	_
@@ -316,7 +316,7 @@
 45	necessária	necessário	ADJ	ADJ	_	31	amod	_	_
 46	para	_	ADP	ADP	_	47	mark	_	_
 47	atingir	atingir	VERB	VERB	_	45	nmod	_	_
-48	as	o	DET	DET	_	49	det	_	_
+48	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	49	det	_	_
 49	metas	meta	NOUN	NOUN	_	47	obj	_	SpaceAfter=No
 50	,	,	PUNCT	.	_	51	punct	_	_
 51	disse	dizer	VERB	VERB	_	0	root	_	_

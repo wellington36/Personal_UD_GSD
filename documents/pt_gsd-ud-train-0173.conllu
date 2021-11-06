@@ -10,7 +10,7 @@
 # text = Essa é a receita de sucesso, resume.
 1	Essa	_	PRON	PRON	_	4	nsubj	_	_
 2	é	ser	AUX	AUX	_	4	cop	_	_
-3	a	o	DET	DET	_	4	det	_	_
+3	a	o	DET	DET	PronType=Art	4	det	_	_
 4	receita	receita	NOUN	NOUN	_	8	ccomp	_	_
 5	de	de	ADP	ADP	_	6	case	_	_
 6	sucesso	sucesso	NOUN	NOUN	_	4	nmod	_	SpaceAfter=No
@@ -58,7 +58,7 @@
 10	uma	_	NUM	NUM	NumType=Card	11	nummod	_	_
 11	taça	taça	NOUN	NOUN	_	1	nsubj	_	_
 12	para	para	ADP	ADP	_	15	case	_	_
-13	a	o	DET	DET	_	15	det	_	_
+13	a	o	DET	DET	PronType=Art	15	det	_	_
 14	vasta	vasto	ADJ	ADJ	_	15	amod	_	_
 15	coleção	coleção	NOUN	NOUN	_	11	nmod	_	_
 16	alviverde	alviverde	ADJ	ADJ	_	15	amod	_	SpaceAfter=No
@@ -241,7 +241,7 @@
 22	anos	ano	NOUN	NOUN	_	15	nmod	_	SpaceAfter=No
 23	,	,	PUNCT	.	_	22	punct	_	_
 24	levaram	levar	VERB	VERB	_	0	root	_	_
-25	a	o	DET	DET	_	27	det	_	_
+25	a	o	DET	DET	PronType=Art	27	det	_	_
 26	pequena	pequeno	ADJ	ADJ	_	27	amod	_	_
 27	Sofia	_	PROPN	PNOUN	_	24	obj	_	SpaceAfter=No
 28	,	,	PUNCT	.	_	31	punct	_	_
@@ -284,7 +284,7 @@
 
 # sent_id = train-s1726
 # text = A classificação dessa espécie ainda é incerta.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	classificação	classificação	NOUN	NOUN	_	6	nsubj	_	_
 3	dessa	_	ADP	ADP	_	4	case	_	_
 4	espécie	espécie	NOUN	NOUN	_	2	nmod	_	_
@@ -295,7 +295,7 @@
 
 # sent_id = train-s1727
 # text = As exportações brasileiras também sofreram reajuste.
-1	As	o	DET	DET	_	2	det	_	_
+1	As	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	exportações	exportação	NOUN	NOUN	_	5	nsubj	_	_
 3	brasileiras	brasileiro	ADJ	ADJ	_	2	amod	_	_
 4	também	também	ADV	ADV	_	5	advmod	_	_

@@ -130,7 +130,7 @@
 # sent_id = train-s6010
 # text = "A Feira das Américas inovou e teve uma presença maciça e representativa de todos os segmentos do turismo.
 1	"	"	PUNCT	.	_	7	punct	_	SpaceAfter=No
-2	A	o	DET	DET	_	3	det	_	_
+2	A	o	DET	DET	PronType=Art	3	det	_	_
 3	Feira	_	PROPN	PNOUN	_	7	nsubj	_	_
 4-5	das	_	_	_	_	_	_	_	_
 4	de	de	ADP	ADP	_	6	case	_	_
@@ -258,7 +258,7 @@
 10	Chile	_	PROPN	PNOUN	_	6	conj	_	_
 11	atualmente	atualmente	ADV	ADV	_	15	advmod	_	_
 12	entre	_	ADP	ADP	_	15	case	_	_
-13	as	o	DET	DET	_	15	det	_	_
+13	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
 14	200	_	NUM	NUM	NumType=Card	15	nummod	_	_
 15	melhores	melhor	NOUN	NOUN	_	3	nmod	_	_
 16	colocadas	colocado	ADJ	ADJ	_	15	amod	_	SpaceAfter=No
@@ -319,7 +319,7 @@
 2	quatro	_	NUM	NUM	NumType=Card	3	nummod	_	_
 3	sessões	sessão	NOUN	NOUN	_	17	nmod	_	_
 4	para	para	ADP	ADP	_	6	case	_	_
-5	a	o	DET	DET	_	6	det	_	_
+5	a	o	DET	DET	PronType=Art	6	det	_	_
 6	definição	definição	NOUN	NOUN	_	3	nmod	_	_
 7-8	do	_	_	_	_	_	_	_	_
 7	de	de	ADP	ADP	_	9	case	_	_

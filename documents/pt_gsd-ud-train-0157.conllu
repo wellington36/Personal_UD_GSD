@@ -53,7 +53,7 @@
 16	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
 17	ONU	_	PROPN	PNOUN	_	14	nmod	_	SpaceAfter=No
 18	,	,	PUNCT	.	_	20	punct	_	_
-19	a	o	DET	DET	_	20	det	_	_
+19	a	o	DET	DET	PronType=Art	20	det	_	_
 20	Rio	_	PROPN	PNOUN	_	14	appos	_	_
 21	+20	_	NUM	NUM	NumType=Card	20	appos	_	SpaceAfter=No
 22	,	,	PUNCT	.	_	24	punct	_	_
@@ -228,7 +228,7 @@
 
 # sent_id = train-s1566
 # text = A Olimpíada de Londres começa em 27 de julho, e centenas de milhares de visitantes devem chegar diariamente a Londres nas próximas semanas.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	Olimpíada	_	PROPN	PNOUN	_	5	nsubj	_	_
 3	de	de	ADP	ADP	_	4	case	_	_
 4	Londres	_	PROPN	PNOUN	_	2	nmod	_	_

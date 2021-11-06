@@ -1,6 +1,6 @@
 # sent_id = test-s1195
 # text = A primeira aparição pública de Knut atraiu jornalistas de todas as partes do mundo e gerou milhões de dólares para o Zoo de Berlim.
-1	A	o	DET	DET	_	3	det	_	_
+1	A	o	DET	DET	PronType=Art	3	det	_	_
 2	primeira	primeiro	ADJ	ADJ	_	3	amod	_	_
 3	aparição	aparição	NOUN	NOUN	_	7	nsubj	_	_
 4	pública	público	ADJ	ADJ	_	3	amod	_	_
@@ -10,7 +10,7 @@
 8	jornalistas	jornalista	NOUN	NOUN	_	7	obj	_	_
 9	de	de	ADP	ADP	_	12	case	_	_
 10	todas	_	DET	DET	_	12	det	_	_
-11	as	o	DET	DET	_	12	det	_	_
+11	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
 12	partes	_	PROPN	PNOUN	_	8	nmod	_	_
 13-14	do	_	_	_	_	_	_	_	_
 13	de	de	ADP	ADP	_	15	case	_	_
@@ -49,7 +49,7 @@
 17	onde	onde	ADV	ADV	_	19	advmod	_	_
 18	foram	_	AUX	AUX	_	19	aux:pass	_	_
 19	delineadas	delinear	VERB	VERB	_	16	acl:relcl	_	_
-20	as	o	DET	DET	_	21	det	_	_
+20	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	21	det	_	_
 21	regras	regra	NOUN	NOUN	_	19	nsubj:pass	_	_
 22	e	e	CCONJ	CONJ	_	23	cc	_	_
 23	políticas	_	NOUN	NOUN	_	21	conj	_	_
@@ -112,7 +112,7 @@
 14	e	e	CCONJ	CONJ	_	15	cc	_	_
 15	Bodyboard	_	PROPN	PNOUN	_	13	conj	_	SpaceAfter=No
 16	,	,	PUNCT	.	_	5	punct	_	_
-17	a	o	DET	DET	_	18	det	_	_
+17	a	o	DET	DET	PronType=Art	18	det	_	_
 18	Carcavelos	_	PROPN	PNOUN	_	21	nsubj	_	_
 19	Surf	_	PROPN	PNOUN	_	18	flat	_	_
 20	School	_	PROPN	PNOUN	_	18	flat	_	_
@@ -134,7 +134,7 @@
 36	alunos	aluno	NOUN	NOUN	_	34	nmod	_	_
 37	de	de	ADP	ADP	_	40	case	_	_
 38	todas	_	DET	DET	_	40	det	_	_
-39	as	o	DET	DET	_	40	det	_	_
+39	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	40	det	_	_
 40	faixas	faixa	NOUN	NOUN	_	36	nmod	_	_
 41	etárias	etário	ADJ	ADJ	_	40	amod	_	SpaceAfter=No
 42	,	,	PUNCT	.	_	46	punct	_	_

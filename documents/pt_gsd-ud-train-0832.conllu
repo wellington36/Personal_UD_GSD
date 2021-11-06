@@ -31,7 +31,7 @@
 8	que	_	PRON	PRON	_	9	obj	_	_
 9	enfrenta	enfrentar	VERB	VERB	_	7	acl:relcl	_	_
 10	hoje	hoje	ADV	ADV	_	9	advmod	_	_
-11	a	o	DET	DET	_	12	det	_	_
+11	a	o	DET	DET	PronType=Art	12	det	_	_
 12	CSN	_	PROPN	PNOUN	_	9	nsubj	_	SpaceAfter=No
 13	,	,	PUNCT	.	_	15	punct	_	_
 14	que	_	PRON	PRON	_	15	nsubj	_	_
@@ -98,7 +98,7 @@
 # text = O que a senhora diz sobre isso?
 1	O	o	DET	DET	_	2	det	_	_
 2	que	_	PRON	PRON	_	5	obj	_	_
-3	a	o	DET	DET	_	4	det	_	_
+3	a	o	DET	DET	PronType=Art	4	det	_	_
 4	senhora	senhor	NOUN	NOUN	_	5	nsubj	_	_
 5	diz	dizer	VERB	VERB	_	0	root	_	_
 6	sobre	_	ADP	ADP	_	7	case	_	_
@@ -196,7 +196,7 @@
 
 # sent_id = train-s8265
 # text = A unica igreja católica do lugar é uma maravilha a parte, construção provavelmente da decada de 80 para 90 se mantem intacta e muito bem conservada pelos moradores, igreja que tem como padroeira Nossa Senhora da Luz.
-1	A	o	DET	DET	_	3	det	_	_
+1	A	o	DET	DET	PronType=Art	3	det	_	_
 2	unica	_	ADJ	ADJ	_	3	amod	_	_
 3	igreja	igreja	NOUN	NOUN	_	10	nsubj	_	_
 4	católica	católico	ADJ	ADJ	_	3	amod	_	_
@@ -322,7 +322,7 @@
 8	tinha	ter	AUX	AUX	_	9	aux	_	_
 9	comentado	comentar	VERB	VERB	_	0	root	_	_
 10	sobre	_	ADP	ADP	_	12	case	_	_
-11	a	o	DET	DET	_	12	det	_	_
+11	a	o	DET	DET	PronType=Art	12	det	_	_
 12	detenção	detenção	NOUN	NOUN	_	9	nmod	_	_
 13-14	dos	_	_	_	_	_	_	_	_
 13	de	de	ADP	ADP	_	16	case	_	_
@@ -354,7 +354,7 @@
 37	declaração	declaração	NOUN	NOUN	_	35	obj	_	_
 38	oficial	oficial	ADJ	ADJ	_	37	amod	_	_
 39	sobre	_	ADP	ADP	_	41	case	_	_
-40	a	o	DET	DET	_	41	det	_	_
+40	a	o	DET	DET	PronType=Art	41	det	_	_
 41	situação	situação	NOUN	NOUN	_	37	nmod	_	SpaceAfter=No
 42	.	.	PUNCT	.	_	9	punct	_	_
 

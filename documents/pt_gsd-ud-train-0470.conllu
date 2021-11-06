@@ -25,7 +25,7 @@
 20	Mapa	mapa	NOUN	NOUN	_	11	appos	_	SpaceAfter=No
 21	)	)	PUNCT	.	_	20	punct	_	SpaceAfter=No
 22	,	,	PUNCT	.	_	2	punct	_	_
-23	as	o	DET	DET	_	24	det	_	_
+23	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	24	det	_	_
 24	vendas	venda	NOUN	NOUN	_	30	nsubj	_	_
 25-26	da	_	_	_	_	_	_	_	_
 25	de	de	ADP	ADP	_	27	case	_	_
@@ -53,7 +53,7 @@
 45	já	já	ADV	ADV	_	50	mark	_	_
 46	que	_	CCONJ	CONJ	_	45	fixed	_	_
 47	somente	somente	ADV	ADV	_	49	advmod	_	_
-48	a	o	DET	DET	_	49	det	_	_
+48	a	o	DET	DET	PronType=Art	49	det	_	_
 49	oleaginosa	_	NOUN	NOUN	_	50	nsubj	_	_
 50	movimentou	movimentar	VERB	VERB	_	30	advcl	_	_
 51	negócios	negócio	NOUN	NOUN	_	50	obj	_	_
@@ -71,7 +71,7 @@
 # sent_id = train-s4666
 # text = Segundo a denúncia do Ministério Público Militar (MPM), o major VBC convocou uma reunião com subordinados para tratar de assuntos diversos, como cumprimento de horário, controle de material e sequência de obras do pelotão.
 1	Segundo	_	ADP	ADP	_	3	case	_	_
-2	a	o	DET	DET	_	3	det	_	_
+2	a	o	DET	DET	PronType=Art	3	det	_	_
 3	denúncia	denúncia	NOUN	NOUN	_	16	nmod	_	_
 4-5	do	_	_	_	_	_	_	_	_
 4	de	de	ADP	ADP	_	6	case	_	_
@@ -191,12 +191,12 @@
 
 # sent_id = train-s4670
 # text = A reportagem tentou contato com a direção local do Incra, mas, até o fechamento desta matéria, não obteve sucesso.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	reportagem	reportagem	NOUN	NOUN	_	3	nsubj	_	_
 3	tentou	tentar	VERB	VERB	_	0	root	_	_
 4	contato	contato	NOUN	NOUN	_	3	obj	_	_
 5	com	com	ADP	ADP	_	7	case	_	_
-6	a	o	DET	DET	_	7	det	_	_
+6	a	o	DET	DET	PronType=Art	7	det	_	_
 7	direção	direção	NOUN	NOUN	_	4	nmod	_	_
 8	local	local	ADJ	ADJ	_	7	amod	_	_
 9-10	do	_	_	_	_	_	_	_	_
@@ -258,7 +258,7 @@
 7	governo	governo	NOUN	NOUN	_	2	nmod	_	_
 8	informou	informar	VERB	VERB	_	0	root	_	_
 9	que	que	CCONJ	CONJ	_	16	mark	_	_
-10	as	o	DET	DET	_	11	det	_	_
+10	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
 11	autoridades	autoridade	NOUN	NOUN	_	16	nsubj	_	_
 12-13	do	_	_	_	_	_	_	_	_
 12	de	de	ADP	ADP	_	14	case	_	_

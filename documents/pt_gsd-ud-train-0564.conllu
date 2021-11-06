@@ -105,7 +105,7 @@
 18	estratégia	estratégia	NOUN	NOUN	_	14	nmod	_	_
 19	de	_	ADP	ADP	_	20	mark	_	_
 20	triplicar	triplicar	VERB	VERB	_	18	nmod	_	_
-21	a	o	DET	DET	_	22	det	_	_
+21	a	o	DET	DET	PronType=Art	22	det	_	_
 22	capacidade	capacidade	NOUN	NOUN	_	20	obj	_	_
 23	de	de	ADP	ADP	_	24	case	_	_
 24	produção	produção	NOUN	NOUN	_	22	nmod	_	_
@@ -117,7 +117,7 @@
 
 # sent_id = train-s5603
 # text = A programação da quinta etapa da Copa Petrobrás acontece toda no final de semana.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	programação	programação	NOUN	NOUN	_	11	nsubj	_	_
 3-4	da	_	_	_	_	_	_	_	_
 3	de	de	ADP	ADP	_	6	case	_	_
@@ -149,7 +149,7 @@
 6	Redbook	_	PROPN	PNOUN	_	5	flat	_	_
 7	indicou	indicar	VERB	VERB	_	0	root	_	_
 8	que	que	CCONJ	CONJ	_	18	mark	_	_
-9	as	o	DET	DET	_	10	det	_	_
+9	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
 10	vendas	venda	NOUN	NOUN	_	18	nsubj	_	_
 11-12	das	_	_	_	_	_	_	_	_
 11	de	de	ADP	ADP	_	13	case	_	_
@@ -274,7 +274,7 @@
 13	ter	ter	AUX	AUX	_	14	aux	_	_
 14	tentado	tentar	VERB	VERB	_	7	nmod	_	_
 15	envenenar	envenenar	VERB	VERB	_	14	xcomp	_	_
-16	as	o	DET	DET	_	17	det	_	_
+16	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
 17	crianças	criança	NOUN	NOUN	_	15	obj	_	_
 18	com	com	ADP	ADP	_	19	case	_	_
 19	veneno	veneno	NOUN	NOUN	_	15	nmod	_	_

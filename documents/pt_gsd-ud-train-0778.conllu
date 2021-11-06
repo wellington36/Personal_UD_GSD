@@ -49,7 +49,7 @@
 # sent_id = train-s7724
 # text = Para as entidades, esses atos têm um pano de fundo comum: xenofobia e racismo contra imigrantes africanos no país.
 1	Para	_	ADP	ADP	_	3	case	_	_
-2	as	o	DET	DET	_	3	det	_	_
+2	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
 3	entidades	entidade	NOUN	NOUN	_	7	nmod	_	SpaceAfter=No
 4	,	,	PUNCT	.	_	3	punct	_	_
 5	esses	_	DET	DET	_	6	det	_	_
@@ -287,7 +287,7 @@
 
 # sent_id = train-s7730b
 # text = A tempestade gerou um tornado fraco em Navarre, causando pequenos danos em sua trajetória de 200 m.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	tempestade	tempestade	NOUN	NOUN	_	3	nsubj	_	_
 3	gerou	gerar	VERB	VERB	_	0	root	_	_
 4	um	um	DET	DET	_	5	det	_	_

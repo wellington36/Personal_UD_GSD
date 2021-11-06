@@ -21,7 +21,7 @@
 
 # sent_id = train-s7337
 # text = A última sessão do Legislativo Municipal antes do segundo turno da eleição majoritária, que acontece no próximo domingo (28), foi esvaziada pelos vereadores.
-1	A	o	DET	DET	_	3	det	_	_
+1	A	o	DET	DET	PronType=Art	3	det	_	_
 2	última	último	ADJ	ADJ	_	3	amod	_	_
 3	sessão	sessão	NOUN	NOUN	_	29	nsubj:pass	_	_
 4-5	do	_	_	_	_	_	_	_	_
@@ -108,7 +108,7 @@
 
 # sent_id = train-s7340
 # text = A AEB indicou que todos seus membros assumiram na quinta - feira passada este compromisso por razões humanitárias e dentro de sua política de responsabilidade social de paralisar as expulsões durnte os dois próximos anos nos casos de extrema necessidade.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	AEB	_	PROPN	PNOUN	_	3	nsubj	_	_
 3	indicou	indicar	VERB	VERB	_	0	root	_	_
 4	que	que	CCONJ	CONJ	_	8	mark	_	_
@@ -138,7 +138,7 @@
 27	social	social	ADJ	ADJ	_	26	amod	_	_
 28	de	_	ADP	ADP	_	29	mark	_	_
 29	paralisar	paralisar	VERB	VERB	_	24	nmod	_	_
-30	as	o	DET	DET	_	31	det	_	_
+30	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	31	det	_	_
 31	expulsões	expulsão	NOUN	NOUN	_	29	obj	_	_
 32	durnte	_	ADP	ADP	_	36	case	_	_
 33	os	o	DET	DET	_	36	det	_	_
@@ -161,7 +161,7 @@
 3	faremos	_	VERB	VERB	_	0	root	_	_
 4	com	_	ADP	ADP	_	15	mark	_	_
 5	que	que	CCONJ	CONJ	_	15	mark	_	_
-6	as	o	DET	DET	_	7	det	_	_
+6	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
 7	filas	fila	NOUN	NOUN	_	15	nsubj	_	_
 8	de	de	ADP	ADP	_	9	case	_	_
 9	espera	espera	NOUN	NOUN	_	7	nmod	_	_
@@ -250,7 +250,7 @@
 # text = "Se a licença não sair nalguns dias, eu terei de paralisar as máquinas."
 1	"	"	PUNCT	.	_	6	punct	_	SpaceAfter=No
 2	Se	_	CCONJ	CONJ	_	6	mark	_	_
-3	a	o	DET	DET	_	4	det	_	_
+3	a	o	DET	DET	PronType=Art	4	det	_	_
 4	licença	licença	NOUN	NOUN	_	6	nsubj	_	_
 5	não	não	ADV	ADV	Polarity=Neg	6	advmod	_	_
 6	sair	sair	VERB	VERB	_	14	advcl	_	_
@@ -263,7 +263,7 @@
 12	terei	ter	AUX	AUX	_	14	aux	_	_
 13	de	_	ADP	ADP	_	14	mark	_	_
 14	paralisar	paralisar	VERB	VERB	_	0	root	_	_
-15	as	o	DET	DET	_	16	det	_	_
+15	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
 16	máquinas	máquina	NOUN	NOUN	_	14	obj	_	SpaceAfter=No
 17	.	.	PUNCT	.	_	14	punct	_	SpaceAfter=No
 18	"	"	PUNCT	.	_	14	punct	_	_

@@ -26,7 +26,7 @@
 3	preso	preso	ADJ	ADJ	_	2	xcomp	_	SpaceAfter=No
 4	,	,	PUNCT	.	_	7	punct	_	_
 5	com	com	ADP	ADP	_	7	case	_	_
-6	a	o	DET	DET	_	7	det	_	_
+6	a	o	DET	DET	PronType=Art	7	det	_	_
 7	mujlher	_	NOUN	NOUN	_	2	nmod	_	_
 8	e	e	CCONJ	CONJ	_	10	cc	_	_
 9	um	_	NUM	NUM	NumType=Card	10	nummod	_	_
@@ -45,7 +45,7 @@
 
 # sent_id = train-s7625
 # text = A coleção de itens poderia ser avaliada em até R $ 1 milhão, segundo o NME.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	coleção	coleção	NOUN	NOUN	_	7	nsubj:pass	_	_
 3	de	de	ADP	ADP	_	4	case	_	_
 4	itens	item	NOUN	NOUN	_	2	nmod	_	_
@@ -108,7 +108,7 @@
 15	municípios	município	NOUN	NOUN	_	13	nmod	_	_
 16	que	_	PRON	PRON	_	17	nsubj	_	_
 17	cumpriram	cumprir	VERB	VERB	_	15	acl:relcl	_	_
-18	as	o	DET	DET	_	19	det	_	_
+18	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
 19	metas	meta	NOUN	NOUN	_	17	obj	_	_
 20	de	de	ADP	ADP	_	21	case	_	_
 21	qualidade	qualidade	NOUN	NOUN	_	19	nmod	_	_
@@ -181,7 +181,7 @@
 2	-	-	PUNCT	.	_	1	punct	_	_
 3	se	_	PART	PRT	_	1	expl:pv	_	_
 4	também	também	ADV	ADV	_	1	advmod	_	_
-5	a	o	DET	DET	_	6	det	_	_
+5	a	o	DET	DET	PronType=Art	6	det	_	_
 6	ocorrência	ocorrência	NOUN	NOUN	_	1	nsubj	_	_
 7-8	no	_	_	_	_	_	_	_	_
 7	em	em	ADP	ADP	_	9	case	_	_

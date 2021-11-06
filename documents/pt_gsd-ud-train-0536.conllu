@@ -35,13 +35,13 @@
 10	Nações	_	PROPN	PNOUN	_	7	nmod	_	_
 11	Unidas	_	PROPN	PNOUN	_	10	amod	_	_
 12	para	para	ADP	ADP	_	14	case	_	_
-13	a	o	DET	DET	_	14	det	_	_
+13	a	o	DET	DET	PronType=Art	14	det	_	_
 14	Educação	_	PROPN	PNOUN	_	7	nmod	_	SpaceAfter=No
 15	,	,	PUNCT	.	_	17	punct	_	_
-16	a	o	DET	DET	_	17	det	_	_
+16	a	o	DET	DET	PronType=Art	17	det	_	_
 17	Ciência	_	PROPN	PNOUN	_	14	conj	_	_
 18	e	e	CCONJ	CONJ	_	20	cc	_	_
-19	a	o	DET	DET	_	20	det	_	_
+19	a	o	DET	DET	PronType=Art	20	det	_	_
 20	Cultura	_	PROPN	PNOUN	_	14	conj	_	_
 21	(	(	PUNCT	.	_	22	punct	_	SpaceAfter=No
 22	Unesco	_	PROPN	PNOUN	_	7	appos	_	SpaceAfter=No
@@ -81,7 +81,7 @@
 
 # sent_id = train-s5322
 # text = A Seleção Portuguesa de Futsal é da responsabilidade da Federação Portuguesa de Futebol.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	Seleção	_	PROPN	PNOUN	_	6	nsubj	_	_
 3	Portuguesa	_	PROPN	PNOUN	_	2	amod	_	_
 4	de	de	ADP	ADP	_	5	case	_	_
@@ -108,7 +108,7 @@
 
 # sent_id = train-s5324
 # text = A Biblioteca Pública do Paraná é uma instituição cultural situada em Curitiba e mantida pelo governo do Paraná, que tem em seu acervo mais de 470 mil livros, inclusive em braille, além de jornais, revistas, mapas, partituras musicais, manuscritos, discos de vinil, compact discs (CD), vídeos, fitas cassetes, diafilmes e slides, entre outras mídias.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	Biblioteca	_	PROPN	PNOUN	_	9	nsubj	_	_
 3	Pública	_	PROPN	PNOUN	_	2	amod	_	_
 4-5	do	_	_	_	_	_	_	_	_
@@ -195,7 +195,7 @@
 6	o	o	DET	DET	_	7	det	_	_
 7	PT	_	PROPN	PNOUN	_	5	obj	_	_
 8	onde	onde	ADV	ADV	_	11	advmod	_	_
-9	a	o	DET	DET	_	10	det	_	_
+9	a	o	DET	DET	PronType=Art	10	det	_	_
 10	disputa	disputa	NOUN	NOUN	_	11	nsubj	_	_
 11	é	ser	VERB	VERB	_	7	acl:relcl	_	_
 12	com	com	ADP	ADP	_	14	case	_	_
@@ -232,7 +232,7 @@
 
 # sent_id = train-s5327
 # text = As denúncias levaram o Psol a representar contra Demóstenes no Conselho de Ética e o DEM a abrir processo para expulsar o senador.
-1	As	o	DET	DET	_	2	det	_	_
+1	As	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	denúncias	denúncia	NOUN	NOUN	_	3	nsubj	_	_
 3	levaram	levar	VERB	VERB	_	0	root	_	_
 4	o	o	DET	DET	_	5	det	_	_

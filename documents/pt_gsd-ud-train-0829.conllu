@@ -36,7 +36,7 @@
 33	em	em	ADP	ADP	_	35	case	_	_
 34	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
 35	qual	_	PRON	PRON	_	39	nmod	_	_
-36	as	o	DET	DET	_	37	det	_	_
+36	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	37	det	_	_
 37	bombas	bomba	NOUN	NOUN	_	39	nsubj	_	_
 38	israelenses	israelense	ADJ	ADJ	_	37	amod	_	_
 39	seriam	_	VERB	VERB	_	29	acl:relcl	_	_
@@ -122,7 +122,7 @@
 2	maneira	maneira	NOUN	NOUN	_	4	nmod	_	_
 3	nenhuma	_	DET	DET	_	2	det	_	_
 4	associei	associar	VERB	VERB	_	0	root	_	_
-5	a	o	DET	DET	_	6	det	_	_
+5	a	o	DET	DET	PronType=Art	6	det	_	_
 6	doação	doação	NOUN	NOUN	_	4	obj	_	_
 7	de	de	ADP	ADP	_	8	case	_	_
 8	campanha	campanha	NOUN	NOUN	_	6	nmod	_	_
@@ -158,7 +158,7 @@
 5	,	,	PUNCT	.	_	6	punct	_	_
 6	porém	_	ADV	ADV	_	4	advmod	_	SpaceAfter=No
 7	,	,	PUNCT	.	_	6	punct	_	_
-8	a	o	DET	DET	_	9	det	_	_
+8	a	o	DET	DET	PronType=Art	9	det	_	_
 9	possibilidade	possibilidade	NOUN	NOUN	_	4	obj	_	_
 10	de	_	ADP	ADP	_	15	mark	_	_
 11	que	que	CCONJ	CONJ	_	15	mark	_	_
@@ -262,7 +262,7 @@
 
 # sent_id = train-s8238
 # text = A seleção visa escolher candidatos voluntários que possuam formação em nível superior no curso de Engenharia Civil.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	seleção	seleção	NOUN	NOUN	_	3	nsubj	_	_
 3	visa	visar	VERB	VERB	_	0	root	_	_
 4	escolher	escolher	VERB	VERB	_	3	xcomp	_	_

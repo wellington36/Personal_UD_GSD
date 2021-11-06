@@ -1,6 +1,6 @@
 # sent_id = train-s6265
 # text = A estrada estreita desanima até mesmo os comerciantes a fazerem entregas no local.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	estrada	estrada	NOUN	NOUN	_	4	nsubj	_	_
 3	estreita	estreito	ADJ	ADJ	_	2	amod	_	_
 4	desanima	desanimar	VERB	VERB	_	0	root	_	_
@@ -180,7 +180,7 @@
 4	Charlô	_	PROPN	PNOUN	_	5	nsubj	_	_
 5	acabe	acabar	VERB	VERB	_	2	ccomp	_	_
 6	com	com	ADP	ADP	_	8	case	_	_
-7	as	o	DET	DET	_	8	det	_	_
+7	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
 8	liquidações	liquidação	NOUN	NOUN	_	5	nmod	_	_
 9-10	na	_	_	_	_	_	_	_	_
 9	em	em	ADP	ADP	_	11	case	_	_
@@ -212,7 +212,7 @@
 
 # sent_id = train-s6272
 # text = A previsão para o início das aulas tanto do curso como do reforço, é de 02 de agosto.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	previsão	previsão	NOUN	NOUN	_	18	nsubj	_	_
 3	para	para	ADP	ADP	_	5	case	_	_
 4	o	o	DET	DET	_	5	det	_	_

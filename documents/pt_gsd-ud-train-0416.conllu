@@ -1,6 +1,6 @@
 # sent_id = train-s4127
 # text = A gerente foi rendida ao chegar em casa, por volta das 20 horas de segunda - feira (2), e foi solta na manhã desta terça (3) após os ladrões fugirem em dois carros com o dinheiro dos caixas e do cofre da agência.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	gerente	gerente	NOUN	NOUN	_	4	nsubj:pass	_	_
 3	foi	_	AUX	AUX	_	4	aux:pass	_	_
 4	rendida	render	VERB	VERB	_	0	root	_	_
@@ -173,7 +173,7 @@
 6	ANSA	_	PROPN	PNOUN	_	1	appos	_	SpaceAfter=No
 7	)	)	PUNCT	.	_	6	punct	_	_
 8	--	_	PUNCT	.	_	1	punct	_	_
-9	A	o	DET	DET	_	10	det	_	_
+9	A	o	DET	DET	PronType=Art	10	det	_	_
 10	revista	revista	NOUN	NOUN	_	30	nsubj:pass	_	_
 11	equatoriana	equatoriano	ADJ	ADJ	_	10	amod	_	_
 12	Vanguardia	_	PROPN	PNOUN	_	10	appos	_	SpaceAfter=No
@@ -218,7 +218,7 @@
 5	de	de	ADP	ADP	_	6	case	_	_
 6	fofocas	fofoca	NOUN	NOUN	_	4	nmod	_	SpaceAfter=No
 7	,	,	PUNCT	.	_	4	punct	_	_
-8	a	o	DET	DET	_	9	det	_	_
+8	a	o	DET	DET	PronType=Art	9	det	_	_
 9	megera	megera	NOUN	NOUN	_	11	nsubj	_	_
 10	vai	ir	AUX	AUX	_	11	aux	_	_
 11	voltar	voltar	VERB	VERB	_	0	root	_	_
@@ -263,7 +263,7 @@
 13	automobilístico	automobilístico	ADJ	ADJ	_	12	amod	_	SpaceAfter=No
 14	,	,	PUNCT	.	_	19	punct	_	_
 15	pois	_	CCONJ	CONJ	_	19	mark	_	_
-16	a	o	DET	DET	_	17	det	_	_
+16	a	o	DET	DET	PronType=Art	17	det	_	_
 17	Toyota	_	PROPN	PNOUN	_	19	nsubj	_	_
 18	já	já	ADV	ADV	_	19	advmod	_	_
 19	revelou	revelar	VERB	VERB	_	5	advcl	_	_
@@ -327,7 +327,7 @@
 19	perdendo	perder	VERB	VERB	_	10	conj	_	_
 20	espaço	espaço	NOUN	NOUN	_	19	obj	_	_
 21	para	para	ADP	ADP	_	23	case	_	_
-22	a	o	DET	DET	_	23	det	_	_
+22	a	o	DET	DET	PronType=Art	23	det	_	_
 23	compreensão	compreensão	NOUN	NOUN	_	19	nmod	_	_
 24	científica	científico	ADJ	ADJ	_	23	amod	_	SpaceAfter=No
 25	.	.	PUNCT	.	_	10	punct	_	_
@@ -345,7 +345,7 @@
 9	candidato	candidato	NOUN	NOUN	_	11	nsubj	_	_
 10	ainda	ainda	ADV	ADV	_	11	advmod	_	_
 11	tem	ter	VERB	VERB	_	0	root	_	_
-12	a	o	DET	DET	_	13	det	_	_
+12	a	o	DET	DET	PronType=Art	13	det	_	_
 13	prerrogativa	prerrogativa	NOUN	NOUN	_	11	obj	_	_
 14	de	_	ADP	ADP	_	15	mark	_	_
 15	recorrer	recorrer	VERB	VERB	_	13	nmod	_	_

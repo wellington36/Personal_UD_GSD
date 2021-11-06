@@ -56,7 +56,7 @@
 1	"	"	PUNCT	.	_	2	punct	_	SpaceAfter=No
 2	Diria	_	PROPN	PNOUN	_	0	root	_	_
 3	que	_	CCONJ	CONJ	_	2	dep	_	_
-4	a	o	DET	DET	_	5	det	_	_
+4	a	o	DET	DET	PronType=Art	5	det	_	_
 5	força	força	NOUN	NOUN	_	2	obj	_	_
 6-7	do	_	_	_	_	_	_	_	_
 6	de	de	ADP	ADP	_	8	case	_	_
@@ -211,7 +211,7 @@
 
 # sent_id = train-s1757
 # text = A academia de dança Íris Ativa -- Lina Penteado apresenta o espetáculo "Simba: O Rei Leão", na noite deste sábado (15) e domingo (16), no Teatro Castro Mendes, em Campinas (SP).
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	academia	academia	NOUN	NOUN	_	10	nsubj	_	_
 3	de	de	ADP	ADP	_	4	case	_	_
 4	dança	dança	NOUN	NOUN	_	2	nmod	_	_
